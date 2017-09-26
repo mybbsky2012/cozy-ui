@@ -1953,14 +1953,13 @@ body {
   .c-nav-link {
     display: block;
     height: auto;
-    min-width: 10em;
-    padding: 2.9em 0 0;
     text-align: center;
     color: #5d6165;
     font-size: 0.625em;
     line-height: 1;
     background-position: center top;
     background-size: 2.4em;
+    flex: 0 0 2.5em;
   }
   .c-nav-link .active,
   .c-nav-link .is-active,
