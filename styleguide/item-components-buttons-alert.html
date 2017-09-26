@@ -87,32 +87,64 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-tools-mixins-em">
+            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-alert">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-tools-mixins-em">
+              <a class="kss-section__permalink" href="#kssref-components-buttons-alert">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">2.1.1</span>
-                  <span class="kss-section__name">em($size)</span>
+                  <span class="kss-section__ref">5.1.4</span>
+                  <span class="kss-section__name">Alert&#x27;s buttons</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>em() mixin basically converts pixel sizes in em according to its context.
-More generic mixin than font-size() but it does exactly the same job.</p>
+                <div class="kss-section__description"><p>Buttons that look like links, with icons</p>
 </div>
 
-                <div class="kss-parameters__title">Parameters:</div>
-                <ul class="kss-parameters">
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>$size</code></div>
-                    <div class="kss-parameters__description">
-                      The size in pixel you want to be converted in em
-                    </div>
-                  </li>
-                </ul>
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Examples</h1>
+
+                  <h2 class="kss-modifiers__name">Default styling</h2>
+
+                <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-btn--alert [modifier class]">Click me, I'm a button!</button>
+    <a hre="#" class="c-btn--alert [modifier class]">Click me, I'm a link!</a>
+</div></div>
+
+                  <h2 class="kss-modifiers__name">.c-btn-alert--error</h2>
+
+                  <p class="kss-modifiers__description">Error button</p>
+
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-btn--alert c-btn-alert--error">Click me, I'm a button!</button>
+    <a hre="#" class="c-btn--alert c-btn-alert--error">Click me, I'm a link!</a>
+</div></div>
+                  <h2 class="kss-modifiers__name">.c-btn-alert--info</h2>
+
+                  <p class="kss-modifiers__description">Information button</p>
+
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-btn--alert c-btn-alert--info">Click me, I'm a button!</button>
+    <a hre="#" class="c-btn--alert c-btn-alert--info">Click me, I'm a link!</a>
+</div></div>
+                  <h2 class="kss-modifiers__name">.c-btn-alert--success</h2>
+
+                  <p class="kss-modifiers__description">Success button</p>
+
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-btn--alert c-btn-alert--success">Click me, I'm a button!</button>
+    <a hre="#" class="c-btn--alert c-btn-alert--success">Click me, I'm a link!</a>
+</div></div>
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot; style&#x3D;&quot; background-color: darkgrey&quot;&gt;
+    &lt;button class&#x3D;&quot;c-btn--alert [modifier class]&quot;&gt;Click me, I&#x27;m a button!&lt;/button&gt;
+    &lt;a hre&#x3D;&quot;#&quot; class&#x3D;&quot;c-btn--alert [modifier class]&quot;&gt;Click me, I&#x27;m a link!&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+                </article>
 
             </header>
     </section>

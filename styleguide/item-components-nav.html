@@ -87,32 +87,57 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-tools-mixins-em">
+            <header class="kss-section kss-section--depth-2" id="kssref-components-nav">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-tools-mixins-em">
-                <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">2.1.1</span>
-                  <span class="kss-section__name">em($size)</span>
-                </h3>
+              <a class="kss-section__permalink" href="#kssref-components-nav">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">5.2</span>
+                  <span class="kss-section__name">Navigation</span>
+                </h2>
               </a>
 
-                <div class="kss-section__description"><p>em() mixin basically converts pixel sizes in em according to its context.
-More generic mixin than font-size() but it does exactly the same job.</p>
+                <div class="kss-section__description"><p>Navigation component that displays a list of item link to other pages</p>
 </div>
 
-                <div class="kss-parameters__title">Parameters:</div>
-                <ul class="kss-parameters">
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>$size</code></div>
-                    <div class="kss-parameters__description">
-                      The size in pixel you want to be converted in em
-                    </div>
-                  </li>
-                </ul>
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><nav style="width: 220px">
+    <ul class="c-nav">
+        <li class="c-nav-item">
+            <a class="c-nav-link is-active" href="#">Link 1</a>
+        </li>
+        <li class="c-nav-item">
+            <a class="c-nav-link" href="#">Link 2</a>
+        </li>
+        <li class="c-nav-item">
+            <a class="c-nav-link" href="#">Link 3</a>
+        </li>
+    </ul>
+</nav></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;nav style&#x3D;&quot;width: 220px&quot;&gt;
+    &lt;ul class&#x3D;&quot;c-nav&quot;&gt;
+        &lt;li class&#x3D;&quot;c-nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot;c-nav-link is-active&quot; href&#x3D;&quot;#&quot;&gt;Link 1&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class&#x3D;&quot;c-nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot;c-nav-link&quot; href&#x3D;&quot;#&quot;&gt;Link 2&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class&#x3D;&quot;c-nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot;c-nav-link&quot; href&#x3D;&quot;#&quot;&gt;Link 3&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+                </article>
 
             </header>
     </section>
