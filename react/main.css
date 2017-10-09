@@ -2373,13 +2373,11 @@ body {
 .c-nav-link--2xDJi:visited {
   color: #5d6165;
 }
-.c-nav-link--2xDJi .active--3soUl,
-.c-nav-link--2xDJi .is-active--3aVn-,
 .c-nav-link--2xDJi:hover {
   color: #32363f;
 }
-.c-nav-link--2xDJi .active--3soUl,
-.c-nav-link--2xDJi .is-active--3aVn- {
+.c-nav-link--2xDJi.active--3soUl,
+.c-nav-link--2xDJi.is-active--3aVn- {
   box-shadow: inset 4px 0 0 0 #297ef2;
   font-weight: bold;
 }
@@ -2408,8 +2406,8 @@ body {
     background-size: 2.4em;
     flex: 0 0 2.5em;
   }
-  .c-nav-link--2xDJi .active--3soUl,
-  .c-nav-link--2xDJi .is-active--3aVn-,
+  .c-nav-link--2xDJi.active--3soUl,
+  .c-nav-link--2xDJi.is-active--3aVn-,
   .c-nav-link--2xDJi:hover {
     box-shadow: none;
     font-weight: normal;

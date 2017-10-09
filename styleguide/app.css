@@ -1926,13 +1926,11 @@ body {
 .c-nav-link:visited {
   color: #5d6165;
 }
-.c-nav-link .active,
-.c-nav-link .is-active,
 .c-nav-link:hover {
   color: #32363f;
 }
-.c-nav-link .active,
-.c-nav-link .is-active {
+.c-nav-link.active,
+.c-nav-link.is-active {
   box-shadow: inset 4px 0 0 0 #297ef2;
   font-weight: bold;
 }
@@ -1961,8 +1959,8 @@ body {
     background-size: 2.4em;
     flex: 0 0 2.5em;
   }
-  .c-nav-link .active,
-  .c-nav-link .is-active,
+  .c-nav-link.active,
+  .c-nav-link.is-active,
   .c-nav-link:hover {
     box-shadow: none;
     font-weight: normal;
