@@ -1926,11 +1926,13 @@ body {
 .c-nav-link:visited {
   color: #5d6165;
 }
+.c-nav-link .active,
+.c-nav-link .is-active,
 .c-nav-link:hover {
   color: #32363f;
 }
-.c-nav-link.active,
-.c-nav-link.is-active {
+.c-nav-link .active,
+.c-nav-link .is-active {
   box-shadow: inset 4px 0 0 0 #297ef2;
   font-weight: bold;
 }
@@ -1959,8 +1961,8 @@ body {
     background-size: 2.4em;
     flex: 0 0 2.5em;
   }
-  .c-nav-link.active,
-  .c-nav-link.is-active,
+  .c-nav-link .active,
+  .c-nav-link .is-active,
   .c-nav-link:hover {
     box-shadow: none;
     font-weight: normal;
@@ -2048,19 +2050,19 @@ body {
   padding-right: 3rem;
 }
 .u-p-half {
-  padding: 0.5rem;
+  padding: 0.5em;
 }
 .u-pt-half {
-  padding-top: 0.5rem;
+  padding-top: 0.5em;
 }
 .u-pb-half {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5em;
 }
 .u-pl-half {
-  padding-left: 0.5rem;
+  padding-left: 0.5em;
 }
 .u-pr-half {
-  padding-right: 0.5rem;
+  padding-right: 0.5em;
 }
 .u-p-1-half {
   padding: 1.5rem;
@@ -2138,19 +2140,19 @@ body {
   margin-right: 3rem;
 }
 .u-m-half {
-  margin: 0.5rem;
+  margin: 0.5em;
 }
 .u-mt-half {
-  margin-top: 0.5rem;
+  margin-top: 0.5em;
 }
 .u-mb-half {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 .u-ml-half {
-  margin-left: 0.5rem;
+  margin-left: 0.5em;
 }
 .u-mr-half {
-  margin-right: 0.5rem;
+  margin-right: 0.5em;
 }
 .u-m-1-half {
   margin: 1.5rem;
