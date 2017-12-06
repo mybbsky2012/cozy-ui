@@ -1,3 +1,9 @@
+/*------------------------------------*  CSS classes for those who want the
+  full library loaded kinda like
+  Bootstrap.
+\*------------------------------------*/
+/*------------------------------------*  Required dependencies
+\*------------------------------------*/
 body,
 button,
 input,
@@ -165,7 +171,7 @@ body {
 .c-btn-client[aria-busy=true]::after,
 .c-btn-client-mobile[aria-busy=true]::after {
   position: relative;
-  top: -0.0625em;
+  top: -0.07143em;
 }
 .c-btn--regular {
   border-color: #297ef2;
@@ -287,16 +293,16 @@ body {
 }
 .c-link--upload {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjMzIzNjNmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNjMsMTAyLjQxNDIxNCBMMjYxLjcwNzEwNywxMDMuNzA3MTA3IEMyNjEuMzE2NTgyLDEwNC4wOTc2MzEgMjYwLjY4MzQxOCwxMDQuMDk3NjMxIDI2MC4yOTI4OTMsMTAzLjcwNzEwNyBDMjU5LjkwMjM2OSwxMDMuMzE2NTgyIDI1OS45MDIzNjksMTAyLjY4MzQxOCAyNjAuMjkyODkzLDEwMi4yOTI4OTMgTDI2My4yOTI4OTMsOTkuMjkyODkzMiBDMjYzLjY4MzQxOCw5OC45MDIzNjg5IDI2NC4zMTY1ODIsOTguOTAyMzY4OSAyNjQuNzA3MTA3LDk5LjI5Mjg5MzIgTDI2Ny43MDcxMDcsMTAyLjI5Mjg5MyBDMjY4LjA5NzYzMSwxMDIuNjgzNDE4IDI2OC4wOTc2MzEsMTAzLjMxNjU4MiAyNjcuNzA3MTA3LDEwMy43MDcxMDcgQzI2Ny4zMTY1ODIsMTA0LjA5NzYzMSAyNjYuNjgzNDE4LDEwNC4wOTc2MzEgMjY2LjI5Mjg5MywxMDMuNzA3MTA3IEwyNjUsMTAyLjQxNDIxNCBMMjY1LDExMCBDMjY1LDExMC41NTIyODUgMjY0LjU1MjI4NSwxMTEgMjY0LDExMSBDMjYzLjQ0NzcxNSwxMTEgMjYzLDExMC41NTIyODUgMjYzLDExMCBMMjYzLDEwMi40MTQyMTQgWiBNMjU3LDk4IEwyNzEsOTggQzI3MS41NTIyODUsOTggMjcyLDk3LjU1MjI4NDcgMjcyLDk3IEMyNzIsOTYuNDQ3NzE1MyAyNzEuNTUyMjg1LDk2IDI3MSw5NiBMMjU3LDk2IEMyNTYuNDQ3NzE1LDk2IDI1Niw5Ni40NDc3MTUzIDI1Niw5NyBDMjU2LDk3LjU1MjI4NDcgMjU2LjQ0NzcxNSw5OCAyNTcsOTggWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1NiAtOTYpIi8+Cjwvc3ZnPgo=");
-  background-position: 1em center;
+  background-position: 1.14286em center;
   background-repeat: no-repeat;
 }
 .c-link--delete {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8ZyBmaWxsPSIjMzIzNjNmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05NiAtMzIpIj4KICAgIDxwYXRoIGQ9Ik0xMDAuNSwzMyBMOTguMDA2ODQ1NSwzMyBDOTcuNDQ5OTQ4OCwzMyA5NywzMy40NDc3MTUzIDk3LDM0IEw5NywzNSBMMTExLDM1IEwxMTEsMzQgQzExMSwzMy40NDM4NjQ4IDExMC41NDkyMiwzMyAxMDkuOTkzMTU1LDMzIEwxMDcuNSwzMyBMMTA3LDMyIEwxMDEsMzIgTDEwMC41LDMzIFogTTk4LDM2IEwxMTAsMzYgTDExMCw0NS45OTE0Njk4IEMxMTAsNDcuMTAwNzUwNCAxMDkuMDk4MDUsNDggMTA3Ljk5MTQ3LDQ4IEwxMDAuMDA4NTMsNDggQzk4Ljg5OTI0OTYsNDggOTgsNDcuMDk4MDQ5NiA5OCw0NS45OTE0Njk4IEw5OCwzNiBaIi8+CiAgICA8cGF0aCBkPSJNMTAwLjUsMzMgTDk4LjAwNjg0NTUsMzMgQzk3LjQ0OTk0ODgsMzMgOTcsMzMuNDQ3NzE1MyA5NywzNCBMOTcsMzUgTDExMSwzNSBMMTExLDM0IEMxMTEsMzMuNDQzODY0OCAxMTAuNTQ5MjIsMzMgMTA5Ljk5MzE1NSwzMyBMMTA3LjUsMzMgTDEwNywzMiBMMTAxLDMyIEwxMDAuNSwzMyBaIE05OCwzNiBMMTEwLDM2IEwxMTAsNDUuOTkxNDY5OCBDMTEwLDQ3LjEwMDc1MDQgMTA5LjA5ODA1LDQ4IDEwNy45OTE0Nyw0OCBMMTAwLjAwODUzLDQ4IEM5OC44OTkyNDk2LDQ4IDk4LDQ3LjA5ODA0OTYgOTgsNDUuOTkxNDY5OCBMOTgsMzYgWiIvPgogIDwvZz4KPC9zdmc+Cg==");
-  background-position: 1em center;
+  background-position: 1.14286em center;
   background-repeat: no-repeat;
 }
 .c-btn--more {
-  width: 2.875em;
+  width: 3.28571em;
   background-color: transparent;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjMzIzNjNmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNCw3NCBDMzUuMTA0NTY5NSw3NCAzNiw3My4xMDQ1Njk1IDM2LDcyIEMzNiw3MC44OTU0MzA1IDM1LjEwNDU2OTUsNzAgMzQsNzAgQzMyLjg5NTQzMDUsNzAgMzIsNzAuODk1NDMwNSAzMiw3MiBDMzIsNzMuMTA0NTY5NSAzMi44OTU0MzA1LDc0IDM0LDc0IFogTTQ2LDc0IEM0Ny4xMDQ1Njk1LDc0IDQ4LDczLjEwNDU2OTUgNDgsNzIgQzQ4LDcwLjg5NTQzMDUgNDcuMTA0NTY5NSw3MCA0Niw3MCBDNDQuODk1NDMwNSw3MCA0NCw3MC44OTU0MzA1IDQ0LDcyIEM0NCw3My4xMDQ1Njk1IDQ0Ljg5NTQzMDUsNzQgNDYsNzQgWiBNNDAsNzQgQzQxLjEwNDU2OTUsNzQgNDIsNzMuMTA0NTY5NSA0Miw3MiBDNDIsNzAuODk1NDMwNSA0MS4xMDQ1Njk1LDcwIDQwLDcwIEMzOC44OTU0MzA1LDcwIDM4LDcwLjg5NTQzMDUgMzgsNzIgQzM4LDczLjEwNDU2OTUgMzguODk1NDMwNSw3NCA0MCw3NCBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzIgLTY0KSIvPgo8L3N2Zz4K");
   background-position: center center;
@@ -304,7 +310,7 @@ body {
 }
 .c-btn-extra,
 .c-btn-extra--white {
-  width: 2.875em;
+  width: 3.28571em;
   border: 0;
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjMzIzNjNmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNCw3NCBDMzUuMTA0NTY5NSw3NCAzNiw3My4xMDQ1Njk1IDM2LDcyIEMzNiw3MC44OTU0MzA1IDM1LjEwNDU2OTUsNzAgMzQsNzAgQzMyLjg5NTQzMDUsNzAgMzIsNzAuODk1NDMwNSAzMiw3MiBDMzIsNzMuMTA0NTY5NSAzMi44OTU0MzA1LDc0IDM0LDc0IFogTTQ2LDc0IEM0Ny4xMDQ1Njk1LDc0IDQ4LDczLjEwNDU2OTUgNDgsNzIgQzQ4LDcwLjg5NTQzMDUgNDcuMTA0NTY5NSw3MCA0Niw3MCBDNDQuODk1NDMwNSw3MCA0NCw3MC44OTU0MzA1IDQ0LDcyIEM0NCw3My4xMDQ1Njk1IDQ0Ljg5NTQzMDUsNzQgNDYsNzQgWiBNNDAsNzQgQzQxLjEwNDU2OTUsNzQgNDIsNzMuMTA0NTY5NSA0Miw3MiBDNDIsNzAuODk1NDMwNSA0MS4xMDQ1Njk1LDcwIDQwLDcwIEMzOC44OTU0MzA1LDcwIDM4LDcwLjg5NTQzMDUgMzgsNzIgQzM4LDczLjEwNDU2OTUgMzguODk1NDMwNSw3NCA0MCw3NCBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzIgLTY0KSIvPgo8L3N2Zz4K") center center no-repeat;
   opacity: 0.5;
@@ -327,7 +333,7 @@ body {
 }
 .c-btn--close {
   border: 0;
-  width: 2.875em;
+  width: 3.28571em;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSIjOTU5OTlEIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMDYuNTg1Nzg2LDQ0IEw5Ni4yOTI4OTMyLDMzLjcwNzEwNjggQzk1LjkwMjM2ODksMzMuMzE2NTgyNSA5NS45MDIzNjg5LDMyLjY4MzQxNzUgOTYuMjkyODkzMiwzMi4yOTI4OTMyIEM5Ni42ODM0MTc1LDMxLjkwMjM2ODkgOTcuMzE2NTgyNSwzMS45MDIzNjg5IDk3LjcwNzEwNjgsMzIuMjkyODkzMiBMMTA4LDQyLjU4NTc4NjQgTDExOC4yOTI4OTMsMzIuMjkyODkzMiBDMTE4LjY4MzQxOCwzMS45MDIzNjg5IDExOS4zMTY1ODIsMzEuOTAyMzY4OSAxMTkuNzA3MTA3LDMyLjI5Mjg5MzIgQzEyMC4wOTc2MzEsMzIuNjgzNDE3NSAxMjAuMDk3NjMxLDMzLjMxNjU4MjUgMTE5LjcwNzEwNywzMy43MDcxMDY4IEwxMDkuNDE0MjE0LDQ0IEwxMTkuNzA3MTA3LDU0LjI5Mjg5MzIgQzEyMC4wOTc2MzEsNTQuNjgzNDE3NSAxMjAuMDk3NjMxLDU1LjMxNjU4MjUgMTE5LjcwNzEwNyw1NS43MDcxMDY4IEMxMTkuMzE2NTgyLDU2LjA5NzYzMTEgMTE4LjY4MzQxOCw1Ni4wOTc2MzExIDExOC4yOTI4OTMsNTUuNzA3MTA2OCBMMTA4LDQ1LjQxNDIxMzYgTDk3LjcwNzEwNjgsNTUuNzA3MTA2OCBDOTcuMzE2NTgyNSw1Ni4wOTc2MzExIDk2LjY4MzQxNzUsNTYuMDk3NjMxMSA5Ni4yOTI4OTMyLDU1LjcwNzEwNjggQzk1LjkwMjM2ODksNTUuMzE2NTgyNSA5NS45MDIzNjg5LDU0LjY4MzQxNzUgOTYuMjkyODkzMiw1NC4yOTI4OTMyIEwxMDYuNTg1Nzg2LDQ0IFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05NiAtMzIpIi8+Cjwvc3ZnPgo=");
   background-position: center center;
   background-repeat: no-repeat;
@@ -522,9 +528,48 @@ body {
   opacity: 0;
   transform: scale(0);
 }
-@media (max-width: 63.9375rem) {
+.o-layout--2panes {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
-.coz-sidebar,
+.o-layout--2panes main,
+.o-layout--2panes > aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+.o-layout--2panes main,
+.o-layout--2panes main > [role=contentinfo] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.o-layout--2panes {
+  flex: 0 0 100%;
+  height: auto;
+  align-items: stretch;
+}
+.o-layout--2panes main,
+.o-layout--2panes main > [role=contentinfo] {
+  height: auto;
+}
+@media (max-width: 63.9375rem) {
+  .o-layout--2panes {
+    flex-direction: column-reverse;
+  }
+  .o-layout--2panes > aside {
+    flex: 0 0 2.9375em;
+    width: 100%;
+    z-index: 20;
+  }
+}
 .o-sidebar {
   width: 13.75em;
   border-right: 1px solid #d6d8da;
@@ -532,129 +577,12 @@ body {
   justify-content: space-between;
 }
 @media (max-width: 63.9375rem) {
-  .coz-sidebar,
   .o-sidebar {
     border-top: 1px solid #d6d8da;
     border-left: none;
     height: 3em;
   }
 }
-/*
- * NOTIFICATIONS
- * =============
- *
- * This file contains all needs for alerts
- */
-@media all and (min-width: 28.57143em) {
-}
-@media (max-width: 63.9375rem) {
-}
-@media (max-width: 48rem) {
-}
-@media (max-width: 48rem) {
-}
-@media (max-width: 48rem) {
-}
-@media (max-width: 32rem) {
-}
-.c-nav {
-  margin: 1.5em 0;
-  padding: 0;
-  list-style: none;
-  padding-right: 10%;
-}
-.c-nav-item {
-  position: relative;
-  z-index: 0;
-  height: 3em;
-  display: flex;
-  align-items: center;
-  padding-right: 0.5em;
-}
-.c-nav-item:hover::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  border-radius: 0 3px 3px 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #d6d8da;
-}
-.c-nav-link {
-  display: flex;
-  padding-left: 3.125em;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #5d6165;
-  height: 100%;
-  align-items: center;
-  flex: 1;
-  background-repeat: no-repeat;
-  background-position: 1.5em center;
-}
-.c-nav-link:visited {
-  color: #5d6165;
-}
-.c-nav-link:hover {
-  color: #32363f;
-}
-.c-nav-link.active,
-.c-nav-link.is-active {
-  box-shadow: inset 4px 0 0 0 #297ef2;
-  font-weight: bold;
-}
-@media (max-width: 63.9375rem) {
-  .c-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 0.3125em 0 0.25em;
-    padding-right: 0;
-  }
-  .c-nav-item {
-    height: auto;
-    display: block;
-    flex: 0 0 2.5em;
-    padding-right: 0;
-  }
-  .c-nav-item:hover::before {
-    content: none;
-  }
-  .c-nav-link {
-    display: block;
-    height: auto;
-    padding: 2.9em 0 0;
-    text-align: center;
-    color: #5d6165;
-    font-size: 0.625em;
-    line-height: 1;
-    background-position: center top;
-    background-size: 2.4em;
-  }
-  .c-nav-link.active,
-  .c-nav-link.is-active,
-  .c-nav-link:hover {
-    box-shadow: none;
-    font-weight: normal;
-    color: #32363f;
-  }
-}
-@media not all and (pointer: fine) {
-  .coz-nav-item:hover::before {
-    content: none;
-  }
-  .c-nav-link:hover {
-    color: #5d6165;
-  }
-}
-@media (max-width: 63.9375rem) {
-}
-@media (max-width: 63.9375rem) {
-}
-@media (max-width: 48rem) {
-}
-.coz-hidden,
 .u-visuallyhidden {
   position: absolute !important;
   border: 0 !important;
@@ -666,211 +594,145 @@ body {
   clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
 }
-.u-hide,
-[aria-hidden=true] {
+[aria-hidden=true],
+.u-hide {
   display: none;
   visibility: hidden;
 }
 @media (max-width: 63.9375rem) {
-  .coz-desktop,
   .u-hide--mob {
     display: none !important;
   }
 }
 @media (min-width: 48.0625rem) {
-  .coz-mobile,
   .u-hide--desk {
     display: none !important;
   }
 }
+.u-m-1,
 .u-p-1 {
-  padding: 1rem;
-}
-.u-pt-1 {
-  padding-top: 1rem;
-}
-.u-pb-1 {
-  padding-bottom: 1rem;
-}
-.u-pl-1 {
-  padding-left: 1rem;
-}
-.u-pr-1 {
-  padding-right: 1rem;
-}
-.u-p-2 {
-  padding: 2rem;
-}
-.u-pt-2 {
-  padding-top: 2rem;
-}
-.u-pb-2 {
-  padding-bottom: 2rem;
-}
-.u-pl-2 {
-  padding-left: 2rem;
-}
-.u-pr-2 {
-  padding-right: 2rem;
-}
-.u-p-3 {
-  padding: 3rem;
-}
-.u-pt-3 {
-  padding-top: 3rem;
-}
-.u-pb-3 {
-  padding-bottom: 3rem;
-}
-.u-pl-3 {
-  padding-left: 3rem;
-}
-.u-pr-3 {
-  padding-right: 3rem;
-}
-.u-p-half {
-  padding: 0.5rem;
-}
-.u-pt-half {
-  padding-top: 0.5rem;
-}
-.u-pb-half {
-  padding-bottom: 0.5rem;
-}
-.u-pl-half {
-  padding-left: 0.5rem;
-}
-.u-pr-half {
-  padding-right: 0.5rem;
-}
-.u-p-1-half {
-  padding: 1.5rem;
-}
-.u-pt-1-half {
-  padding-top: 1.5rem;
-}
-.u-pb-1-half {
-  padding-bottom: 1.5rem;
-}
-.u-pl-1-half {
-  padding-left: 1.5rem;
-}
-.u-pr-1-half {
-  padding-right: 1.5rem;
-}
-.u-p-2-half {
-  padding: 2.5rem;
-}
-.u-pt-2-half {
-  padding-top: 2.5rem;
-}
-.u-pb-2-half {
-  padding-bottom: 2.5rem;
-}
-.u-pl-2-half {
-  padding-left: 2.5rem;
-}
-.u-pr-2-half {
-  padding-right: 2.5rem;
-}
-.u-m-1 {
   margin: 1rem;
 }
-.u-mt-1 {
+.u-mt-1,
+.u-pt-1 {
   margin-top: 1rem;
 }
-.u-mb-1 {
+.u-mb-1,
+.u-pb-1 {
   margin-bottom: 1rem;
 }
-.u-ml-1 {
+.u-ml-1,
+.u-pl-1 {
   margin-left: 1rem;
 }
-.u-mr-1 {
+.u-mr-1,
+.u-pr-1 {
   margin-right: 1rem;
 }
-.u-m-2 {
+.u-m-2,
+.u-p-2 {
   margin: 2rem;
 }
-.u-mt-2 {
+.u-mt-2,
+.u-pt-2 {
   margin-top: 2rem;
 }
-.u-mb-2 {
+.u-mb-2,
+.u-pb-2 {
   margin-bottom: 2rem;
 }
-.u-ml-2 {
+.u-ml-2,
+.u-pl-2 {
   margin-left: 2rem;
 }
-.u-mr-2 {
+.u-mr-2,
+.u-pr-2 {
   margin-right: 2rem;
 }
-.u-m-3 {
+.u-m-3,
+.u-p-3 {
   margin: 3rem;
 }
-.u-mt-3 {
+.u-mt-3,
+.u-pt-3 {
   margin-top: 3rem;
 }
-.u-mb-3 {
+.u-mb-3,
+.u-pb-3 {
   margin-bottom: 3rem;
 }
-.u-ml-3 {
+.u-ml-3,
+.u-pl-3 {
   margin-left: 3rem;
 }
-.u-mr-3 {
+.u-mr-3,
+.u-pr-3 {
   margin-right: 3rem;
 }
-.u-m-half {
+.u-m-half,
+.u-p-half {
   margin: 0.5rem;
 }
-.u-mt-half {
+.u-mt-half,
+.u-pt-half {
   margin-top: 0.5rem;
 }
-.u-mb-half {
+.u-mb-half,
+.u-pb-half {
   margin-bottom: 0.5rem;
 }
-.u-ml-half {
+.u-ml-half,
+.u-pl-half {
   margin-left: 0.5rem;
 }
-.u-mr-half {
+.u-mr-half,
+.u-pr-half {
   margin-right: 0.5rem;
 }
-.u-m-1-half {
+.u-m-1-half,
+.u-p-1-half {
   margin: 1.5rem;
 }
-.u-mt-1-half {
+.u-mt-1-half,
+.u-pt-1-half {
   margin-top: 1.5rem;
 }
-.u-mb-1-half {
+.u-mb-1-half,
+.u-pb-1-half {
   margin-bottom: 1.5rem;
 }
-.u-ml-1-half {
+.u-ml-1-half,
+.u-pl-1-half {
   margin-left: 1.5rem;
 }
-.u-mr-1-half {
+.u-mr-1-half,
+.u-pr-1-half {
   margin-right: 1.5rem;
 }
-.u-m-2-half {
+.u-m-2-half,
+.u-p-2-half {
   margin: 2.5rem;
 }
-.u-mt-2-half {
+.u-mt-2-half,
+.u-pt-2-half {
   margin-top: 2.5rem;
 }
-.u-mb-2-half {
+.u-mb-2-half,
+.u-pb-2-half {
   margin-bottom: 2.5rem;
 }
-.u-ml-2-half {
+.u-ml-2-half,
+.u-pl-2-half {
   margin-left: 2.5rem;
 }
-.u-mr-2-half {
+.u-mr-2-half,
+.u-pr-2-half {
   margin-right: 2.5rem;
 }
-.coz-error,
 .u-error {
   color: #f52d2d;
 }
-.coz-error.coz-error--warning:before,
-.u-error.coz-error--warning:before,
-.coz-error.u-error--warning:before,
-.u-error.u-error--warning:before {
+.u-error--warning:before {
   content: '';
   display: inline-block;
   margin-right: 0.5rem;
@@ -885,3 +747,312 @@ body {
 .u-warn {
   color: #ffae5f;
 }
+/*------------------------------------*  Objects
+\*------------------------------------*/
+/*------------------------------------*  Components
+\*------------------------------------*/
+/*
+ Buttons
+
+ Buttons in different flavour
+
+ Markup:
+ <div class="u-p-1" style=" background-color: darkgrey">
+     <button class="c-btn {{modifier_class}}">Click me, I'm a button!</button>
+     <a hre="#" class="c-btn {{modifier_class}}">Click me, I'm a link!</a>
+ </div>
+
+ .c-btn--regular - Regular
+ .c-btn--secondary - Regular alternative
+ .c-btn--danger - Danger
+ .c-btn--danger-outline - Danger outlined
+ .c-btn--highlight - Highlighted button to catch the eye
+
+ Weight: -1
+
+ Styleguide Components.buttons
+*/
+/*
+ Buttons with icons
+
+ Those buttons can inherit any flavour of buttons described above.
+
+ For this example, we use `.c-btn--regular` but choose the one you want.
+
+ Markup:
+ <div class="u-p-1" style=" background-color: darkgrey">
+     <button class="c-btn c-btn--regular {{modifier_class}}">Click me, I'm a button!</button>
+     <a hre="#" class="c-btn c-btn--regular {{modifier_class}}">Click me, I'm a link!</a>
+ </div>
+
+ .c-btn--share - Share
+ .c-btn--send - Send
+ .c-btn--download - Download
+ .c-btn--upload - Upload
+ .c-btn--delete - Delete
+
+ Styleguide Components.buttons.icons
+*/
+/*
+ Buttons link shaped with icons
+
+ Buttons that look like links, with icons
+
+ Markup:
+ <div class="u-p-1" style=" background-color: darkgrey">
+     <button class="{{modifier_class}}">Click me, I'm a button!</button>
+     <a hre="#" class="{{modifier_class}}">Click me, I'm a link!</a>
+ </div>
+
+ .c-link--upload - Upload
+ .c-link--delete - Delete
+
+ Styleguide Components.buttons.link
+*/
+/*
+ Button More
+
+ Button to display more information
+
+ Markup:
+ <div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-btn {{modifier_class}}"><span class="u-visuallyhidden">Click me, I'm a button!</span></button>
+    <a hre="#" class="c-btn {{modifier_class}}"><span class="u-visuallyhidden">Click me, I'm a link!</span></a>
+ </div>
+
+ .c-btn--more - Classic more button
+ .c-btn-extra - Extra button, much like More button but lighter, without border
+ .c-btn-extra--white - Extra button with white icon
+
+ Styleguide Components.buttons.more
+*/
+/*------------------------------------*  Alert's specific buttons
+\*------------------------------------*/
+/*
+ Alert's buttons
+
+ Buttons that look like links, with icons
+
+ Markup:
+ <div class="u-p-1">
+     <button class="c-btn--alert {{modifier_class}} u-m-1">Click me, I'm a button!</button>
+     <a hre="#" class="c-btn--alert {{modifier_class}} u-m-1">Click me, I'm a link!</a>
+ </div>
+
+ .c-btn-alert--error - Error button
+ .c-btn-alert--info - Information button
+ .c-btn-alert--success - Success button
+
+ Weight: 10
+
+ Styleguide Components.buttons.alert
+*/
+/*------------------------------------*  Special buttons
+\*------------------------------------*/
+/*
+ Special buttons
+
+ Special link that look like buttons (<a> only)
+
+ Markup:
+ <div class="u-p-1" style="background-color: darkgrey; width: 50%;">
+     <a hre="#" class="{{modifier_class}} u-mb-1">Click me, I'm a link!</a>
+ </div>
+
+ .c-btn-client - Button to download Cozy client app
+ .c-btn-client-mobile - Button to download Cozy client app on mobile
+
+ Weight: 20
+
+ Styleguide Components.buttons.special
+*/
+/*
+    Navigation
+
+    Navigation component that displays a list of item link to other pages
+
+    Markup:
+    <nav style="width: 220px">
+        <ul class="c-nav">
+            <li class="c-nav-item">
+                <a class="c-nav-link is-active" href="#">Link 1</a>
+            </li>
+            <li class="c-nav-item">
+                <a class="c-nav-link" href="#">Link 2</a>
+            </li>
+            <li class="c-nav-item">
+                <a class="c-nav-link" href="#">Link 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    Styleguide Components.nav
+*/
+/*------------------------------------*  Utilities
+\*------------------------------------*/
+/*
+    Utilities
+
+    Ready-to-use utility classes
+
+    Weight: -4
+
+    Styleguide utilities
+*/
+/*
+    Display
+
+    Utilities that change the box model of an element or its visibility.
+
+    Styleguide utilities.display
+*/
+/*
+    Visibility
+
+    Utilities that show or hide an element for a giving viewport size.
+
+    Markup:
+    <p class="{{modifier_class}}">I'm visible! 🎉</p>
+
+    .u-hidden - Element is visually hidden but still readable by screen-readers
+    .u-hide - Element is totally hidden (even for screen readers)
+    .u-hide--desk - Element is hidden on desktop (>768px)
+    .u-hide--mob - Element is hidden on mobile (<1023px)
+
+    Styleguide utilities.visibility
+*/
+/*
+    Text
+
+    Utilities that mess only with with wild texts.
+
+    Styleguide utilities.text
+*/
+/*
+    Error
+
+    Utilities that give text some semantic color in case of error.
+
+    Markup: <p class="{{modifier_class}}">Somehow you messed up somewhere.</p>
+
+    .u-error - simple error text
+
+    Styleguide utilities.text.error
+*/
+/*
+    Error with warning icon
+
+    Utilities that give text some semantic color in case of important error.
+
+    Markup: <p class="u-error {{modifier_class}}">You really missed, badly.</p>
+
+    .u-error--warning - error with warning icon
+
+    Styleguide utilities.text.errorWarn
+*/
+/*
+ Valid
+
+ Utilities that give text some semantic color in case of success.
+
+ Markup: <p class="{{modifier_class}}">Yay, you did it!</p>
+
+ .u-valid - simple valid text
+
+ Styleguide utilities.text.valid
+*/
+/*
+ Warning
+
+ Utilities that give text some semantic color in case of warning.
+
+ Markup: <p class="{{modifier_class}}">Ok, something went wrong but it's not that bad.</p>
+
+ .u-warn - simple warning text
+
+ Styleguide utilities.text.warn
+*/
+/*
+    Margins
+
+    Classes to add margins on top, bottom, right, left or all of them based on
+    default font-size (16px)
+
+    .u-m-half - Margins on all sides with half a line (8px)
+    .u-m-1 - Margins on all sides with 1 line (16px)
+    .u-m-1-half - Margins on all sides with 1 line an a half (24px)
+    .u-m-2 - Margins on all sides with 2 lines (32px)
+    .u-m-2-half - Margins on all sides with 1 line an a half (40px)
+    .u-m-3 - Margins on all sides with 2 lines (48px)
+    .u-mt-half - Margin Top with half a line (8px)
+    .u-mt-1 - Margin Top with 1 line (16px)
+    .u-mt-1-half - Margin Top with 1 line an a half (24px)
+    .u-mt-2 - Margin Top with 2 lines (32px)
+    .u-mt-2-half - Margin Top with 1 line an a half (40px)
+    .u-mt-3 - Margin Top with 2 lines (48px)
+    .u-mb-half - Margin Bottom with half a line (8px)
+    .u-mb-1 - Margin Bottom with 1 line (16px)
+    .u-mb-1-half - Margin Bottom with 1 line an a half (24px)
+    .u-mb-2 - Margin Bottom with 2 lines (32px)
+    .u-mb-2-half - Margin Bottom with 1 line an a half (40px)
+    .u-mb-3 - Margin Bottom with 2 lines (48px)
+    .u-ml-half - Margin Left with half a line (8px)
+    .u-ml-1 - Margin Left with 1 line (16px)
+    .u-ml-1-half - Margin Left with 1 line an a half (24px)
+    .u-ml-2 - Margin Left with 2 lines (32px)
+    .u-ml-2-half - Margin Left with 1 line an a half (40px)
+    .u-ml-3 - Margin Left with 2 lines (48px)
+    .u-mr-half - Margin Right with half a line (8px)
+    .u-mr-1 - Margin Right with 1 line (16px)
+    .u-mr-1-half - Margin Right with 1 line an a half (24px)
+    .u-mr-2 - Margin Right with 2 lines (32px)
+    .u-mr-2-half - Margin Right with 1 line an a half (40px)
+    .u-mr-3 - Margin Right with 2 lines (48px)
+
+    Markup:
+    <div style="background-color:dimgrey; border: 1px solid black;"><div style="padding:.5rem; background-color:gainsboro;" class="{{modifier_class}}">🎶 Gimme some margin 🎵 </div></div>
+
+    Styleguide utilities.margins
+*/
+/*
+    Paddings
+
+    Classes to add paddings on top, bottom, right, left or all of them based on
+    default font-size (16px)
+
+    .u-p-half - Paddings on all sides with half a line (8px)
+    .u-p-1 - Paddings on all sides with 1 line (16px)
+    .u-p-1-half - Paddings on all sides with 1 line an a half (24px)
+    .u-p-2 - Paddings on all sides with 2 lines (32px)
+    .u-p-2-half - Paddings on all sides with 1 line an a half (40px)
+    .u-p-3 - Paddings on all sides with 2 lines (48px)
+    .u-pt-half - Padding Top with half a line (8px)
+    .u-pt-1 - Padding Top with 1 line (16px)
+    .u-pt-1-half - Padding Top with 1 line an a half (24px)
+    .u-pt-2 - Padding Top with 2 lines (32px)
+    .u-pt-2-half - Padding Top with 1 line an a half (40px)
+    .u-pt-3 - Padding Top with 2 lines (48px)
+    .u-pb-half - Padding Bottom with half a line (8px)
+    .u-pb-1 - Padding Bottom with 1 line (16px)
+    .u-pb-1-half - Padding Bottom with 1 line an a half (24px)
+    .u-pb-2 - Padding Bottom with 2 lines (32px)
+    .u-pb-2-half - Padding Bottom with 1 line an a half (40px)
+    .u-pb-3 - Padding Bottom with 2 lines (48px)
+    .u-pl-half - Padding Left with half a line (8px)
+    .u-pl-1 - Padding Left with 1 line (16px)
+    .u-pl-1-half - Padding Left with 1 line an a half (24px)
+    .u-pl-2 - Padding Left with 2 lines (32px)
+    .u-pl-2-half - Padding Left with 1 line an a half (40px)
+    .u-pl-3 - Padding Left with 2 lines (48px)
+    .u-pr-half - Padding Right with half a line (8px)
+    .u-pr-1 - Padding Right with 1 line (16px)
+    .u-pr-1-half - Padding Right with 1 line an a half (24px)
+    .u-pr-2 - Padding Right with 2 lines (32px)
+    .u-pr-2-half - Padding Right with 1 line an a half (40px)
+    .u-pr-3 - Padding Right with 2 lines (48px)
+
+    Markup:
+    <div style="background-color:gainsboro; display: inline-block;" class="{{modifier_class}}"><span style="background-color:bisque;">🎼 Gimme some padding 💃</span></div>
+
+    Styleguide utilities.paddings
+*/
