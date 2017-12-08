@@ -574,121 +574,13 @@ body {
   width: 13.75em;
   border-right: 1px solid #d6d8da;
   background-color: #f5f6f7;
+  justify-content: space-between;
 }
 @media (max-width: 63.9375rem) {
   .o-sidebar {
-    justify-content: space-between;
     border-top: 1px solid #d6d8da;
     border-left: none;
     height: 3em;
-    width: 100%;
-    border-right: 0;
-  }
-}
-.c-nav {
-  margin: 1.5rem 0;
-  padding: 0;
-  list-style: none;
-  padding-right: 10%;
-}
-@media (max-width: 63.9375rem) {
-  .c-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 0.3125rem 0 0.25rem;
-    padding-right: 0;
-  }
-}
-.c-nav-item {
-  position: relative;
-  z-index: 0;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  padding-right: 0.5rem;
-}
-.c-nav-item:hover::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  border-radius: 0 3px 3px 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #d6d8da;
-}
-@media (max-width: 63.9375rem) {
-  .c-nav-item {
-    margin: 0 0.75rem;
-    height: auto;
-    display: block;
-    flex: 0 0 2.5rem;
-    padding-right: 0;
-  }
-  .c-nav-item:hover::before {
-    content: none;
-  }
-}
-@media not all and (pointer: fine) {
-  .c-nav-item:hover::before {
-    content: none;
-  }
-}
-@media (max-width: 63.9375rem) {
-}
-@media (max-width: 63.9375rem) {
-}
-.c-nav-link {
-  display: flex;
-  padding-left: 3.125rem;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #5d6165;
-  height: 100%;
-  align-items: center;
-  flex: 1;
-  background-repeat: no-repeat;
-  background-position: 1.5rem center;
-}
-.c-nav-link:visited {
-  color: #5d6165;
-}
-.c-nav-link:hover {
-  color: #32363f;
-}
-.c-nav-link.active,
-.c-nav-link.is-active {
-  box-shadow: inset 4px 0 0 0 #297ef2;
-  font-weight: bold;
-}
-.c-nav-link.active .nav-link__icon,
-.c-nav-link.is-active .nav-link__icon {
-  color: #297ef2;
-}
-@media (max-width: 63.9375rem) {
-  .c-nav-link {
-    display: block;
-    height: auto;
-    padding: 1.8125rem 0 0;
-    text-align: center;
-    color: #5d6165;
-    font-size: 0.625em;
-    line-height: 1;
-    background-position: center top;
-    background-size: 1.5rem;
-  }
-  .c-nav-link.active,
-  .c-nav-link.is-active,
-  .c-nav-link:hover {
-    box-shadow: none;
-    font-weight: normal;
-    color: #32363f;
-  }
-}
-@media not all and (pointer: fine) {
-  .c-nav-link:hover {
-    color: #5d6165;
   }
 }
 .u-visuallyhidden {
