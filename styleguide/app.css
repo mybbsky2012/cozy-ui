@@ -100,7 +100,6 @@ body {
 }
 html {
   height: 100%;
-  overflow: hidden;
 }
 body {
   display: flex;
@@ -108,15 +107,12 @@ body {
   align-items: stretch;
   width: 100vw;
   height: 100%;
-  overflow: hidden;
 }
 @media (max-width: 63.9375rem) {
   html,
   body {
     display: block;
     height: auto;
-    overflow: auto;
-    overflow-x: hidden;
   }
 }
 [role=application] {
@@ -124,7 +120,11 @@ body {
   height: inherit;
   flex: 1 1 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+}
+@media (max-width: 63.9375rem) {
+  [role=application] overflow-y auto {
+    overflow: visible;
+  }
 }
 html,
 body {
@@ -578,6 +578,7 @@ body {
 .o-layout--2panes main,
 .o-layout--2panes main > [role=contentinfo] {
   height: auto;
+  overflow: visible;
 }
 @media (max-width: 63.9375rem) {
   .o-layout--2panes {
