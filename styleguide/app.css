@@ -120,9 +120,10 @@ body {
   height: inherit;
   flex: 1 1 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 @media (max-width: 63.9375rem) {
-  [role=application] overflow-y auto {
+  [role=application] {
     overflow: visible;
   }
 }
