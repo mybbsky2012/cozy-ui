@@ -583,6 +583,10 @@ body {
   .o-layout--2panes {
     display: block;
   }
+  .o-layout--2panes main,
+  .o-layout--2panes main > [role=contentinfo] {
+    display: block;
+  }
   .o-layout--2panes:before,
   .o-layout--2panes:after {
     content: '';
