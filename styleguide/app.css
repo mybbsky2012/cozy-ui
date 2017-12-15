@@ -579,7 +579,6 @@ body {
 .o-layout--2panes main,
 .o-layout--2panes main > [role=contentinfo] {
   height: auto;
-  overflow: visible;
 }
 @media (max-width: 63.9375rem) {
   .o-layout--2panes {
@@ -588,6 +587,7 @@ body {
   .o-layout--2panes main,
   .o-layout--2panes main > [role=contentinfo] {
     display: block;
+    overflow: visible;
   }
   .o-layout--2panes:before,
   .o-layout--2panes:after {
