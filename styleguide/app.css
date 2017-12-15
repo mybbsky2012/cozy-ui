@@ -669,9 +669,25 @@ body {
     content: none;
   }
 }
-@media (max-width: 63.9375rem) {
+.c-nav-icon {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #95999d;
 }
 @media (max-width: 63.9375rem) {
+  .c-nav-icon {
+    display: block;
+    font-size: 1.5rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 63.9375rem) {
+  .c-nav-text {
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+  }
 }
 .c-nav-link {
   display: flex;
@@ -696,8 +712,8 @@ body {
   box-shadow: inset 4px 0 0 0 #297ef2;
   font-weight: bold;
 }
-.c-nav-link.active .nav-link__icon,
-.c-nav-link.is-active .nav-link__icon {
+.c-nav-link.active .c-nav-icon,
+.c-nav-link.is-active .c-nav-icon {
   color: #297ef2;
 }
 @media (max-width: 63.9375rem) {
@@ -1017,19 +1033,43 @@ body {
     <nav style="width: 220px">
         <ul class="c-nav">
             <li class="c-nav-item">
-                <a class="c-nav-link is-active" href="#">Link 1</a>
+                <a class="c-nav-link is-active" href="#">
+                    <span class="c-nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M14,5c0,-1.656 -1.344,-3 -3,-3l-6,0c-1.656,0 -3,1.344 -3,3l0,6c0,1.656 1.344,3 3,3l6,0c1.656,0 3,-1.344 3,-3l0,-6Z"/>
+                        </svg>
+                    </span>
+                    <span class="c-nav-text">Link 1</span>
+                </a>
             </li>
             <li class="c-nav-item">
-                <a class="c-nav-link" href="#">Link 2</a>
+                <a class="c-nav-link" href="#">
+                    <span class="c-nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M14,5c0,-1.656 -1.344,-3 -3,-3l-6,0c-1.656,0 -3,1.344 -3,3l0,6c0,1.656 1.344,3 3,3l6,0c1.656,0 3,-1.344 3,-3l0,-6Z"/>
+                        </svg>
+                    </span>
+                    <span class="c-nav-text">Link 2</span>
+                </a>
             </li>
             <li class="c-nav-item">
-                <a class="c-nav-link" href="#">Link 3</a>
+                <a class="c-nav-link" href="#">
+                    <span class="c-nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M14,5c0,-1.656 -1.344,-3 -3,-3l-6,0c-1.656,0 -3,1.344 -3,3l0,6c0,1.656 1.344,3 3,3l6,0c1.656,0 3,-1.344 3,-3l0,-6Z"/>
+                        </svg>
+                    </span>
+                    <span class="c-nav-text">Link 3</span>
+                </a>
             </li>
         </ul>
     </nav>
 
     Styleguide Components.nav
 */
+.c-nav-icon {
+  fill: currentColor;
+}
 /*------------------------------------*  Utilities
 \*------------------------------------*/
 /*
