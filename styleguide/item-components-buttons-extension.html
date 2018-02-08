@@ -87,32 +87,52 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-tools-mixins-em">
+            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-extension">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-tools-mixins-em">
+              <a class="kss-section__permalink" href="#kssref-components-buttons-extension">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">2.1.1</span>
-                  <span class="kss-section__name">em($size)</span>
+                  <span class="kss-section__ref">5.1.1</span>
+                  <span class="kss-section__name">Button extensions</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>em() mixin basically converts pixel sizes in em according to its context.
-More generic mixin than font-size() but it does exactly the same job.</p>
+                <div class="kss-section__description"><p>Different extensions of buttons</p>
 </div>
 
-                <div class="kss-parameters__title">Parameters:</div>
-                <ul class="kss-parameters">
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>$size</code></div>
-                    <div class="kss-parameters__description">
-                      The size in pixel you want to be converted in em
-                    </div>
-                  </li>
-                </ul>
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Examples</h1>
+
+                  <h2 class="kss-modifiers__name">Default styling</h2>
+
+                <div class="kss-modifiers__example"><div class="u-p-1">
+    <button class="c-btn [modifier class]"><span>Click</span></button>
+</div></div>
+
+                  <h2 class="kss-modifiers__name">.c-btn--narrow</h2>
+
+                  <p class="kss-modifiers__description">Narrow button (ignore button&#39;s min-width)</p>
+
+                  <div class="kss-modifiers__example"><div class="u-p-1">
+    <button class="c-btn c-btn--narrow"><span>Click</span></button>
+</div></div>
+                  <h2 class="kss-modifiers__name">.c-btn--full</h2>
+
+                  <p class="kss-modifiers__description">Full button</p>
+
+                  <div class="kss-modifiers__example"><div class="u-p-1">
+    <button class="c-btn c-btn--full"><span>Click</span></button>
+</div></div>
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot;&gt;
+    &lt;button class&#x3D;&quot;c-btn [modifier class]&quot;&gt;&lt;span&gt;Click&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+                </article>
 
             </header>
     </section>
