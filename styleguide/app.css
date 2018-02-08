@@ -712,6 +712,11 @@ body {
   bottom: 0;
   background: #d6d8da;
 }
+@media (hover: none) {
+  .c-nav-item:hover::before {
+    content: none;
+  }
+}
 @media (max-width: 63.9375rem) {
   .c-nav-item {
     margin: 0 0.75rem;
@@ -720,11 +725,6 @@ body {
     flex: 0 0 2.5rem;
     padding-right: 0;
   }
-  .c-nav-item:hover::before {
-    content: none;
-  }
-}
-@media not all and (pointer: fine) {
   .c-nav-item:hover::before {
     content: none;
   }
@@ -854,6 +854,12 @@ body {
 .c-table-row:hover,
 .c-table-row-head:hover {
   background-color: #f5f6f7;
+}
+@media (hover: none) {
+  .c-table-row:hover,
+  .c-table-row-head:hover {
+    background-color: transparent;
+  }
 }
 @media (max-width: 63.9375rem) {
   .c-table-row,
