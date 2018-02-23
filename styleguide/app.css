@@ -954,6 +954,76 @@ body {
 .c-avatar-image {
   width: 100%;
 }
+/*
+ * NOTIFICATIONS
+ * =============
+ *
+ * This file contains all needs for alerts
+ */
+.c-alert {
+  position: fixed;
+  z-index: 10;
+  top: auto;
+  right: 0;
+  bottom: 3rem;
+  left: 0;
+  display: block;
+  color: #fff;
+  opacity: 1;
+  transition: bottom 0.5s ease-out, top 0.5s ease-out, opacity 0.2s ease-out;
+  cursor: pointer;
+}
+@media all and (min-width: 40rem) {
+  .c-alert {
+    z-index: 80;
+    top: 1rem;
+    bottom: auto;
+    text-align: center;
+  }
+}
+.c-alert p {
+  margin: 0;
+  line-height: 1.5;
+}
+.c-alert-title {
+  font-weight: bold;
+}
+.c-alert-wrapper {
+  box-sizing: border-box;
+  box-shadow: 0 0.375rem 1.125rem 0 rgba(50,54,63,0.23);
+  background-color: #35ce68;
+  padding: 0.8rem 1rem;
+}
+@media all and (min-width: 40rem) {
+  .c-alert-wrapper {
+    display: inline-block;
+    max-width: 40rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.625rem;
+    text-align: left;
+  }
+}
+.c-alert--hidden {
+  bottom: -25%;
+  top: auto;
+  opacity: 0;
+  transition-timing-function: ease-in;
+}
+@media all and (min-width: 40rem) {
+  .c-alert--hidden {
+    top: -25%;
+    bottom: auto;
+  }
+}
+.c-alert--error {
+  background-color: #f52d2d;
+}
+.c-alert--success {
+  background-color: #35ce68;
+}
+.c-alert--info {
+  background-color: #5d6165;
+}
 .u-visuallyhidden {
   position: absolute !important;
   border: 0 !important;
@@ -1506,6 +1576,24 @@ Display an avatar of a user or contact with initials or an image
 </div>
 
  Styleguide Components.avatar
+*/
+/*
+ Alerts
+
+Display an alert at the top of the app on desktop and docked at the bottom on mobile. (I'm overwriting the fixed position for the sake of this example only)
+
+ Markup:
+<div class="c-alert" style="position: static;">
+    <div class="c-alert-wrapper {{modifier_class}}">
+        This is an alert
+    </div>
+</div>
+
+.c-alert--error - displays a warning/error alert
+.c-alert--success - displays a success alert (by default)
+.c-alert--info - displays a neutral info alert
+
+ Styleguide Components.alerts
 */
 /*------------------------------------*  Utilities
 \*------------------------------------*/
