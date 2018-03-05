@@ -87,20 +87,34 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-2" id="kssref-components-form">
+            <header class="kss-section kss-section--depth-3" id="kssref-tools-mixins-fontsize">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-components-form">
-                <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">5.4</span>
-                  <span class="kss-section__name">Form</span>
-                </h2>
+              <a class="kss-section__permalink" href="#kssref-tools-mixins-fontsize">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">2.1.2</span>
+                  <span class="kss-section__name">font-size($size)</span>
+                </h3>
               </a>
 
-                <div class="kss-section__description"><p>Form elements</p>
+                <div class="kss-section__description"><p>font-size() mixin allows you to write font-size in pixels and get the
+equivalent size in em.</p>
+<p>You can even skip the parenthesis and write it as basic font-size
+declaration.</p>
+<p>N.B: If you write rem instead of px, the mixin won&#39;t trigger and the basic
+font-size declaration will apply.</p>
 </div>
 
+                <div class="kss-parameters__title">Parameters:</div>
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <div class="kss-parameters__name"><code>$size</code></div>
+                    <div class="kss-parameters__description">
+                      The size en pixel you want your text in
+                    </div>
+                  </li>
+                </ul>
             </article>
 
 

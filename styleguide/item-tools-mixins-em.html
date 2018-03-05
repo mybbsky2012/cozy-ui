@@ -87,55 +87,32 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-2" id="kssref-components-avatar">
+            <header class="kss-section kss-section--depth-3" id="kssref-tools-mixins-em">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-components-avatar">
-                <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">5.3</span>
-                  <span class="kss-section__name">Avatar</span>
-                </h2>
+              <a class="kss-section__permalink" href="#kssref-tools-mixins-em">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">2.1.1</span>
+                  <span class="kss-section__name">em($size)</span>
+                </h3>
               </a>
 
-                <div class="kss-section__description"><p>Display an avatar of a user or contact with initials or an image</p>
+                <div class="kss-section__description"><p>em() mixin basically converts pixel sizes in em according to its context.
+More generic mixin than font-size() but it does exactly the same job.</p>
 </div>
 
+                <div class="kss-parameters__title">Parameters:</div>
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <div class="kss-parameters__name"><code>$size</code></div>
+                    <div class="kss-parameters__description">
+                      The size in pixel you want to be converted in em
+                    </div>
+                  </li>
+                </ul>
             </article>
 
-              <article class="kss-section__modifiers">
-                <h1 class="kss-modifiers__heading">Example</h1>
-
-
-                <div class="kss-modifiers__example"><div class="c-avatar c-avatar--small">
-   <span class="c-avatar-initials">CD</span>
-</div>
-<div class="c-avatar c-avatar--medium">
-   <span class="c-avatar-initials">CD</span>
-</div>
-<div class="c-avatar c-avatar--small">
-   <img src="https://cozy.io/fr/images/cozy-logo_white.png" class="c-avatar-image" alt="">
-</div>
-<div class="c-avatar c-avatar--medium">
-   <img src="https://cozy.io/fr/images/cozy-logo_white.png" class="c-avatar-image" alt="">
-</div></div>
-
-              </article>
-
-                <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;c-avatar c-avatar--small&quot;&gt;
-   &lt;span class&#x3D;&quot;c-avatar-initials&quot;&gt;CD&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class&#x3D;&quot;c-avatar c-avatar--medium&quot;&gt;
-   &lt;span class&#x3D;&quot;c-avatar-initials&quot;&gt;CD&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class&#x3D;&quot;c-avatar c-avatar--small&quot;&gt;
-   &lt;img src&#x3D;&quot;https://cozy.io/fr/images/cozy-logo_white.png&quot; class&#x3D;&quot;c-avatar-image&quot; alt&#x3D;&quot;&quot;&gt;
-&lt;/div&gt;
-&lt;div class&#x3D;&quot;c-avatar c-avatar--medium&quot;&gt;
-   &lt;img src&#x3D;&quot;https://cozy.io/fr/images/cozy-logo_white.png&quot; class&#x3D;&quot;c-avatar-image&quot; alt&#x3D;&quot;&quot;&gt;
-&lt;/div&gt;</code></pre>
-                </article>
 
             </header>
     </section>

@@ -87,18 +87,18 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-2" id="kssref-components-alerts">
+            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-link">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-components-alerts">
-                <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">5.2</span>
-                  <span class="kss-section__name">Alerts</span>
-                </h2>
+              <a class="kss-section__permalink" href="#kssref-components-buttons-link">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">5.1.2</span>
+                  <span class="kss-section__name">Buttons link shaped with icons</span>
+                </h3>
               </a>
 
-                <div class="kss-section__description"><p>Display an alert at the top of the app on desktop and docked at the bottom on mobile. (I&#39;m overwriting the fixed position for the sake of this example only)</p>
+                <div class="kss-section__description"><p>Buttons that look like links, with icons</p>
 </div>
 
             </article>
@@ -108,46 +108,33 @@
 
                   <h2 class="kss-modifiers__name">Default styling</h2>
 
-                <div class="kss-modifiers__example"><div class="c-alert" style="position: static;">
-   <div class="c-alert-wrapper [modifier class]">
-       This is an alert
-   </div>
+                <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="[modifier class]">Click me, I'm a button!</button>
+    <a hre="#" class="[modifier class]">Click me, I'm a link!</a>
 </div></div>
 
-                  <h2 class="kss-modifiers__name">.c-alert--error</h2>
+                  <h2 class="kss-modifiers__name">.c-link--upload</h2>
 
-                  <p class="kss-modifiers__description">displays a warning/error alert</p>
+                  <p class="kss-modifiers__description">Upload</p>
 
-                  <div class="kss-modifiers__example"><div class="c-alert" style="position: static;">
-   <div class="c-alert-wrapper c-alert--error">
-       This is an alert
-   </div>
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-link--upload">Click me, I'm a button!</button>
+    <a hre="#" class="c-link--upload">Click me, I'm a link!</a>
 </div></div>
-                  <h2 class="kss-modifiers__name">.c-alert--success</h2>
+                  <h2 class="kss-modifiers__name">.c-link--delete</h2>
 
-                  <p class="kss-modifiers__description">displays a success alert (by default)</p>
+                  <p class="kss-modifiers__description">Delete</p>
 
-                  <div class="kss-modifiers__example"><div class="c-alert" style="position: static;">
-   <div class="c-alert-wrapper c-alert--success">
-       This is an alert
-   </div>
-</div></div>
-                  <h2 class="kss-modifiers__name">.c-alert--info</h2>
-
-                  <p class="kss-modifiers__description">displays a neutral info alert</p>
-
-                  <div class="kss-modifiers__example"><div class="c-alert" style="position: static;">
-   <div class="c-alert-wrapper c-alert--info">
-       This is an alert
-   </div>
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-link--delete">Click me, I'm a button!</button>
+    <a hre="#" class="c-link--delete">Click me, I'm a link!</a>
 </div></div>
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;c-alert&quot; style&#x3D;&quot;position: static;&quot;&gt;
-   &lt;div class&#x3D;&quot;c-alert-wrapper [modifier class]&quot;&gt;
-       This is an alert
-   &lt;/div&gt;
+                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot; style&#x3D;&quot; background-color: darkgrey&quot;&gt;
+    &lt;button class&#x3D;&quot;[modifier class]&quot;&gt;Click me, I&#x27;m a button!&lt;/button&gt;
+    &lt;a hre&#x3D;&quot;#&quot; class&#x3D;&quot;[modifier class]&quot;&gt;Click me, I&#x27;m a link!&lt;/a&gt;
 &lt;/div&gt;</code></pre>
                 </article>
 
