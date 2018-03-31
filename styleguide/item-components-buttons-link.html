@@ -87,18 +87,18 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-extension">
+            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-link">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-components-buttons-extension">
+              <a class="kss-section__permalink" href="#kssref-components-buttons-link">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">5.1.1</span>
-                  <span class="kss-section__name">Button extensions</span>
+                  <span class="kss-section__ref">5.1.2</span>
+                  <span class="kss-section__name">Buttons link shaped with icons</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>Different extensions of buttons</p>
+                <div class="kss-section__description"><p>Buttons that look like links, with icons</p>
 </div>
 
             </article>
@@ -108,29 +108,33 @@
 
                   <h2 class="kss-modifiers__name">Default styling</h2>
 
-                <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn [modifier class]"><span>Click</span></button>
+                <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="[modifier class]">Click me, I'm a button!</button>
+    <a hre="#" class="[modifier class]">Click me, I'm a link!</a>
 </div></div>
 
-                  <h2 class="kss-modifiers__name">.c-btn--narrow</h2>
+                  <h2 class="kss-modifiers__name">.c-link--upload</h2>
 
-                  <p class="kss-modifiers__description">Narrow button (ignore button&#39;s min-width)</p>
+                  <p class="kss-modifiers__description">Upload</p>
 
-                  <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn c-btn--narrow"><span>Click</span></button>
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-link--upload">Click me, I'm a button!</button>
+    <a hre="#" class="c-link--upload">Click me, I'm a link!</a>
 </div></div>
-                  <h2 class="kss-modifiers__name">.c-btn--full</h2>
+                  <h2 class="kss-modifiers__name">.c-link--delete</h2>
 
-                  <p class="kss-modifiers__description">Full button</p>
+                  <p class="kss-modifiers__description">Delete</p>
 
-                  <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn c-btn--full"><span>Click</span></button>
+                  <div class="kss-modifiers__example"><div class="u-p-1" style=" background-color: darkgrey">
+    <button class="c-link--delete">Click me, I'm a button!</button>
+    <a hre="#" class="c-link--delete">Click me, I'm a link!</a>
 </div></div>
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot;&gt;
-    &lt;button class&#x3D;&quot;c-btn [modifier class]&quot;&gt;&lt;span&gt;Click&lt;/span&gt;&lt;/button&gt;
+                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot; style&#x3D;&quot; background-color: darkgrey&quot;&gt;
+    &lt;button class&#x3D;&quot;[modifier class]&quot;&gt;Click me, I&#x27;m a button!&lt;/button&gt;
+    &lt;a hre&#x3D;&quot;#&quot; class&#x3D;&quot;[modifier class]&quot;&gt;Click me, I&#x27;m a link!&lt;/a&gt;
 &lt;/div&gt;</code></pre>
                 </article>
 
