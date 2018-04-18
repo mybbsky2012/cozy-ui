@@ -5,11 +5,11 @@
 /*------------------------------------*  Required dependencies
 \*------------------------------------*/
 body,
-button,
-input,
-optgroup,
-select,
-textarea {
+body button,
+body input,
+body optgroup,
+body select,
+body textarea {
   font-family: Lato, sans-serif;
 }
 @-webkit-keyframes spin {
@@ -799,14 +799,21 @@ body {
   border: 0.0625rem solid #f52d2d;
 }
 .c-input-text--tiny,
-.c-textarea--tiny {
+.c-textarea--tiny,
+.c-select--tiny {
   border-radius: 0.125rem;
   padding: 0.225rem 0.5rem 0.4rem;
 }
 .c-input-text--medium,
-.c-textarea--medium {
+.c-textarea--medium,
+.c-select--medium {
   border-radius: 0.125rem;
   padding: 0.485rem 1rem 0.64rem;
+}
+.c-input-text--fullwidth,
+.c-textarea--fullwidth,
+.c-select--fullwidth {
+  max-width: 100%;
 }
 .c-input-checkbox,
 .c-input-radio {
@@ -1860,6 +1867,7 @@ body {
  .is-error - Error variant
  .c-input-text--tiny - Tiny size variant
  .c-input-text--medium - Medium size variant
+ .c-input-text--fullwidth - Full width variant
 
  Weight: 2
 
@@ -1928,6 +1936,7 @@ body {
  .is-error - Error variant
  .c-textarea--tiny - Tiny size variant
  .c-textarea--medium - Medium size variant
+ .c-textarea--fullwidth - Full width variant
 
  Weight: 5
 
@@ -1950,6 +1959,9 @@ body {
  </form>
 
  .is-error - Error variant
+ .c-select--tiny - Tiny size variant
+ .c-select--medium - Medium size variant
+ .c-select--fullwidth - Full width variant
 
  Weight: 6
 
