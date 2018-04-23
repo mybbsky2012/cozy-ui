@@ -406,24 +406,6 @@ body {
 .c-btn--highlight svg {
   fill: currentColor;
 }
-.c-btn--danger {
-  background-color: #f52d2d;
-  color: #fff;
-  border-color: #f52d2d;
-}
-.c-btn--danger:active,
-.c-btn--danger:hover,
-.c-btn--danger:focus {
-  border-color: #dd0505;
-  background-color: #dd0505;
-}
-.c-btn--danger[disabled]:hover,
-.c-btn--danger[aria-disabled=true]:hover {
-  background-color: #f52d2d;
-}
-.c-btn--danger svg {
-  fill: currentColor;
-}
 .c-btn--action,
 .c-btn--close {
   background-color: transparent;
@@ -447,6 +429,24 @@ body {
 }
 .c-btn--action svg,
 .c-btn--close svg {
+  fill: currentColor;
+}
+.c-btn--danger {
+  background-color: #f52d2d;
+  color: #fff;
+  border-color: #f52d2d;
+}
+.c-btn--danger:active,
+.c-btn--danger:hover,
+.c-btn--danger:focus {
+  border-color: #dd0505;
+  background-color: #dd0505;
+}
+.c-btn--danger[disabled]:hover,
+.c-btn--danger[aria-disabled=true]:hover {
+  background-color: #f52d2d;
+}
+.c-btn--danger svg {
   fill: currentColor;
 }
 .c-btn--secondary,
