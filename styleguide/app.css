@@ -521,6 +521,7 @@ body {
 .c-btn--action:hover,
 .c-btn--action:focus {
   background-color: transparent;
+  border-color: transparent;
 }
 .c-btn--close {
   border-color: transparent;
@@ -533,6 +534,7 @@ body {
 .c-btn--close:hover,
 .c-btn--close:focus {
   background-color: transparent;
+  border-color: transparent;
 }
 .c-btn-alert,
 .c-btn-alert--error,
