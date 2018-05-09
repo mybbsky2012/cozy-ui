@@ -687,6 +687,7 @@ body {
 }
 .c-btn--full {
   width: 100%;
+  margin: 0;
 }
 .c-btn--narrow {
   min-width: auto;
