@@ -1067,7 +1067,8 @@ body {
     display: block;
     overflow: visible;
   }
-  .o-layout--2panes:before {
+  .o-layout--2panes:before,
+  .o-layout--2panes:after {
     content: '';
     display: block;
     height: 3rem;
@@ -1099,11 +1100,6 @@ body {
   height: auto;
 }
 @media (max-width: 63.9375rem) {
-  .o-layout--2panes:after {
-    content: '';
-    display: block;
-    height: 3rem;
-  }
   .o-layout--2panes > aside {
     position: fixed;
     bottom: 0;
