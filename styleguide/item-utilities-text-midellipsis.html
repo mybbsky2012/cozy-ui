@@ -51,36 +51,10 @@
             </a>
           </li>
           <li class="kss-nav__item">
-            <a class="kss-state-active" href="section-tools.html">
+            <a class="" href="section-tools.html">
               <span class="kss-nav__ref">2</span>
               <span class="kss-nav__name">Tools</span>
             </a>
-                <ul class="kss-nav__subnav">
-                    <li class="kss-nav__item ">
-                      <a href="section-tools.html#kssref-tools-mixins">
-                        <span class="kss-nav__ref">2.1</span>
-                        <span class="kss-nav__name">Mixins</span>
-                      </a>
-                    </li>
-                    <li class="kss-nav__item kss-nav__item--grandchild">
-                      <a href="section-tools.html#kssref-tools-mixins-rem">
-                        <span class="kss-nav__ref">2.1.1</span>
-                        <span class="kss-nav__name">rem($value, $basefont)</span>
-                      </a>
-                    </li>
-                    <li class="kss-nav__item kss-nav__item--grandchild">
-                      <a href="section-tools.html#kssref-tools-mixins-hide">
-                        <span class="kss-nav__ref">2.1.2</span>
-                        <span class="kss-nav__name">hide()</span>
-                      </a>
-                    </li>
-                    <li class="kss-nav__item kss-nav__item--grandchild">
-                      <a href="section-tools.html#kssref-tools-mixins-reset">
-                        <span class="kss-nav__ref">2.1.3</span>
-                        <span class="kss-nav__name">reset()</span>
-                      </a>
-                    </li>
-                </ul>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-generic.html">
@@ -113,20 +87,48 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-1" id="kssref-tools">
+            <header class="kss-section kss-section--depth-3" id="kssref-utilities-text-midellipsis">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-tools">
-                <h1 class="kss-section__item kss-section__item--depth-1">
-                  <span class="kss-section__ref">2</span>
-                  <span class="kss-section__name">Tools</span>
-                </h1>
+              <a class="kss-section__permalink" href="#kssref-utilities-text-midellipsis">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.6.7</span>
+                  <span class="kss-section__name">Middle Ellipsis</span>
+                </h3>
               </a>
 
+                <div class="kss-section__description"><p>Allows some text to have the ellipsis right in the middle</p>
+</div>
 
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Examples</h1>
+
+                  <h2 class="kss-modifiers__name">Default styling</h2>
+
+                <div class="kss-modifiers__example"><p class="[modifier class]">
+   <span>Augusta Ada King-Noel, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise</span>
+   <span>that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of a "computing machine" and the first computer programmer.</span>
+</p></div>
+
+                  <h2 class="kss-modifiers__name">.u-midellipsis</h2>
+
+                  <p class="kss-modifiers__description">Ellipsis in the middle</p>
+
+                  <div class="kss-modifiers__example"><p class="u-midellipsis">
+   <span>Augusta Ada King-Noel, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise</span>
+   <span>that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of a "computing machine" and the first computer programmer.</span>
+</p></div>
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;p class&#x3D;&quot;[modifier class]&quot;&gt;
+   &lt;span&gt;Augusta Ada King-Noel, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage&#x27;s proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise&lt;/span&gt;
+   &lt;span&gt;that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of a &quot;computing machine&quot; and the first computer programmer.&lt;/span&gt;
+&lt;/p&gt;</code></pre>
+                </article>
 
             </header>
     </section>

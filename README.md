@@ -1,9 +1,9 @@
+[![Styleguidist](https://img.shields.io/badge/react-Styleguidist-green.svg?style=flat)](https://cozy.github.io/cozy-ui/react/)
+[![Styleguide](https://img.shields.io/badge/KSS-Styleguide-green.svg?style=flat)](https://cozy.github.io/cozy-ui/styleguide/)
 [![Travis build status shield](https://img.shields.io/travis/cozy/cozy-ui.svg?branch=master)](https://travis-ci.org/cozy/cozy-ui)
 [![NPM release version shield](https://img.shields.io/npm/v/cozy-ui.svg)](https://www.npmjs.com/package/cozy-ui)
 [![Github Release version shield](https://img.shields.io/github/tag/cozy/cozy-ui.svg)](https://github.com/cozy/cozy-ui/releases)
 [![NPM Licence shield](https://img.shields.io/npm/l/cozy-ui.svg)](https://github.com/cozy/cozy-ui/blob/master/LICENSE)
-[![Styleguidist](https://img.shields.io/badge/react-Styleguidist-green.svg?style=flat)](https://cozy.github.io/cozy-ui/react/)
-[![Styleguide](https://img.shields.io/badge/KSS-Styleguide-green.svg?style=flat)](https://cozy.github.io/cozy-ui/styleguide/)
 
 # Cozy UI
 
@@ -63,7 +63,7 @@ The entire library is also available as a good ol’ CSS library. You can simply
 <link media="all" rel="stylesheet" href=“cozy-ui/dist/cozy-ui.min.css" />
 ```
 
-## Hack Cozy UI
+## Develop on Cozy UI
 
 If you want to customize or improve a Cozy UI Component, you need to clone a local version of the library, and declare it as a local symlink with `yarn link`.
 
@@ -81,6 +81,14 @@ yarn watch
 ```
 
 All your modification in your local Cozy UI will now be visible in your application!
+
+When sending a PR, if your changes have graphic impacts, it is useful for the reviewers if
+you have deployed a version of the styleguidist containing your changes to your repository.
+
+```
+yarn build:doc:react
+yarn deploy:doc --repo git@github.com:USERNAME/cozy-ui.git
+```
 
 ## License
 
