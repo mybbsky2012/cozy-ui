@@ -2434,6 +2434,10 @@ body {
     background-color: transparent;
   }
 }
+.c-table-row:last-child,
+.c-table-row-head:last-child {
+  border-bottom: 0.063rem solid #d6d8da;
+}
 @media (max-width: 63.938rem) {
   .c-table-row,
   .c-table-row-head {
