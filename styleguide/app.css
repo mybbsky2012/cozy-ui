@@ -1757,6 +1757,74 @@ body {
     padding-bottom: env(safe-area-inset-bottom);
   }
 }
+.c-accordion {
+  padding: 0;
+}
+.c-accordion-item {
+  border-bottom: 0.063rem solid #d6d8da;
+  font-size: 1rem;
+}
+.c-accordion-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2;
+  color: #5d6165;
+  cursor: pointer;
+  outline: 0;
+}
+.c-accordion-title:hover,
+.c-accordion-title:focus {
+  color: #32363f;
+}
+.c-accordion-title:hover svg,
+.c-accordion-title:focus svg {
+  fill: #5d6165;
+}
+.c-accordion-title svg {
+  margin-right: 0.25rem;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+  fill: #95999d;
+}
+.c-accordion-title.is-active {
+  color: #32363f;
+}
+.c-accordion-title.is-active svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  fill: #95999d;
+}
+.c-accordion-body {
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  line-height: 1.3;
+  color: #32363f;
+  -webkit-transition: max-height 300ms ease-out;
+  transition: max-height 300ms ease-out;
+}
+.c-accordion-body:after {
+  content: '';
+  display: block;
+  height: 0.5rem;
+}
+.c-accordion-body[aria-hidden='true'] {
+  display: block;
+  visibility: visible;
+}
+.c-accordion-body.is-active {
+  max-height: 600px;
+  -webkit-transition: max-height 300ms ease-in;
+  transition: max-height 300ms ease-in;
+}
 /*
  * NOTIFICATIONS
  * =============
@@ -2957,6 +3025,35 @@ body {
 </div>
 
  Styleguide Components.table
+*/
+/*
+ Accordion
+
+Basic accordion to gracefully hide/display long content.
+
+NB: You'll have to deal the behaviour with javascript which is basically adding/removing `is-active` classes and changing aria attributes accordingly on `c-accordion-title` & `c-accordion-body` elements when activated.
+
+ Markup:
+<div class="c-accordion">
+    <div class="c-accordion-item">
+        <div class="c-accordion-title is-active" aria-selected="true" aria-controls="body1" role="tab" tabindex="0">
+            Title (is-active)
+        </div>
+        <div class="c-accordion-body is-active" aria-hidden="false" aria-labelledby="body1" rol="tabpanel">
+            Dolor nulla cursus justo netus sociis facilisis maecenas arcu purus, senectus elit nostra conubia libero ornare consectetur sit, elementum ultrices suscipit blandit nunc hendrerit ipsum mi. Facilisis convallis aliquet tempor nunc interdum egestas est ac, hac massa hendrerit odio lectus dignissim quam, cursus elit a tristique nec felis imperdiet. Ridiculus nostra torquent vel nisi taciti ad pharetra lobortis, rutrum purus dui felis tempor cras. Curae id placerat suspendisse purus eget hac sodales primis, aptent potenti facilisis suscipit felis morbi metus parturient pretium, conubia orci ultrices dictum sit mollis lacinia. Ultricies a cum sollicitudin duis in vivamus, eros suscipit viverra donec consectetur, mattis sed eleifend sociis vitae. Magnis pharetra fusce vivamus egestas viverra mauris vehicula, libero velit semper tortor leo augue, aenean senectus ad malesuada mus tincidunt. Semper mattis magnis egestas nec etiam hendrerit ridiculus eleifend bibendum nascetur auctor primis quam, aenean tellus adipiscing vulputate mauris class sem himenaeos consequat condimentum ullamcorper tempor.
+        </div>
+    </div>
+    <div class="c-accordion-item">
+        <div class="c-accordion-title" aria-selected="false" aria-controls="body2" role="tab" tabindex="0">
+            Title not displayed
+        </div>
+        <div class="c-accordion-body" aria-hidden="true" aria-labelledby="body2" rol="tabpanel">
+            Dolor nulla cursus justo netus sociis facilisis maecenas arcu purus, senectus elit nostra conubia libero ornare consectetur sit, elementum ultrices suscipit blandit nunc hendrerit ipsum mi. Facilisis convallis aliquet tempor nunc interdum egestas est ac, hac massa hendrerit odio lectus dignissim quam, cursus elit a tristique nec felis imperdiet. Ridiculus nostra torquent vel nisi taciti ad pharetra lobortis, rutrum purus dui felis tempor cras. Curae id placerat suspendisse purus eget hac sodales primis, aptent potenti facilisis suscipit felis morbi metus parturient pretium, conubia orci ultrices dictum sit mollis lacinia. Ultricies a cum sollicitudin duis in vivamus, eros suscipit viverra donec consectetur, mattis sed eleifend sociis vitae. Magnis pharetra fusce vivamus egestas viverra mauris vehicula, libero velit semper tortor leo augue, aenean senectus ad malesuada mus tincidunt. Semper mattis magnis egestas nec etiam hendrerit ridiculus eleifend bibendum nascetur auctor primis quam, aenean tellus adipiscing vulputate mauris class sem himenaeos consequat condimentum ullamcorper tempor.
+        </div>
+    </div>
+</div>
+
+ Styleguide Components.accordion
 */
 /*
  Avatar
