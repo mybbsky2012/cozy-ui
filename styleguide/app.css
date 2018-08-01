@@ -587,7 +587,7 @@ body {
 }
 @media (max-width: 63.938rem) {
   [role=application] {
-    overflow-y: visible;
+    overflow: visible;
   }
 }
 html,
