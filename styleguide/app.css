@@ -645,6 +645,12 @@ body {
 .u-warn {
   color: #ffae5f;
 }
+.u-black {
+  color: #000 !important;
+}
+.u-white {
+  color: #fff !important;
+}
 .u-paleGrey {
   color: #f5f6f7 !important;
 }
@@ -2593,6 +2599,8 @@ body {
 /*------------------------------------*  Palette: expose all as css variables
 \*------------------------------------*/
 :root {
+  --black: #000;
+  --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
@@ -3168,6 +3176,8 @@ Display an chip that represents complex identity
 
  Markup: <p class="{{modifier_class}}">Hello World!</p>
 
+ .u-black - block color
+ .u-white - white color
  .u-paleGrey - paleGrey color
  .u-silver - silver color
  .u-coolGrey - coolGrey color
