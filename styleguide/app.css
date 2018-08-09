@@ -1190,8 +1190,18 @@ body {
   width: 100%;
   margin: 0;
 }
-.c-btn.c-btn--narrow {
+.c-btn.c-btn--narrow,
+.c-btn.c-btn--round {
   min-width: auto;
+}
+.c-btn.c-btn--round {
+  border-radius: 100%;
+  min-height: auto;
+  padding: 0.25rem;
+}
+.c-btn.c-btn--round svg {
+  width: 0.625rem;
+  height: 0.625rem;
 }
 .c-btn--subtle {
   color: #297ef2;
