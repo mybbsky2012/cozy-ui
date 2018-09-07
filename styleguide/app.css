@@ -1828,10 +1828,6 @@ body {
   display: block;
   height: 0.5rem;
 }
-.c-accordion-body[aria-hidden='true'] {
-  display: block;
-  visibility: visible;
-}
 .c-accordion-body.is-active {
   max-height: 600px;
   -webkit-transition: max-height 300ms ease-in;
