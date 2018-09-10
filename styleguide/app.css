@@ -607,7 +607,6 @@ body {
   -webkit-clip-path: inset(50%) !important;
           clip-path: inset(50%) !important;
 }
-[aria-hidden=true],
 .u-hide {
   display: none;
   visibility: hidden;
@@ -796,13 +795,12 @@ body {
 .c-btn-client svg,
 .c-btn-client-mobile svg {
   fill: currentColor;
-  margin-right: 0.375rem;
 }
-.c-btn svg:only-child,
-.c-btn--regular svg:only-child,
-.c-btn-client svg:only-child,
-.c-btn-client-mobile svg:only-child {
-  margin: 0;
+.c-btn svg + span,
+.c-btn--regular svg + span,
+.c-btn-client svg + span,
+.c-btn-client-mobile svg + span {
+  margin-left: 0.375rem;
 }
 .c-btn input,
 .c-btn--regular input,
@@ -1017,9 +1015,6 @@ body {
   padding: 0.5rem;
   opacity: 0.5;
 }
-.c-btn--action svg {
-  margin: 0;
-}
 .c-btn--action:active,
 .c-btn--action:hover,
 .c-btn--action:focus {
@@ -1029,9 +1024,6 @@ body {
 .c-btn--close {
   border-color: transparent;
   padding: 0.5rem;
-}
-.c-btn--close svg {
-  margin: 0;
 }
 .c-btn--close:active,
 .c-btn--close:hover,
@@ -1221,13 +1213,6 @@ body {
 .c-btn--subtle:focus,
 .c-btn--subtle:hover {
   color: #0b61d6;
-}
-.c-btn--subtle svg {
-  fill: currentColor;
-  margin-right: 0.375rem;
-}
-.c-btn--subtle svg:only-child {
-  margin: 0;
 }
 .c-btn--subtle > span {
   display: -webkit-box;
