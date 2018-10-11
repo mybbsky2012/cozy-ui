@@ -5419,13 +5419,21 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 48rem) {
+  .context-header--QuTup {
+    margin: 0.5rem;
+  }
+}
 .context-header-content--1NQh0 {
   flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
 }
 .context-header-icon--1G3bH {
   width: 2rem;
   height: 2rem;
   margin-right: 1rem;
+  flex-shrink: 0;
 }
 
 iframe {
