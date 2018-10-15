@@ -5600,7 +5600,7 @@ iframe {
 .c-menu__btn--18qF8:not([disabled]):not([aria-disabled=true]):hover,
 .c-menu__btn--18qF8:not([disabled]):not([aria-disabled=true]):active,
 .c-menu__btn--18qF8:not([disabled]):not([aria-disabled=true]):focus {
-  background: transparent;
+  background-color: transparent;
 }
 .c-menu__item--1sXjs {
   cursor: pointer;
