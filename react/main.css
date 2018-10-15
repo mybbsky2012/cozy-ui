@@ -5608,6 +5608,7 @@ iframe {
   position: absolute;
   margin: 0;
   margin-top: 0.063rem;
+  padding: 0.5rem 0;
   min-width: 13.75rem;
   overflow: hidden;
   border: 0;
