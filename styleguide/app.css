@@ -728,6 +728,9 @@ body {
 .u-lightishPurple {
   color: #b449e7 !important;
 }
+.u-barney {
+  color: #922bc2 !important;
+}
 .u-weirdGreen {
   color: #40de8e !important;
 }
@@ -2698,6 +2701,7 @@ table.c-table td.c-table-ellipsis > div > div {
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --lightishPurple: #b449e7;
+  --barney: #922bc2;
   --weirdGreen: #40de8e;
 }
 /*------------------------------------*  Objects
