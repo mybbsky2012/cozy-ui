@@ -5915,7 +5915,7 @@ iframe {
   color: #fff;
   opacity: 1;
   transition: transform 0.2s ease-out, opacity 0.2s ease-out;
-  cursor: pointer;
+  cursor: default;
   pointer-events: none;
 }
 @media all and (min-width: 40rem) {
