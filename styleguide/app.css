@@ -1853,11 +1853,6 @@ body {
   height: 2rem;
   font-size: 1rem;
 }
-.c-avatar--small-plus {
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.5rem;
-}
 .c-avatar--medium {
   width: 4rem;
   height: 4rem;
@@ -3178,9 +3173,6 @@ Display an avatar of a user or contact with initials or an image
 
  Markup:
 <div class="c-avatar c-avatar--small">
-    <span class="c-avatar-initials">CD</span>
-</div>
-<div class="c-avatar c-avatar--small-plus">
     <span class="c-avatar-initials">CD</span>
 </div>
 <div class="c-avatar c-avatar--medium">
