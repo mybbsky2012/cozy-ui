@@ -1853,6 +1853,11 @@ body {
   height: 2rem;
   font-size: 1rem;
 }
+.c-avatar--small-plus {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
 .c-avatar--medium {
   width: 4rem;
   height: 4rem;
