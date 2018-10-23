@@ -4868,6 +4868,25 @@ body {
   text-align: center;
 }
 
+.c-circle--1DuMR {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #297ef2;
+  color: #fff;
+}
+.c-circle--medium--2hfCF {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+}
+.c-circle-text--1jFgD {
+  font-weight: bold;
+  line-height: 1;
+}
+
 .c-avatar--PpDI- {
   display: inline-flex;
   align-items: center;
