@@ -5455,6 +5455,18 @@ body {
   }
 }
 
+.well--3xv79 {
+  margin: 1rem 2rem;
+  background: #f5f6f7;
+  border: 0.063rem solid #d6d8da;
+  border-radius: 0.313rem;
+}
+@media (max-width: 48rem) {
+  .well--3xv79 {
+    margin: 0.5rem;
+  }
+}
+
 .context-header--QuTup {
   margin: 1rem 2rem;
   background: #f5f6f7;
