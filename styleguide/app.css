@@ -770,6 +770,7 @@ body {
 .c-btn--regular,
 .c-btn-client,
 .c-btn-client-mobile {
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-inline-box;

@@ -2135,6 +2135,7 @@ body {
 }
 .c-btn---2Vnj,
 .c-btn--regular--2HUly {
+  position: relative;
   box-sizing: border-box;
   display: inline-flex;
   margin: 0 0.25rem;
@@ -2732,6 +2733,7 @@ body {
   }
 }
 .c-actionbtn--162t6 {
+  position: relative;
   box-sizing: border-box;
   display: inline-flex;
   margin: 0 0.25rem;
