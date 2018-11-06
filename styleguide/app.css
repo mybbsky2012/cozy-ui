@@ -566,6 +566,7 @@ body {
           align-items: stretch;
   width: 100vw;
   height: 100%;
+  margin: 0;
 }
 @media (max-width: 63.938rem) {
   html,
