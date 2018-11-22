@@ -1484,7 +1484,7 @@ body {
   background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
-  color: var(--black);
+  color: var(--charcoalGrey);
   outline: 0;
 }
 .c-input-text::-webkit-input-placeholder,
@@ -1666,6 +1666,15 @@ body {
 }
 .c-select::-ms-expand {
   display: none;
+}
+.c-select--tiny {
+  padding-right: 2.5rem;
+}
+.c-select--medium {
+  padding-right: 2.5rem;
+}
+.c-select--fullwidth {
+  padding-right: 2.5rem;
 }
 .o-field {
   position: relative;
@@ -2760,6 +2769,14 @@ table.c-table td.c-table-ellipsis > div > div {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+@media (min-width: 48.063rem) {
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
+}
+@media (min-width: 48.063rem) {
 }
 .u-c-default {
   cursor: default;

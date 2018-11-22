@@ -1313,6 +1313,14 @@ body {
 }
 @media (max-width: 48rem) {
 }
+@media (min-width: 48.063rem) {
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
+}
+@media (min-width: 48.063rem) {
+}
 .u-c-default {
   cursor: default;
 }
@@ -5747,7 +5755,7 @@ body {
   background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
-  color: var(--black);
+  color: var(--charcoalGrey);
   outline: 0;
 }
 .c-input-text--3TAv1::placeholder {
@@ -6091,7 +6099,7 @@ body {
   background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
-  color: var(--black);
+  color: var(--charcoalGrey);
   outline: 0;
 }
 .c-textarea--D7EEH::placeholder {
