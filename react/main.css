@@ -6693,6 +6693,20 @@ body {
   display: block;
   position: fixed;
 }
+.MenuList--1H_pH {
+  display: flex;
+  flex-direction: column;
+}
+.Group--J6s7k,
+.FixedGroup--2izTc {
+  overflow-y: auto;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+.FixedGroup--2izTc {
+  flex-shrink: 0;
+  border-top: var(--silver) 1px solid;
+}
 
 :root {
 /*
