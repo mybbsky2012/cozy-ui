@@ -6650,6 +6650,9 @@ body {
   background-color: var(--paleGrey);
   cursor: pointer;
 }
+.select-option--ov_IT:hover:not(.select-option--disabled--1du57) .select-option__actions--2WOjb {
+  opacity: 1;
+}
 .select-option--focused--1Vpjv:not(.select-option--disabled--1du57) {
   background-color: var(--paleGrey);
 }
@@ -6673,6 +6676,13 @@ body {
 }
 .select-option__actions--2WOjb {
   float: right;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+@media (max-width: 63.938rem) {
+  .select-option__actions--2WOjb {
+    opacity: 1;
+  }
 }
 .select__overlay--3H8Jy::before {
   content: '\A0';
