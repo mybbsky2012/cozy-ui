@@ -6670,13 +6670,18 @@ body {
 }
 .select-option__label--1Xi5R {
   flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 .select-option__checkmark--ChXXs {
   width: 2rem;
 }
 .select-option__actions--2WOjb {
-  float: right;
   opacity: 0;
+  white-space: nowrap;
   transition: opacity 0.2s ease-out;
 }
 @media (max-width: 63.938rem) {
