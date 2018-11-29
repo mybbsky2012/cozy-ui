@@ -1067,6 +1067,29 @@ body {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
 }
+.u-p-auto {
+  padding: auto !important;
+}
+.u-pt-auto {
+  padding-top: auto !important;
+}
+.u-pb-auto {
+  padding-bottom: auto !important;
+}
+.u-pl-auto {
+  padding-left: auto !important;
+}
+.u-pr-auto {
+  padding-right: auto !important;
+}
+.u-pv-auto {
+  padding-top: auto !important;
+  padding-bottom: auto !important;
+}
+.u-ph-auto {
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
 .u-p-half {
   padding: 0.5rem !important;
 }
@@ -1227,6 +1250,29 @@ body {
 .u-mh-3 {
   margin-left: 3rem !important;
   margin-right: 3rem !important;
+}
+.u-m-auto {
+  margin: auto !important;
+}
+.u-mt-auto {
+  margin-top: auto !important;
+}
+.u-mb-auto {
+  margin-bottom: auto !important;
+}
+.u-ml-auto {
+  margin-left: auto !important;
+}
+.u-mr-auto {
+  margin-right: auto !important;
+}
+.u-mv-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.u-mh-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .u-m-half {
   margin: 0.5rem !important;
@@ -8134,6 +8180,29 @@ body {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
 }
+.u-p-auto--QAxAB {
+  padding: auto !important;
+}
+.u-pt-auto--nXdEP {
+  padding-top: auto !important;
+}
+.u-pb-auto--K70jK {
+  padding-bottom: auto !important;
+}
+.u-pl-auto--19sDp {
+  padding-left: auto !important;
+}
+.u-pr-auto--DzhHK {
+  padding-right: auto !important;
+}
+.u-pv-auto--32aC_ {
+  padding-top: auto !important;
+  padding-bottom: auto !important;
+}
+.u-ph-auto--3IZjH {
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
 .u-p-half--ePG__ {
   padding: 0.5rem !important;
 }
@@ -8294,6 +8363,29 @@ body {
 .u-mh-3--1PIVL {
   margin-left: 3rem !important;
   margin-right: 3rem !important;
+}
+.u-m-auto--3u4TS {
+  margin: auto !important;
+}
+.u-mt-auto--3_Amn {
+  margin-top: auto !important;
+}
+.u-mb-auto--2yGTA {
+  margin-bottom: auto !important;
+}
+.u-ml-auto--395Mj {
+  margin-left: auto !important;
+}
+.u-mr-auto--3W_Bq {
+  margin-right: auto !important;
+}
+.u-mv-auto--1Wol6 {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.u-mh-auto--1mUS1 {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .u-m-half--34ZnG {
   margin: 0.5rem !important;
