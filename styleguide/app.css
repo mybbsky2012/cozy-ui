@@ -2830,7 +2830,6 @@ table.c-table td.c-table-ellipsis > div > div {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: var(--pomegranate);
 }
 .wizard-header {
   display: -webkit-box;
@@ -2854,6 +2853,9 @@ table.c-table td.c-table-ellipsis > div > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-flex: 0;
@@ -2866,13 +2868,7 @@ table.c-table td.c-table-ellipsis > div > div {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
-}
-.wizard--welcome .wizard-footer > button,
-.wizard--welcome .wizard-footer > a:link {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 40%;
-          flex: 1 0 40%;
-  margin: 0 0.25rem 0.5rem;
+  margin: 0 0 0.5rem;
 }
 .wizard-logo {
   position: relative;
@@ -2919,9 +2915,10 @@ table.c-table td.c-table-ellipsis > div > div {
 }
 .wizard-previous {
   position: fixed;
-  top: 0.625rem;
-  left: 1rem;
+  top: 0.438rem;
+  left: 0;
   margin: 0;
+  padding: 0.625rem 1rem;
   color: var(--coolGrey);
 }
 .wizard-next {
@@ -2962,7 +2959,6 @@ table.c-table td.c-table-ellipsis > div > div {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--coolGrey);
   margin: 0 0 0.5rem;
 }
 @media (max-width: 48rem) {
