@@ -2765,7 +2765,7 @@ table.c-table td.c-table-cell--primary {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--frenchPass);
+  background-color: var(--zircon);
 }
 .c-table-divider + * {
   border-top: 0;
@@ -2792,7 +2792,7 @@ table.c-table tr.c-table-divider {
   border: 0;
   width: auto;
   height: auto;
-  background-color: var(--frenchPass);
+  background-color: var(--zircon);
 }
 table.c-table tr.c-table-divider::before {
   content: none;
