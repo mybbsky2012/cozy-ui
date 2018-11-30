@@ -2750,22 +2750,14 @@ table.c-table td.c-table-cell--primary {
 .c-table-divider {
   position: -webkit-sticky;
   position: sticky;
+  z-index: 1;
   top: 0;
-  background-color: var(--white);
+  background-color: var(--zircon);
   text-indent: 2rem;
   font-weight: bold;
   font-size: 0.75rem;
   line-height: 1.33;
   color: var(--coolGrey);
-}
-.c-table-divider::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--zircon);
 }
 .c-table-divider + * {
   border-top: 0;
