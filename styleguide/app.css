@@ -710,8 +710,8 @@ body {
           clip-path: inset(50%) !important;
 }
 .u-hide {
-  display: none;
-  visibility: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
 @media (max-width: 63.938rem) {
   .u-hide--mob {
@@ -1418,8 +1418,8 @@ body {
 [data-input=checkbox] input[type=radio],
 [data-input=radio] input[type=checkbox],
 [data-input=checkbox] input[type=checkbox] {
-  display: none;
-  visibility: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
 [data-input=radio] label,
 [data-input=checkbox] label {
@@ -1613,8 +1613,8 @@ body {
 }
 .c-input-checkbox input,
 .c-input-radio input {
-  display: none;
-  visibility: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
 .c-input-checkbox input:checked + span::before,
 .c-input-radio input:checked + span::before {
