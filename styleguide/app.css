@@ -1667,6 +1667,14 @@ body {
   min-height: 5rem;
 }
 .c-select,
+.c-select--tiny,
+.c-select--medium,
+.c-select--fullwidth,
+.wizard-select,
+.wizard-select--medium {
+  padding-right: 2.375rem;
+}
+.c-select,
 .wizard-select {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1677,16 +1685,6 @@ body {
 .c-select::-ms-expand,
 .wizard-select::-ms-expand {
   display: none;
-}
-.c-select--tiny {
-  padding-right: 2.375rem;
-}
-.c-select--medium,
-.wizard-select--medium {
-  padding-right: 2.375rem;
-}
-.c-select--fullwidth {
-  padding-right: 2.375rem;
 }
 .o-field {
   position: relative;
