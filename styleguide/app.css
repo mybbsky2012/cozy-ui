@@ -3109,11 +3109,6 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-notice--lost {
   font-size: 1rem;
 }
-@media (max-width: 48rem) {
-  .wizard-notice--remember {
-    display: none;
-  }
-}
 .u-c-default {
   cursor: default;
 }
