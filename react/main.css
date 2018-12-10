@@ -1359,21 +1359,31 @@ body {
 }
 @media (max-width: 48rem) {
 }
-@media (min-width: 48.063rem) {
+@media (min-width: 34rem) {
 }
-@media (max-width: 48rem) {
+@media (max-width: 33.938rem) {
 }
-@media (min-width: 48.063rem) {
+@media (max-width: 33.938rem) {
 }
-@media (max-width: 48rem) {
+@media (max-width: 33.938rem) {
 }
-@media (max-width: 48rem) {
+@media (min-width: 34rem) {
 }
-@media (max-width: 48rem) {
+@media (max-width: 33.938rem) {
 }
-@media (max-width: 48rem) {
+@media (max-width: 33.938rem) {
 }
-@media (min-width: 48.063rem) {
+@media (min-width: 34rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (min-width: 34rem) {
 }
 .u-c-default {
   cursor: default;
@@ -4813,9 +4823,7 @@ body {
 .c-input-checkbox--2CzvY span {
   position: relative;
   display: inline-block;
-  height: 1rem;
   padding-left: 1.4rem;
-  line-height: 1rem;
   cursor: pointer;
 }
 .c-input-checkbox--2CzvY span::before,
@@ -4823,11 +4831,12 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
   box-sizing: border-box;
   width: 1rem;
   height: 1rem;
   border-radius: 0.125rem;
+  transform: translateY(-53%);
 }
 .c-input-checkbox--2CzvY span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
@@ -4856,7 +4865,7 @@ body {
 }
 .c-input-checkbox--2CzvY input:checked + span::after {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) translateY(-53%);
 }
 .c-input-checkbox--2CzvY input:not(:checked) + span::after {
   opacity: 0;
@@ -5487,8 +5496,10 @@ body {
   display: block;
   text-transform: uppercase;
   color: var(--coolGrey);
-  font-size: 0.75rem;
-  padding: 0.563rem 0;
+  font-size: 0.813rem;
+  font-weight: bold;
+  line-height: 1rem;
+  padding: 0.5rem 0;
   margin-top: 1rem;
 }
 .c-label--o4ozG.is-error--2Dwem {
@@ -5816,12 +5827,12 @@ body {
   color: var(--coolGrey);
   font-size: 1rem;
 }
+.c-input-text--3TAv1:hover {
+  border: 0.063rem solid var(--coolGrey);
+}
 .c-input-text--3TAv1:focus {
   border: 0.063rem solid var(--dodgerBlue);
   outline: 0;
-}
-.c-input-text--3TAv1:hover {
-  border: 0.063rem solid var(--coolGrey);
 }
 .c-input-text--3TAv1.is-error--3lsCJ,
 .c-input-text--3TAv1:invalid {
@@ -6160,12 +6171,12 @@ body {
   color: var(--coolGrey);
   font-size: 1rem;
 }
+.c-textarea--D7EEH:hover {
+  border: 0.063rem solid var(--coolGrey);
+}
 .c-textarea--D7EEH:focus {
   border: 0.063rem solid var(--dodgerBlue);
   outline: 0;
-}
-.c-textarea--D7EEH:hover {
-  border: 0.063rem solid var(--coolGrey);
 }
 .c-textarea--D7EEH.is-error--1kGLj,
 .c-textarea--D7EEH:invalid {
@@ -6505,9 +6516,7 @@ body {
 .c-input-radio--XJQt1 span {
   position: relative;
   display: inline-block;
-  height: 1rem;
   padding-left: 1.4rem;
-  line-height: 1rem;
   cursor: pointer;
 }
 .c-input-radio--XJQt1 span::before,
@@ -6515,11 +6524,12 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
   box-sizing: border-box;
   width: 1rem;
   height: 1rem;
   border-radius: 0.125rem;
+  transform: translateY(-53%);
 }
 .c-input-radio--XJQt1 span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
@@ -6548,7 +6558,7 @@ body {
 }
 .c-input-radio--XJQt1 input:checked + span::after {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) translateY(-53%);
 }
 .c-input-radio--XJQt1 input:not(:checked) + span::after {
   opacity: 0;
