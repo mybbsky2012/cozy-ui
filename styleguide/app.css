@@ -113,6 +113,7 @@ body textarea {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -734,6 +735,9 @@ body {
 }
 .u-yourPink {
   color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate {
   color: var(--pomegranate) !important;

@@ -60,6 +60,7 @@ body textarea {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -674,6 +675,9 @@ body {
 }
 .u-yourPink {
   color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate {
   color: var(--pomegranate) !important;
@@ -1360,6 +1364,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -1561,6 +1566,9 @@ body {
 }
 .u-yourPink--3yJAl {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--LPgUT {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--2LZwW {
   color: var(--pomegranate) !important;
@@ -1803,6 +1811,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -1848,6 +1857,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -2043,6 +2053,9 @@ body {
 }
 .u-yourPink--2Fu6E {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--WPsBg {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--1YMiO {
   color: var(--pomegranate) !important;
@@ -2510,6 +2523,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -2657,6 +2671,9 @@ body {
 }
 .u-yourPink--2_E-f {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--3x1jA {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--3JlTP {
   color: var(--pomegranate) !important;
@@ -3212,6 +3229,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -3282,6 +3300,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -3449,6 +3468,9 @@ body {
 }
 .u-yourPink--2t_Ue {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--or1h9 {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--ib5X- {
   color: var(--pomegranate) !important;
@@ -3717,6 +3739,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -3783,6 +3806,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -3929,6 +3953,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -4076,6 +4101,9 @@ body {
 }
 .u-yourPink--1YfDE {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--1Mily {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--1JBJp {
   color: var(--pomegranate) !important;
@@ -4227,6 +4255,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -4375,6 +4404,9 @@ body {
 .u-yourPink--2ELQw {
   color: var(--yourPink) !important;
 }
+.u-fuchsia--3txnK {
+  color: var(--fuchsia) !important;
+}
 .u-pomegranate--3SiLy {
   color: var(--pomegranate) !important;
 }
@@ -4469,6 +4501,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -4617,6 +4650,9 @@ body {
 .u-yourPink--20w0y {
   color: var(--yourPink) !important;
 }
+.u-fuchsia--3IShj {
+  color: var(--fuchsia) !important;
+}
 .u-pomegranate--UqAO4 {
   color: var(--pomegranate) !important;
 }
@@ -4718,6 +4754,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -4866,6 +4903,9 @@ body {
 .u-yourPink--3Qizv {
   color: var(--yourPink) !important;
 }
+.u-fuchsia--3TgUN {
+  color: var(--fuchsia) !important;
+}
 .u-pomegranate--1G8SC {
   color: var(--pomegranate) !important;
 }
@@ -4994,6 +5034,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -5142,6 +5183,9 @@ body {
 .u-yourPink--3brLR {
   color: var(--yourPink) !important;
 }
+.u-fuchsia--22LZ2 {
+  color: var(--fuchsia) !important;
+}
 .u-pomegranate--3964w {
   color: var(--pomegranate) !important;
 }
@@ -5282,6 +5326,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -5429,6 +5474,9 @@ body {
 }
 .u-yourPink--_KuIZ {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--3oQzL {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--359VA {
   color: var(--pomegranate) !important;
@@ -5591,6 +5639,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -5707,6 +5756,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -5779,6 +5829,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -5980,6 +6031,9 @@ body {
 }
 .u-yourPink--2CV1V {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--27Awz {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--31XCo {
   color: var(--pomegranate) !important;
@@ -6240,6 +6294,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -6289,6 +6344,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -6496,6 +6552,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -6548,6 +6605,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -6999,6 +7057,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7071,6 +7130,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7159,6 +7219,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7243,6 +7304,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7327,6 +7389,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7372,6 +7435,7 @@ body {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7476,6 +7540,7 @@ iframe {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7519,6 +7584,7 @@ iframe {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7609,6 +7675,7 @@ iframe {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7726,6 +7793,7 @@ iframe {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7781,6 +7849,7 @@ iframe {
   --texasRose: $value;
   --chablis: $value;
   --yourPink: $value;
+  --fuchsia: $value;
   --pomegranate: $value;
   --monza: $value;
   --portage: $value;
@@ -7928,6 +7997,9 @@ iframe {
 }
 .u-yourPink--3M2lK {
   color: var(--yourPink) !important;
+}
+.u-fuchsia--3Z49f {
+  color: var(--fuchsia) !important;
 }
 .u-pomegranate--3OzQX {
   color: var(--pomegranate) !important;
