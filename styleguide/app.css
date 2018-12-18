@@ -95,105 +95,37 @@ body textarea {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAzMicgd2lkdGg9JzEyJyBoZWlnaHQ9JzEyJyBmaWxsPScjRjUyRDJEJz4KICA8cGF0aCBvcGFjaXR5PScuMjUnIGQ9J00xNiAwYTE2IDE2IDAgMCAwIDAgMzIgMTYgMTYgMCAwIDAgMC0zMm0wIDRhMTIgMTIgMCAwIDEgMCAyNCAxMiAxMiAwIDAgMSAwLTI0Jy8+CiAgPHBhdGggZD0nTTE2IDBhMTYgMTYgMCAwIDEgMTYgMTZoLTRhMTIgMTIgMCAwIDAtMTItMTJ6Jy8+Cjwvc3ZnPgo=");
 }
 :root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f1f7ff;
-  --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
-  --azure: #1fa8f1;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
-/*
-    Green
-
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --weirdGreen: #40de8e;
-/*
-    Orange
-
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
+  --black: $value;
+  --white: $value;
+  --paleGrey: $value;
+  --silver: $value;
+  --coolGrey: $value;
+  --slateGrey: $value;
+  --charcoalGrey: $value;
+  --overlay: $value;
+  --zircon: $value;
+  --frenchPass: $value;
+  --dodgerBlue: $value;
+  --scienceBlue: $value;
+  --puertoRico: $value;
+  --emerald: $value;
+  --malachite: $value;
+  --texasRose: $value;
+  --chablis: $value;
+  --yourPink: $value;
+  --pomegranate: $value;
+  --monza: $value;
+  --portage: $value;
+  --azure: $value;
+  --melon: $value;
+  --blazeOrange: $value;
+  --mango: $value;
+  --pumpkinOrange: $value;
+  --darkPeriwinkle: $value;
+  --purpley: $value;
+  --lightishPurple: $value;
+  --barney: $value;
+  --weirdGreen: $value;
 }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
