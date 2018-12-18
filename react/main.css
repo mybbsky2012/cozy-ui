@@ -42,37 +42,105 @@ body textarea {
   }
 }
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -570,8 +638,8 @@ body {
 }
 html,
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 .u-visuallyhidden {
   position: absolute !important;
@@ -604,7 +672,7 @@ body {
   }
 }
 .u-error {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning:before {
   content: '';
@@ -616,103 +684,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis {
   display: block;
@@ -786,22 +854,22 @@ body {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
-  border: 0.125rem solid coolGrey;
+  border: 0.125rem solid var(--coolGrey);
   box-shadow: inset 0 0 0 1rem transparent;
 }
 [data-input=radio] input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 0.188rem paleGrey, inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.188rem var(--paleGrey), inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::before,
 [data-input=checkbox] label::after {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -812,7 +880,7 @@ body {
   background-size: contain;
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::after {
   opacity: 1;
@@ -828,7 +896,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     box-sizing: border-box;
   }
 }
@@ -1342,37 +1410,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 :root {
   --primaryFont: Lato, sans-serif;
@@ -1425,8 +1561,8 @@ body {
 }
 html,
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 @-moz-keyframes spin--29uW_ {
   from {
@@ -1491,7 +1627,7 @@ body {
   }
 }
 .u-error--3J7Ms {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--9L9cl:before {
   content: '';
@@ -1503,103 +1639,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--2AA1B {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--2BFE6 {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--1hPCd {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--31cKc {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--3rpSK {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--2Sl_g {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1l09Y {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--23f9u {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--3L7qj {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--1tiN5 {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--XgDtN {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--37N2m {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--3Y5gb {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--Ul3Me {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--3yVRx {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--19xci {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--2e2KR {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--2hKUe {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3olvf {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--3yJAl {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--2LZwW {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--2l8e9 {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--2oqWT {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--2tsHg {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--1sDFe {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--3LLz_ {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--2bKXz {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--3hTzs {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--3gYdh {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--3X9ti {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--3i47v {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--1kGvM {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--2k8qm {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--2wH2N {
   display: block;
@@ -1673,22 +1809,22 @@ body {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
-  border: 0.125rem solid coolGrey;
+  border: 0.125rem solid var(--coolGrey);
   box-shadow: inset 0 0 0 1rem transparent;
 }
 [data-input=radio] input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 0.188rem paleGrey, inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.188rem var(--paleGrey), inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::before,
 [data-input=checkbox] label::after {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -1699,7 +1835,7 @@ body {
   background-size: contain;
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::after {
   opacity: 1;
@@ -1715,7 +1851,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     box-sizing: border-box;
   }
 }
@@ -1737,8 +1873,8 @@ body {
   border-radius: 0.5rem;
   max-height: 100%;
   max-width: 100%;
-  background-color: #fff;
-  color: charcoalGrey;
+  background-color: var(--white);
+  color: var(--charcoalGrey);
 }
 @media (max-width: 35rem) {
 }
@@ -1785,37 +1921,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-overlay--31iWd {
   z-index: 50;
@@ -1824,43 +2028,111 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: overlay;
+  background: var(--overlay);
   visibility: visible;
   transition: opacity 0.3s, visibility 0s ease-out;
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--alZ_V {
   from {
@@ -1973,7 +2245,7 @@ body {
   }
 }
 .u-error--1MFJU {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--1ni48:before {
   content: '';
@@ -1985,103 +2257,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--phrFL {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--3dh8- {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--V6Vds {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--3h21i {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--2_cnG {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--1Wov9 {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1je7n {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--3U9sA {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--3mfZe {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--gQ0q4 {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon---_Be_ {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--CL_VF {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2R4h1 {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--2veHn {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--24fLJ {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--35wUl {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--112H- {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--16sF8 {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--S2wp3 {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--2Fu6E {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--1YMiO {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--1Ydp5 {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--h44u- {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--6liav {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--2DPAW {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--3mX3D {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--2F35l {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--3ZVp- {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--1t4uH {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--2Vwgo {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--2s7y5 {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--TDhmf {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--25MtR {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--3t6Hu {
   display: block;
@@ -2131,9 +2403,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  background-color: dodgerBlue;
-  color: #fff;
-  border-color: dodgerBlue;
+  background-color: var(--dodgerBlue);
+  color: var(--white);
+  border-color: var(--dodgerBlue);
 }
 .c-btn---2Vnj svg,
 .c-btn--regular--2HUly svg {
@@ -2174,7 +2446,7 @@ body {
 }
 .c-btn---2Vnj:visited,
 .c-btn--regular--2HUly:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-btn---2Vnj:active,
 .c-btn--regular--2HUly:active,
@@ -2182,44 +2454,44 @@ body {
 .c-btn--regular--2HUly:hover,
 .c-btn---2Vnj:focus,
 .c-btn--regular--2HUly:focus {
-  border-color: scienceBlue;
-  background-color: scienceBlue;
+  border-color: var(--scienceBlue);
+  background-color: var(--scienceBlue);
 }
 .c-btn---2Vnj[disabled]:hover,
 .c-btn--regular--2HUly[disabled]:hover,
 .c-btn---2Vnj[aria-disabled=true]:hover,
 .c-btn--regular--2HUly[aria-disabled=true]:hover {
-  background-color: dodgerBlue;
+  background-color: var(--dodgerBlue);
 }
 .c-btn--highlight--2jRfu {
-  background-color: emerald;
-  color: #fff;
-  border-color: emerald;
+  background-color: var(--emerald);
+  color: var(--white);
+  border-color: var(--emerald);
 }
 .c-btn--highlight--2jRfu:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-btn--highlight--2jRfu:active,
 .c-btn--highlight--2jRfu:hover,
 .c-btn--highlight--2jRfu:focus {
-  border-color: malachite;
-  background-color: malachite;
+  border-color: var(--malachite);
+  background-color: var(--malachite);
 }
 .c-btn--highlight--2jRfu[disabled]:hover,
 .c-btn--highlight--2jRfu[aria-disabled=true]:hover {
-  background-color: emerald;
+  background-color: var(--emerald);
 }
 .c-btn--alpha--2ECZi,
 .c-btn--action--36KFm,
 .c-btn--close--3f0AP {
   background-color: transparent;
-  color: #fff;
-  border-color: #fff;
+  color: var(--white);
+  border-color: var(--white);
 }
 .c-btn--alpha--2ECZi:visited,
 .c-btn--action--36KFm:visited,
 .c-btn--close--3f0AP:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-btn--alpha--2ECZi:active,
 .c-btn--action--36KFm:active,
@@ -2230,8 +2502,8 @@ body {
 .c-btn--alpha--2ECZi:focus,
 .c-btn--action--36KFm:focus,
 .c-btn--close--3f0AP:focus {
-  border-color: scienceBlue;
-  background-color: scienceBlue;
+  border-color: var(--scienceBlue);
+  background-color: var(--scienceBlue);
 }
 .c-btn--alpha--2ECZi[disabled]:hover,
 .c-btn--action--36KFm[disabled]:hover,
@@ -2242,58 +2514,58 @@ body {
   background-color: transparent;
 }
 .c-btn--danger--17T_C {
-  background-color: pomegranate;
-  color: #fff;
-  border-color: pomegranate;
+  background-color: var(--pomegranate);
+  color: var(--white);
+  border-color: var(--pomegranate);
 }
 .c-btn--danger--17T_C:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-btn--danger--17T_C:active,
 .c-btn--danger--17T_C:hover,
 .c-btn--danger--17T_C:focus {
-  border-color: monza;
-  background-color: monza;
+  border-color: var(--monza);
+  background-color: var(--monza);
 }
 .c-btn--danger--17T_C[disabled]:hover,
 .c-btn--danger--17T_C[aria-disabled=true]:hover {
-  background-color: pomegranate;
+  background-color: var(--pomegranate);
 }
 .c-btn--secondary--3Br_N {
-  background-color: #fff;
-  color: #000;
-  border-color: #c0c0c0;
+  background-color: var(--white);
+  color: var(--black);
+  border-color: var(--silver);
 }
 .c-btn--secondary--3Br_N:visited {
-  color: #000;
+  color: var(--black);
 }
 .c-btn--secondary--3Br_N:active,
 .c-btn--secondary--3Br_N:hover,
 .c-btn--secondary--3Br_N:focus {
-  border-color: #c0c0c0;
-  background-color: #c0c0c0;
+  border-color: var(--silver);
+  background-color: var(--silver);
 }
 .c-btn--secondary--3Br_N[disabled]:hover,
 .c-btn--secondary--3Br_N[aria-disabled=true]:hover {
-  background-color: #fff;
+  background-color: var(--white);
 }
 .c-btn--danger-outline--1mO1B {
-  background-color: #fff;
-  color: pomegranate;
-  border-color: yourPink;
+  background-color: var(--white);
+  color: var(--pomegranate);
+  border-color: var(--yourPink);
 }
 .c-btn--danger-outline--1mO1B:visited {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-btn--danger-outline--1mO1B:active,
 .c-btn--danger-outline--1mO1B:hover,
 .c-btn--danger-outline--1mO1B:focus {
-  border-color: yourPink;
-  background-color: yourPink;
+  border-color: var(--yourPink);
+  background-color: var(--yourPink);
 }
 .c-btn--danger-outline--1mO1B[disabled]:hover,
 .c-btn--danger-outline--1mO1B[aria-disabled=true]:hover {
-  background-color: #fff;
+  background-color: var(--white);
 }
 .c-btn--action--36KFm {
   border-color: transparent;
@@ -2350,7 +2622,7 @@ body {
   height: 0.625rem;
 }
 .c-btn--subtle--OknKf {
-  color: dodgerBlue;
+  color: var(--dodgerBlue);
   min-height: auto;
   min-width: auto;
   border: 0;
@@ -2366,7 +2638,7 @@ body {
 .c-btn--subtle--OknKf:active,
 .c-btn--subtle--OknKf:focus,
 .c-btn--subtle--OknKf:hover {
-  color: scienceBlue;
+  color: var(--scienceBlue);
 }
 .c-btn--subtle--OknKf > span {
   display: flex;
@@ -2387,7 +2659,7 @@ body {
 .c-btn--subtle--OknKf:hover,
 .c-btn--subtle--OknKf:focus,
 .c-btn--subtle--OknKf:visited {
-  color: scienceBlue;
+  color: var(--scienceBlue);
   background: transparent;
 }
 .c-btn--subtle--OknKf[aria-busy=true] > span::after {
@@ -2416,36 +2688,36 @@ body {
   font-size: 1rem;
 }
 .c-btn--subtle--OknKf.c-btn--danger--17T_C {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-btn--subtle--OknKf.c-btn--danger--17T_C:active,
 .c-btn--subtle--OknKf.c-btn--danger--17T_C:focus,
 .c-btn--subtle--OknKf.c-btn--danger--17T_C:hover {
-  color: monza;
+  color: var(--monza);
 }
 .c-btn--subtle--OknKf.c-btn--highlight--2jRfu {
-  color: emerald;
+  color: var(--emerald);
 }
 .c-btn--subtle--OknKf.c-btn--highlight--2jRfu:active,
 .c-btn--subtle--OknKf.c-btn--highlight--2jRfu:focus,
 .c-btn--subtle--OknKf.c-btn--highlight--2jRfu:hover {
-  color: malachite;
+  color: var(--malachite);
 }
 .c-btn--subtle--OknKf.c-btn--regular--2HUly {
-  color: dodgerBlue;
+  color: var(--dodgerBlue);
 }
 .c-btn--subtle--OknKf.c-btn--regular--2HUly:active,
 .c-btn--subtle--OknKf.c-btn--regular--2HUly:focus,
 .c-btn--subtle--OknKf.c-btn--regular--2HUly:hover {
-  color: scienceBlue;
+  color: var(--scienceBlue);
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N {
-  color: coolGrey;
+  color: var(--coolGrey);
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:active,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:focus,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:hover {
-  color: slateGrey;
+  color: var(--slateGrey);
 }
 
 @-moz-keyframes spin--2Vvw3 {
@@ -2492,37 +2764,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -2587,7 +2927,7 @@ body {
   }
 }
 .u-error--2wcEs {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--1TsQl:before {
   content: '';
@@ -2599,103 +2939,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--3A01f {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--3ry8j {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--3m5hh {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--3A8Xg {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--1U9BV {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--1tPdC {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1widt {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--2an4l {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--1QGP5 {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--fHFao {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--3z1X6 {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--1GNmU {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2M_GZ {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3trXq {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--EZKgN {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--1HDfC {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--2-Zt- {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--1xbEQ {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--1GPWo {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--2_E-f {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--3JlTP {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--3fjQW {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--GYupr {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--1uOUf {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--19aFt {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--2u2uC {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--3eAdD {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--V4M5G {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--XoQof {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--1V4R_ {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--1s5IE {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--2vA73 {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--3qfEp {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--222Ij {
   display: block;
@@ -2777,8 +3117,8 @@ body {
 }
 html,
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 [data-input=radio],
 [data-input=checkbox] {
@@ -2823,22 +3163,22 @@ body {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
-  border: 0.125rem solid coolGrey;
+  border: 0.125rem solid var(--coolGrey);
   box-shadow: inset 0 0 0 1rem transparent;
 }
 [data-input=radio] input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 0.188rem paleGrey, inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.188rem var(--paleGrey), inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::before,
 [data-input=checkbox] label::after {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -2849,7 +3189,7 @@ body {
   background-size: contain;
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::after {
   opacity: 1;
@@ -2865,7 +3205,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     box-sizing: border-box;
   }
 }
@@ -2875,9 +3215,9 @@ body {
   align-items: stretch;
 }
 .c-modal-content--2av1P {
-  background: linear-gradient(#fff 30%, rgba(255,255,255,0)), linear-gradient(rgba(255,255,255,0), #fff 70%) 0 100%, linear-gradient(rgba(214,216,218,0.25) 0, rgba(214,216,218,0.25) 25%, rgba(255,255,255,0) 26%, rgba(255,255,255,0) 100%), linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 74%, rgba(214,216,218,0.25) 75%, rgba(214,216,218,0.25) 100%) 0 100%;
+  background: linear-gradient(var(--white) 30%, rgba(255,255,255,0)), linear-gradient(rgba(255,255,255,0), var(--white) 70%) 0 100%, linear-gradient(rgba(214,216,218,0.25) 0, rgba(214,216,218,0.25) 25%, rgba(255,255,255,0) 26%, rgba(255,255,255,0) 100%), linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 74%, rgba(214,216,218,0.25) 75%, rgba(214,216,218,0.25) 100%) 0 100%;
   background-repeat: no-repeat;
-  background-color: #fff;
+  background-color: var(--white);
   background-size: 100% 2rem, 100% 2rem, 100% 0.5rem, 100% 0.5rem;
   background-attachment: local, local, scroll, scroll;
   background-clip: padding-box;
@@ -2925,8 +3265,8 @@ body {
   border-radius: 0.5rem;
   max-height: 100%;
   max-width: 100%;
-  background-color: #fff;
-  color: charcoalGrey;
+  background-color: var(--white);
+  color: var(--charcoalGrey);
 }
 .c-modal--small--XUfOM {
   width: 34rem;
@@ -3061,7 +3401,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.25rem;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .c-app-editor--JFuCk {
   font-weight: normal;
@@ -3137,7 +3477,7 @@ body {
   }
 }
 .c-modal-section--2QNq3 {
-  border-top: 0.063rem solid #c0c0c0;
+  border-top: 0.063rem solid var(--silver);
 }
 .c-modal-close--1v2bp {
   position: absolute;
@@ -3194,37 +3534,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-badge-root--3Xore {
   position: relative;
@@ -3237,8 +3645,8 @@ body {
   width: 0.875rem;
   height: 0.875rem;
   border-radius: 50%;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
   z-index: 1;
   display: flex;
   flex-direction: row;
@@ -3247,54 +3655,122 @@ body {
   align-content: center;
   align-items: center;
   font-size: 0.625rem;
-  border: 0.063rem solid #fff;
+  border: 0.063rem solid var(--white);
   cursor: inherit;
 }
 .c-badge--new--21-Dw {
-  color: zircon;
-  background-color: dodgerBlue;
+  color: var(--zircon);
+  background-color: var(--dodgerBlue);
 }
 .c-badge--normal--1pXKI {
-  color: paleGrey;
-  background-color: charcoalGrey;
+  color: var(--paleGrey);
+  background-color: var(--charcoalGrey);
 }
 .c-badge--error--3lgSC {
-  color: chablis;
-  background-color: pomegranate;
+  color: var(--chablis);
+  background-color: var(--pomegranate);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--1WjkR {
   from {
@@ -3379,7 +3855,7 @@ body {
   }
 }
 .u-error--2j-vB {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--2YuP0:before {
   content: '';
@@ -3391,103 +3867,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--21dX0 {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--28i3_ {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--2qggd {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--w6CXa {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--1FvpW {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--1lEaS {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1GuhE {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--QEp1L {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--2tOpW {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--1KQFI {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--16rT- {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--3cfUB {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2L_K4 {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--35YyX {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--VKO_a {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--SM4Aw {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--23EIO {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--1kHWU {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--1NsPi {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--2t_Ue {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--ib5X- {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--1mQjo {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--3RH_P {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--3C_NX {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--2G-7u {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--3-BYz {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--13DXo {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--b-63s {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--3jbYx {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--38P-h {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--1xuwq {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--1PqN9 {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--sXZcB {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--1KLm1,
 .c-actionbtn-label--3nDeu {
@@ -3537,9 +4013,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  background-color: dodgerBlue;
-  color: #fff;
-  border-color: dodgerBlue;
+  background-color: var(--dodgerBlue);
+  color: var(--white);
+  border-color: var(--dodgerBlue);
 }
 .c-actionbtn--162t6 svg {
   fill: currentColor;
@@ -3570,23 +4046,23 @@ body {
   top: -0.062rem;
 }
 .c-actionbtn--162t6:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-actionbtn--162t6:active,
 .c-actionbtn--162t6:hover,
 .c-actionbtn--162t6:focus {
-  border-color: scienceBlue;
-  background-color: scienceBlue;
+  border-color: var(--scienceBlue);
+  background-color: var(--scienceBlue);
 }
 .c-actionbtn--162t6[disabled]:hover,
 .c-actionbtn--162t6[aria-disabled=true]:hover {
-  background-color: dodgerBlue;
+  background-color: var(--dodgerBlue);
 }
 .c-actionbtn--162t6.c-actionbtn--compact--37yb2 {
   min-width: auto;
 }
 .c-actionbtn--162t6 {
-  border-color: #c0c0c0;
+  border-color: var(--silver);
   text-transform: none;
   max-width: 12.5rem;
   min-height: 2rem;
@@ -3601,7 +4077,7 @@ body {
   flex-wrap: nowrap;
 }
 .c-actionbtn--162t6 [data-action='icon'] {
-  border-left: 0.063rem solid #c0c0c0;
+  border-left: 0.063rem solid var(--silver);
 }
 .c-actionbtn--162t6:not([disabled]):hover [data-action='icon'],
 .c-actionbtn--162t6:not([disabled]):focus [data-action='icon'] {
@@ -3626,61 +4102,61 @@ body {
 }
 .c-actionbtn--162t6.c-actionbtn--compact--37yb2:hover,
 .c-actionbtn--162t6.c-actionbtn--compact--37yb2:focus {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   border: 0;
 }
 .c-actionbtn--normal--1HGLQ {
-  background-color: paleGrey;
-  color: charcoalGrey;
-  border-color: #c0c0c0;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+  border-color: var(--silver);
 }
 .c-actionbtn--normal--1HGLQ [data-action='icon'] {
-  border-color: #c0c0c0;
+  border-color: var(--silver);
 }
 .c-actionbtn--normal--1HGLQ:hover,
 .c-actionbtn--normal--1HGLQ:focus {
-  background-color: #c0c0c0;
-  border-color: #c0c0c0;
+  background-color: var(--silver);
+  border-color: var(--silver);
 }
 .c-actionbtn--normal--1HGLQ[disabled]:hover,
 .c-actionbtn--normal--1HGLQ[aria-disabled=true]:hover {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
 }
 .c-actionbtn--error--2pt97 {
-  background-color: chablis;
-  color: pomegranate;
-  border-color: yourPink;
+  background-color: var(--chablis);
+  color: var(--pomegranate);
+  border-color: var(--yourPink);
 }
 .c-actionbtn--error--2pt97 [data-action='icon'] {
-  border-color: yourPink;
+  border-color: var(--yourPink);
 }
 .c-actionbtn--error--2pt97:hover,
 .c-actionbtn--error--2pt97:focus {
-  background-color: yourPink;
-  border-color: yourPink;
+  background-color: var(--yourPink);
+  border-color: var(--yourPink);
 }
 .c-actionbtn--error--2pt97[disabled]:hover,
 .c-actionbtn--error--2pt97[aria-disabled=true]:hover {
-  background-color: chablis;
+  background-color: var(--chablis);
 }
 .c-actionbtn--new--1_BNn {
-  background-color: zircon;
-  color: dodgerBlue;
-  border-color: frenchPass;
+  background-color: var(--zircon);
+  color: var(--dodgerBlue);
+  border-color: var(--frenchPass);
   border-width: 0.063rem;
   border-style: dashed;
 }
 .c-actionbtn--new--1_BNn [data-action='icon'] {
-  border-color: frenchPass;
+  border-color: var(--frenchPass);
 }
 .c-actionbtn--new--1_BNn:hover,
 .c-actionbtn--new--1_BNn:focus {
-  background-color: frenchPass;
-  border-color: frenchPass;
+  background-color: var(--frenchPass);
+  border-color: var(--frenchPass);
 }
 .c-actionbtn--new--1_BNn[disabled]:hover,
 .c-actionbtn--new--1_BNn[aria-disabled=true]:hover {
-  background-color: zircon;
+  background-color: var(--zircon);
 }
 .c-actionbtn--new--1_BNn:hover:not([disabled]),
 .c-actionbtn--new--1_BNn:focus:not([disabled]) {
@@ -3699,42 +4175,110 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-chip--2aPqg {
   border-radius: 1.25rem;
   height: 2.5rem;
-  background: paleGrey;
+  background: var(--paleGrey);
   padding: 0.75rem;
   box-sizing: border-box;
   line-height: 1;
@@ -3750,7 +4294,7 @@ body {
 }
 .c-chip-separator--i_2Yq {
   width: 0.063rem;
-  border-left: 0.063rem solid #c0c0c0;
+  border-left: 0.063rem solid var(--silver);
   display: inline-block;
   height: 100%;
   margin-left: 0.5rem;
@@ -3758,44 +4302,112 @@ body {
 }
 .c-chip-button---WdLl {
   cursor: pointer;
-  color: slateGrey;
+  color: var(--slateGrey);
 }
 .c-chip-button--disabled--168tG {
-  color: coolGrey;
+  color: var(--coolGrey);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -3892,7 +4504,7 @@ body {
 }
 .c-spinner--1snK7 p {
   margin-top: 0.938rem;
-  color: coolGrey;
+  color: var(--coolGrey);
   line-height: 1.5;
 }
 .c-spinner--middle--RwyII {
@@ -3911,37 +4523,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--3NpSD {
   from {
@@ -4006,7 +4686,7 @@ body {
   }
 }
 .u-error--3HzD_ {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--39QiK:before {
   content: '';
@@ -4018,103 +4698,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--2nCh5 {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--28agU {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--1RxQ8 {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--sZse1 {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--16IBh {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--16-S- {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--mg7gF {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--3HyEI {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--1BDc7 {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--1KVA4 {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--lFzcE {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--vxVbS {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--30oA6 {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3OP5q {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--2l4Gu {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--2WiOc {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--1BGfs {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--1-ypX {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--2MIZL {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--1YfDE {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--1JBJp {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--2N0IX {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--nzhfh {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--2QjaI {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--2ZlTL {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--24mbu {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--3uvdE {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--20a7a {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--23KND {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--330us {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--L1UFv {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--2ldOP {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--DN2j8 {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--1XUV- {
   display: block;
@@ -4169,11 +4849,11 @@ body {
 }
 .c-input-checkbox--2CzvY span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 .c-input-checkbox--2CzvY span:hover::before {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 .c-input-checkbox--2CzvY span::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -4190,7 +4870,7 @@ body {
   visibility: hidden !important;
 }
 .c-input-checkbox--2CzvY input:checked + span::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 .c-input-checkbox--2CzvY input:checked + span::after {
   opacity: 1;
@@ -4201,45 +4881,113 @@ body {
   transform: scale(0);
 }
 .c-input-checkbox--2CzvY.is-error--3UPnf span {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-input-checkbox--2CzvY.is-error--3UPnf span::before {
-  box-shadow: inset 0 0 0 0.125rem pomegranate;
-  background-color: yourPink;
+  box-shadow: inset 0 0 0 0.125rem var(--pomegranate);
+  background-color: var(--yourPink);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--2YilK {
   from {
@@ -4304,7 +5052,7 @@ body {
   }
 }
 .u-error--3dRxG {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--1rTIj:before {
   content: '';
@@ -4316,103 +5064,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--3TCtk {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--IrGQ5 {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--2mWfm {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--333Ks {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--2KzEl {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--35Oxf {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1-TT1 {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--2wrpw {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--39UOM {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--2t0eb {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--uDtTw {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--1nY0S {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--3WxGd {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--r-_P7 {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--18goy {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--YN5zq {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--12cgS {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--LoyHj {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3PKcS {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--2ELQw {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--3SiLy {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--2rKf- {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--2-NkP {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--2Oto9 {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--19u7l {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--2nDmZ {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--7kxEe {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--HaWyw {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--1BSW2 {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--hoC_K {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--1QLKt {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--1I3jW {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--5VmlE {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--ZCHX2 {
   display: block;
@@ -4451,37 +5199,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--1c3eg {
   from {
@@ -4546,7 +5362,7 @@ body {
   }
 }
 .u-error--H7rX6 {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--lGLCr:before {
   content: '';
@@ -4558,103 +5374,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--1XwVq {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--2y4h5 {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--l-nWs {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--1iNlU {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--1kfCU {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--15a1E {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--JmxzD {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--UggAx {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--3oitT {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--2tWW6 {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--3Fagl {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--aetUO {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--1-CIT {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--1zkOf {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--1Hzle {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--17xai {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--3nMRC {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--S9xiM {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3xqQ8 {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--20w0y {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--UqAO4 {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--1LdKC {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--Mkg9B {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--2GiMJ {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--hqA_S {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--1oOVN {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--2P2v6 {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--3xxXU {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--1Bqls {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--2_PlF {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--3dMzq {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--15pAx {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--14TSi {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--wQ3dO {
   display: block;
@@ -4688,7 +5504,7 @@ body {
 .c-label--o4ozG {
   display: block;
   text-transform: uppercase;
-  color: coolGrey;
+  color: var(--coolGrey);
   font-size: 0.813rem;
   font-weight: bold;
   line-height: 1rem;
@@ -4696,41 +5512,109 @@ body {
   margin-top: 1rem;
 }
 .c-label--o4ozG.is-error--2Dwem {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--1UBe7 {
   from {
@@ -4795,7 +5679,7 @@ body {
   }
 }
 .u-error--177n_ {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--1MfR-:before {
   content: '';
@@ -4807,103 +5691,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--2PpZN {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--31rfz {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--1hXYd {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--2oNn8 {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--39GTl {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--iqRGg {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--vjzZ9 {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--31cT6 {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--1NdXZ {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--2M8Zm {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--U4-8D {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--3iCn6 {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2ESk8 {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3QHa- {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--2y-Uw {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--27IUv {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--1eCEO {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--DyPuh {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3cM3L {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--3Qizv {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--1G8SC {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--3DFI3 {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--3pX-v {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--3qXsj {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--3VsYF {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--3pARi {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--U6I5n {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--1sk95 {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--2wpkg {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--1bu1L {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--gb28g {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--1CVZS {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--3Q4uE {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--3AC_N {
   display: block;
@@ -4941,27 +5825,27 @@ body {
   padding: 0.813rem 1rem;
   box-sizing: border-box;
   border-radius: 0.188rem;
-  border: 0.063rem solid #c0c0c0;
-  background: #fff;
+  border: 0.063rem solid var(--silver);
+  background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   outline: 0;
 }
 .c-input-text--3TAv1::placeholder {
-  color: coolGrey;
+  color: var(--coolGrey);
   font-size: 1rem;
 }
 .c-input-text--3TAv1:hover {
-  border: 0.063rem solid coolGrey;
+  border: 0.063rem solid var(--coolGrey);
 }
 .c-input-text--3TAv1:focus {
-  border: 0.063rem solid dodgerBlue;
+  border: 0.063rem solid var(--dodgerBlue);
   outline: 0;
 }
 .c-input-text--3TAv1.is-error--3lsCJ,
 .c-input-text--3TAv1:invalid {
-  border: 0.063rem solid pomegranate;
+  border: 0.063rem solid var(--pomegranate);
 }
 .c-input-text--tiny--MzMoD {
   border-radius: 0.125rem;
@@ -4976,37 +5860,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--hGoYA {
   from {
@@ -5071,7 +6023,7 @@ body {
   }
 }
 .u-error--2WofM {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--2uYbZ:before {
   content: '';
@@ -5083,103 +6035,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--mMEg5 {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--1MGp7 {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--1u-eK {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--3bGm4 {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--39f-I {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--1LE0E {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--znOc8 {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--3YWOs {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--3QQbk {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--JLarx {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--3k9LO {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--2TiBb {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2psn6 {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3-eVu {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--1b5by {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--1PAeH {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--2RFt2 {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--ky8rc {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--8ZSzb {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--3brLR {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--3964w {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--1ZQNg {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--2h-Nm {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--1uvYo {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--34xeZ {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--KRrMb {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--28Ghx {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--1ho3A {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--3jiXh {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--3PtmE {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--uSdY9 {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--3ijcw {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--O8AuJ {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--KKbuk {
   display: block;
@@ -5217,27 +6169,27 @@ body {
   padding: 0.813rem 1rem;
   box-sizing: border-box;
   border-radius: 0.188rem;
-  border: 0.063rem solid #c0c0c0;
-  background: #fff;
+  border: 0.063rem solid var(--silver);
+  background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   outline: 0;
 }
 .c-textarea--D7EEH::placeholder {
-  color: coolGrey;
+  color: var(--coolGrey);
   font-size: 1rem;
 }
 .c-textarea--D7EEH:hover {
-  border: 0.063rem solid coolGrey;
+  border: 0.063rem solid var(--coolGrey);
 }
 .c-textarea--D7EEH:focus {
-  border: 0.063rem solid dodgerBlue;
+  border: 0.063rem solid var(--dodgerBlue);
   outline: 0;
 }
 .c-textarea--D7EEH.is-error--1kGLj,
 .c-textarea--D7EEH:invalid {
-  border: 0.063rem solid pomegranate;
+  border: 0.063rem solid var(--pomegranate);
 }
 .c-textarea--tiny--3fmPW {
   border-radius: 0.125rem;
@@ -5264,37 +6216,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--2iWsM {
   from {
@@ -5359,7 +6379,7 @@ body {
   }
 }
 .u-error--180la {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--YjlF_:before {
   content: '';
@@ -5371,103 +6391,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--3I6RE {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--34RYv {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--2zsH1 {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--284ie {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--vGN-2 {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--3v8Hp {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--2jysu {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--300jb {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--uWTPi {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--Hpx7Q {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--1PwSB {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--1GXf6 {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--rdgDp {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3UzAD {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--3I64r {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--2BMLz {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--1eNDE {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--O75CY {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--5ZvCK {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--_KuIZ {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--359VA {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--16pRm {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--5xHum {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--_az5Z {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--KHd1g {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--1g0gM {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--Ud6JP {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--1DlGF {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--33OVE {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--1Bu5w {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--1GCEv {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--3tb-P {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--IZA9p {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--1Pljj {
   display: block;
@@ -5522,11 +6542,11 @@ body {
 }
 .c-input-radio--XJQt1 span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 .c-input-radio--XJQt1 span:hover::before {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 .c-input-radio--XJQt1 span::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -5543,7 +6563,7 @@ body {
   visibility: hidden !important;
 }
 .c-input-radio--XJQt1 input:checked + span::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 .c-input-radio--XJQt1 input:checked + span::after {
   opacity: 1;
@@ -5554,11 +6574,11 @@ body {
   transform: scale(0);
 }
 .c-input-radio--XJQt1.is-error--2-12P span {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-input-radio--XJQt1.is-error--2-12P span::before {
-  box-shadow: inset 0 0 0 0.125rem pomegranate;
-  background-color: yourPink;
+  box-shadow: inset 0 0 0 0.125rem var(--pomegranate);
+  background-color: var(--yourPink);
 }
 .c-input-radio--XJQt1 span::before {
   border-radius: 50%;
@@ -5566,44 +6586,112 @@ body {
 .c-input-radio--XJQt1 span::after {
   background: none;
   content: '\2022';
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-size: 1rem;
   line-height: 0.813rem;
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -5617,26 +6705,26 @@ body {
   align-items: center;
   padding: 0.5rem;
   border-left: 0.25rem solid transparent;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   transition: all 0.2s ease-out;
   white-space: normal /* otherwise the tick can be wrongly placed in Firefox */;
 }
 .select-option--ov_IT:hover:not(.select-option--disabled--1du57) {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   cursor: pointer;
 }
 .select-option--ov_IT:hover:not(.select-option--disabled--1du57) .select-option__actions--2WOjb {
   opacity: 1;
 }
 .select-option--focused--1Vpjv:not(.select-option--disabled--1du57) {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
 }
 .select-option--selected--R3_ES {
-  background-color: paleGrey;
-  border-left-color: dodgerBlue;
+  background-color: var(--paleGrey);
+  border-left-color: var(--dodgerBlue);
 }
 .select-option--disabled--1du57 {
-  color: #c0c0c0;
+  color: var(--silver);
   cursor: not-allowed;
 }
 .select-option__checkbox--15WVE {
@@ -5685,41 +6773,109 @@ body {
 }
 .FixedGroup--2izTc {
   flex-shrink: 0;
-  border-top: #c0c0c0 1px solid;
+  border-top: var(--silver) 1px solid;
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -5735,7 +6891,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
-  background: #c0c0c0;
+  background: var(--silver);
   transition: all 0.2s ease-out;
   cursor: pointer;
 }
@@ -5750,48 +6906,116 @@ body {
   margin: auto;
   border-radius: 50%;
   content: '';
-  background: #fff;
+  background: var(--white);
   transition: all 0.2s ease-out;
 }
 .checkbox--3ko96:checked + .label--3jY1f {
-  background: emerald;
+  background: var(--emerald);
 }
 .checkbox--3ko96:checked + .label--3jY1f:before {
   left: 1.125rem;
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 :root {
   --primaryFont: Lato, sans-serif;
@@ -5844,8 +7068,8 @@ body {
 }
 html,
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 @-moz-keyframes spin--2qpxt {
   from {
@@ -5910,7 +7134,7 @@ body {
   }
 }
 .u-error--_MuWS {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--sQ3Qp:before {
   content: '';
@@ -5922,103 +7146,103 @@ body {
   vertical-align: text-bottom;
 }
 .u-valid--AunlE {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn--38nOC {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--7Drgz {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--3iy4G {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--2Y9be {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--3dKGd {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--1ea-B {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--3uSgk {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--3nlWa {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--2ADfw {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--3Lr3r {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--1YMMN {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--1eued {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--3vA_W {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--1kDy9 {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--2oFOR {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--1azlz {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--1w_1c {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3Pcxz {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--2CV1V {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--31XCo {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--19sbO {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--1lrSl {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--2kWI4 {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--1-S8j {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--2hHYk {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--3bqR4 {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--kA15Q {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--2yN6i {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--25xhl {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--XyNIJ {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--3cpYX {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--1ETfJ {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--2xNZ6 {
   display: block;
@@ -6092,22 +7316,22 @@ body {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
-  border: 0.125rem solid coolGrey;
+  border: 0.125rem solid var(--coolGrey);
   box-shadow: inset 0 0 0 1rem transparent;
 }
 [data-input=radio] input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 0.188rem paleGrey, inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.188rem var(--paleGrey), inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::before,
 [data-input=checkbox] label::after {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem #c0c0c0;
-  background-color: #fff;
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
-  box-shadow: inset 0 0 0 0.125rem dodgerBlue;
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 [data-input=checkbox] label::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KICAgIDxwYXRoIGQ9J00zIDEwLjAxOWw0LjUyMyA0LjUyMyA5LjU0MS05LjU0MScgc3Ryb2tlPScjRkZGJyBzdHJva2Utd2lkdGg9JzInIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==");
@@ -6118,7 +7342,7 @@ body {
   background-size: contain;
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::before {
-  box-shadow: inset 0 0 0 1rem dodgerBlue;
+  box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
 }
 [data-input=checkbox] input[type=checkbox]:checked + label::after {
   opacity: 1;
@@ -6134,7 +7358,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     box-sizing: border-box;
   }
 }
@@ -6222,48 +7446,116 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .o-sidebar--1295j {
   width: 13.75rem;
-  border-right: 0.063rem solid #c0c0c0;
-  background-color: paleGrey;
+  border-right: 0.063rem solid var(--silver);
+  background-color: var(--paleGrey);
 }
 @media (max-width: 63.938rem) {
   .o-sidebar--1295j {
     justify-content: space-between;
     border: 0;
-    border-top: 0.063rem solid #c0c0c0;
+    border-top: 0.063rem solid var(--silver);
     height: 3rem;
     width: 100%;
     padding-bottom: env(safe-area-inset-bottom);
@@ -6271,37 +7563,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-nav--33dZy {
   margin: 1.5rem 0;
@@ -6330,7 +7690,7 @@ body {
   left: 0;
   right: 1rem;
   bottom: 0;
-  background: #c0c0c0;
+  background: var(--silver);
 }
 @media (hover: none) {
   .c-nav-item--3XOLK:hover::before {
@@ -6352,14 +7712,14 @@ body {
 .c-nav-icon--hrJUe {
   display: inline-block;
   margin-right: 0.688rem;
-  color: coolGrey;
+  color: var(--coolGrey);
   fill: currentColor;
 }
 .is-active--2D0jN .c-nav-icon--hrJUe {
-  color: dodgerBlue;
+  color: var(--dodgerBlue);
 }
 :hover > .c-nav-icon--hrJUe {
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
@@ -6386,7 +7746,7 @@ body {
   padding-right: 1rem;
   line-height: 1.5;
   text-decoration: none;
-  color: slateGrey;
+  color: var(--slateGrey);
   height: 100%;
   align-items: center;
   flex: 1;
@@ -6394,19 +7754,19 @@ body {
   background-position: 1.5rem center;
 }
 .c-nav-link--3mK6W:visited {
-  color: slateGrey;
+  color: var(--slateGrey);
 }
 .c-nav-link--3mK6W:hover {
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .c-nav-link--3mK6W.active--1yH42,
 .c-nav-link--3mK6W.is-active--2D0jN {
-  box-shadow: inset 0.25rem 0 0 0 dodgerBlue;
+  box-shadow: inset 0.25rem 0 0 0 var(--dodgerBlue);
   font-weight: bold;
 }
 .c-nav-link--3mK6W.active--1yH42 .c-nav-icon--hrJUe,
 .c-nav-link--3mK6W.is-active--2D0jN .c-nav-icon--hrJUe {
-  color: dodgerBlue;
+  color: var(--dodgerBlue);
 }
 @media (max-width: 63.938rem) {
   .c-nav-link--3mK6W {
@@ -6414,7 +7774,7 @@ body {
     height: auto;
     padding: 0;
     text-align: center;
-    color: slateGrey;
+    color: var(--slateGrey);
     font-size: 0.625rem;
     line-height: 1;
     background-position: center top;
@@ -6425,12 +7785,12 @@ body {
   .c-nav-link--3mK6W:hover {
     box-shadow: none;
     font-weight: normal;
-    color: charcoalGrey;
+    color: var(--charcoalGrey);
   }
 }
 @media not all and (pointer: fine) {
   .c-nav-link--3mK6W:hover {
-    color: slateGrey;
+    color: var(--slateGrey);
   }
 }
 
@@ -6478,37 +7838,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-circle--1DuMR {
   display: inline-flex;
@@ -6516,8 +7944,8 @@ body {
   justify-content: center;
   border-radius: 50%;
   overflow: hidden;
-  background-color: dodgerBlue;
-  color: #fff;
+  background-color: var(--dodgerBlue);
+  color: var(--white);
 }
 .c-circle--medium--2hfCF {
   width: 2.5rem;
@@ -6530,37 +7958,105 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-avatar--PpDI- {
   display: inline-flex;
@@ -6568,8 +8064,8 @@ body {
   justify-content: center;
   border-radius: 50%;
   overflow: hidden;
-  background-color: paleGrey;
-  color: #c0c0c0;
+  background-color: var(--paleGrey);
+  color: var(--silver);
 }
 .c-avatar--small--1Y_Pv {
   width: 2rem;
@@ -6981,37 +8477,105 @@ body {
   margin-right: 2.5rem !important;
 }
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .Panel-group--1txSp {
   display: flex;
@@ -7026,7 +8590,7 @@ body {
 }
 .Panel-side--327EK {
   flex: 0 0 35%;
-  background: paleGrey;
+  background: var(--paleGrey);
   overflow: auto;
 }
 .Panel-main--2BRfq,
@@ -7053,81 +8617,149 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-accordion--1VRom {
   padding: 0;
 }
 .c-accordion-item--1gCyn {
-  border-bottom: 0.063rem solid #c0c0c0;
+  border-bottom: 0.063rem solid var(--silver);
   font-size: 1rem;
 }
 .c-accordion-title--7jntH {
   display: flex;
   align-items: center;
   line-height: 2;
-  color: slateGrey;
+  color: var(--slateGrey);
   cursor: pointer;
   outline: 0;
   padding: 0.25rem 0;
 }
 .c-accordion-title--7jntH:hover,
 .c-accordion-title--7jntH:focus {
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .c-accordion-title--7jntH:hover svg,
 .c-accordion-title--7jntH:focus svg {
-  fill: slateGrey;
+  fill: var(--slateGrey);
 }
 .c-accordion-title--7jntH svg {
   margin-right: 0.25rem;
   transform: rotate(0);
   transition: transform 300ms ease;
-  fill: coolGrey;
+  fill: var(--coolGrey);
 }
 .c-accordion-title--7jntH.is-active--1LQKA {
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .c-accordion-title--7jntH.is-active--1LQKA svg {
   transform: rotate(90deg);
-  fill: coolGrey;
+  fill: var(--coolGrey);
 }
 .c-accordion-body--2twhs {
   height: auto;
   max-height: 0;
   overflow: hidden;
   line-height: 1.3;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   transition: max-height 300ms ease-out;
 }
 .c-accordion-body--2twhs:after {
@@ -7141,44 +8773,112 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .u-title-h1--fimho,
 .u-title-h2--2cES6,
 .u-title-h3--1ZGqN,
 .u-title-h4--1lGMy {
   font-weight: bold;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .u-title-h1--fimho {
   font-size: 1.5rem;
@@ -7210,52 +8910,120 @@ body {
 }
 @media (max-width: 48rem) {
   .u-title-h4--1lGMy {
-    color: slateGrey;
+    color: var(--slateGrey);
   }
 }
 .u-text--2UfQa {
   font-size: 1rem;
   line-height: 1.3;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .u-caption--1VRxy {
   font-size: 0.75rem;
   line-height: 1.2;
-  color: coolGrey;
+  color: var(--coolGrey);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-empty--3w5oV {
   display: flex;
@@ -7299,7 +9067,7 @@ body {
 .c-empty-text--3HnvR {
   margin: 0.313rem auto 0;
   max-width: 63rem;
-  color: coolGrey;
+  color: var(--coolGrey);
   line-height: 1.5;
 }
 @media (max-width: 63.938rem) {
@@ -7309,42 +9077,110 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .well--3xv79 {
   margin: 1rem 2rem;
-  background: paleGrey;
-  border: 0.063rem solid #c0c0c0;
+  background: var(--paleGrey);
+  border: 0.063rem solid var(--silver);
   border-radius: 0.313rem;
 }
 @media (max-width: 48rem) {
@@ -7354,42 +9190,110 @@ body {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .context-header--QuTup {
   margin: 1rem 2rem;
-  background: paleGrey;
-  border: 0.063rem solid #c0c0c0;
+  background: var(--paleGrey);
+  border: 0.063rem solid var(--silver);
   padding: 1rem;
   border-radius: 0.313rem;
   display: flex;
@@ -7458,37 +9362,105 @@ iframe {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-list-text--3kc3E {
   display: flex;
@@ -7501,61 +9473,129 @@ iframe {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 {
   z-index: 40;
-  border: 0.063rem solid #c0c0c0;
+  border: 0.063rem solid var(--silver);
   border-radius: 0.25rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(50,54,63,0.19), 0 0.375rem 1.125rem 0 rgba(50,54,63,0.19);
-  background-color: #fff;
+  background-color: var(--white);
 }
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 b-item:hover,
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 b-item:focus {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   outline: none;
 }
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 hr {
   margin: 0.313rem 0;
   border: 0;
-  border-top: 0.063rem solid #c0c0c0;
+  border-top: 0.063rem solid var(--silver);
 }
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 a,
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 button,
 .ActionMenu--2U8Zt .c-actionmenu--22Fp1 [role=button] {
   display: block;
   padding: 0.5rem 2rem 0.5rem 2.5rem;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
@@ -7587,65 +9627,133 @@ iframe {
   cursor: pointer;
 }
 .ActionMenu__Item--6yemb:hover {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .c-menu__inner--2g_mC {
   z-index: 40;
-  border: 0.063rem solid #c0c0c0;
+  border: 0.063rem solid var(--silver);
   border-radius: 0.25rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(50,54,63,0.19), 0 0.375rem 1.125rem 0 rgba(50,54,63,0.19);
-  background-color: #fff;
+  background-color: var(--white);
 }
 .c-menu__inner--2g_mC b-item:hover,
 .c-menu__inner--2g_mC b-item:focus {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   outline: none;
 }
 .c-menu__inner--2g_mC hr {
   margin: 0.313rem 0;
   border: 0;
-  border-top: 0.063rem solid #c0c0c0;
+  border-top: 0.063rem solid var(--silver);
 }
 .c-menu__inner--2g_mC a,
 .c-menu__inner--2g_mC button,
 .c-menu__inner--2g_mC [role=button] {
   display: block;
   padding: 0.5rem 2rem 0.5rem 2.5rem;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
@@ -7668,7 +9776,7 @@ iframe {
   min-width: 13.75rem;
   overflow: hidden;
   border: 0;
-  color: charcoalGrey;
+  color: var(--charcoalGrey);
 }
 .c-menu--left--3wamY .c-menu__inner--2g_mC {
   left: 0;
@@ -7700,7 +9808,7 @@ iframe {
 }
 .c-menu__item--1sXjs:hover,
 .c-menu__item--1sXjs:focus {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   outline: none;
 }
 .c-menu__item--disabled--OHDks {
@@ -7708,40 +9816,108 @@ iframe {
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 .coz-tabs--24QL5 .coz-tab-list--3qac8 {
-  border-bottom: 0.063rem solid #c0c0c0;
+  border-bottom: 0.063rem solid var(--silver);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
   display: inline-block;
@@ -7749,51 +9925,119 @@ iframe {
   text-transform: uppercase;
   font-size: 0.813rem;
   cursor: pointer;
-  color: coolGrey;
+  color: var(--coolGrey);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye:hover {
   text-decoration: none;
 }
 .coz-tabs--24QL5 .coz-tab--active--1wmwM {
-  border-bottom: 0.125rem solid dodgerBlue;
-  color: dodgerBlue;
+  border-bottom: 0.125rem solid var(--dodgerBlue);
+  color: var(--dodgerBlue);
 }
 .coz-tabs--24QL5 .coz-tab-panel--35538 {
   padding-top: 1.25rem;
 }
 
 :root {
-  --black: #000;
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
   --white: #fff;
   --paleGrey: #f5f6f7;
   --silver: #d6d8da;
   --coolGrey: #95999d;
   --slateGrey: #5d6165;
   --charcoalGrey: #32363f;
+  --black: #000;
   --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
   --zircon: #f1f7ff;
   --frenchPass: #c2dcff;
   --dodgerBlue: #297ef2;
+  --azure: #1fa8f1;
   --scienceBlue: #0b61d6;
   --puertoRico: #4dcec5;
+/*
+    Green
+
+    Stylus: emerald    - #35CE68, CSS: var(--emerald)
+    Stylus: malachite  - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+
+    Styleguide Settings.colors.green
+    */
   --emerald: #35ce68;
   --malachite: #08b442;
+  --weirdGreen: #40de8e;
+/*
+    Orange
+
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
   --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
   --chablis: #fff2f2;
   --yourPink: #fdcbcb;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-  --portage: #9169f2;
-  --azure: #1fa8f1;
-  --melon: #fd7461;
-  --blazeOrange: #fc6d00;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
+/*
+    Purple
+
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
+  --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-  --weirdGreen: #40de8e;
 }
 @-moz-keyframes spin--1LlbU {
   from {
@@ -7858,7 +10102,7 @@ iframe {
   }
 }
 .u-error--_apOV {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .u-error--warning--1qoaG:before {
   content: '';
@@ -7870,103 +10114,103 @@ iframe {
   vertical-align: text-bottom;
 }
 .u-valid--3MreU {
-  color: malachite;
+  color: var(--malachite);
 }
 .u-warn---K0Cu {
-  color: texasRose;
+  color: var(--texasRose);
 }
 .u-black--WK9Mx {
-  color: #000 !important;
+  color: var(--black) !important;
 }
 .u-white--2_2N4 {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 .u-paleGrey--3jp1e {
-  color: !important;
+  color: var(--paleGrey) !important;
 }
 .u-silver--20u7u {
-  color: #c0c0c0 !important;
+  color: var(--silver) !important;
 }
 .u-coolGrey--2TIx6 {
-  color: !important;
+  color: var(--coolGrey) !important;
 }
 .u-slateGrey--pndCr {
-  color: !important;
+  color: var(--slateGrey) !important;
 }
 .u-charcoalGrey--32yAg {
-  color: !important;
+  color: var(--charcoalGrey) !important;
 }
 .u-overlay--3eifz {
-  color: !important;
+  color: var(--overlay) !important;
 }
 .u-zircon--2MLT8 {
-  color: !important;
+  color: var(--zircon) !important;
 }
 .u-frenchPass--1Jez3 {
-  color: !important;
+  color: var(--frenchPass) !important;
 }
 .u-dodgerBlue--2EF_N {
-  color: !important;
+  color: var(--dodgerBlue) !important;
 }
 .u-scienceBlue--1nnvM {
-  color: !important;
+  color: var(--scienceBlue) !important;
 }
 .u-puertoRico--1GNOw {
-  color: !important;
+  color: var(--puertoRico) !important;
 }
 .u-emerald--2QV18 {
-  color: !important;
+  color: var(--emerald) !important;
 }
 .u-malachite--1a9vo {
-  color: !important;
+  color: var(--malachite) !important;
 }
 .u-texasRose--JA4R- {
-  color: !important;
+  color: var(--texasRose) !important;
 }
 .u-chablis--3sFrO {
-  color: !important;
+  color: var(--chablis) !important;
 }
 .u-yourPink--3M2lK {
-  color: !important;
+  color: var(--yourPink) !important;
 }
 .u-pomegranate--3OzQX {
-  color: !important;
+  color: var(--pomegranate) !important;
 }
 .u-monza--3GVTJ {
-  color: !important;
+  color: var(--monza) !important;
 }
 .u-portage--1l0Cx {
-  color: !important;
+  color: var(--portage) !important;
 }
 .u-azure--24gtH {
-  color: #f0ffff !important;
+  color: var(--azure) !important;
 }
 .u-melon--1bIPC {
-  color: !important;
+  color: var(--melon) !important;
 }
 .u-blazeOrange--3dhDM {
-  color: !important;
+  color: var(--blazeOrange) !important;
 }
 .u-mango--3nNmX {
-  color: !important;
+  color: var(--mango) !important;
 }
 .u-pumpkinOrange--KdqeI {
-  color: !important;
+  color: var(--pumpkinOrange) !important;
 }
 .u-darkPeriwinkle--2ez92 {
-  color: !important;
+  color: var(--darkPeriwinkle) !important;
 }
 .u-purpley--3JbMW {
-  color: !important;
+  color: var(--purpley) !important;
 }
 .u-lightishPurple--31GAm {
-  color: !important;
+  color: var(--lightishPurple) !important;
 }
 .u-barney--15NCK {
-  color: !important;
+  color: var(--barney) !important;
 }
 .u-weirdGreen--30BaJ {
-  color: !important;
+  color: var(--weirdGreen) !important;
 }
 .u-ellipsis--2q15i {
   display: block;
@@ -8003,49 +10247,49 @@ iframe {
   border: 0;
   height: auto;
   padding: 0.5rem 1rem;
-  background-color: #fff;
+  background-color: var(--white);
   font-weight: bold;
   font-size: 0.875rem;
   text-decoration: none;
 }
 .c-btn--alert-error--12LBy {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-btn--alert-error--12LBy:visited {
-  color: pomegranate;
+  color: var(--pomegranate);
 }
 .c-btn--alert-error--12LBy:active,
 .c-btn--alert-error--12LBy:hover,
 .c-btn--alert-error--12LBy:focus {
-  color: monza;
+  color: var(--monza);
 }
 .c-btn--alert-info--1BO12 {
-  background-color: coolGrey;
-  color: #fff;
+  background-color: var(--coolGrey);
+  color: var(--white);
 }
 .c-btn--alert-info--1BO12[disabled]:hover,
 .c-btn--alert-info--1BO12[aria-disabled=true]:hover {
-  background-color: coolGrey;
+  background-color: var(--coolGrey);
 }
 .c-btn--alert-info--1BO12:visited {
-  color: #fff;
+  color: var(--white);
 }
 .c-btn--alert-info--1BO12:active,
 .c-btn--alert-info--1BO12:hover,
 .c-btn--alert-info--1BO12:focus {
-  color: paleGrey;
-  background-color: slateGrey;
+  color: var(--paleGrey);
+  background-color: var(--slateGrey);
 }
 .c-btn--alert-success--3Z6sE {
-  color: emerald;
+  color: var(--emerald);
 }
 .c-btn--alert-success--3Z6sE:visited {
-  color: emerald;
+  color: var(--emerald);
 }
 .c-btn--alert-success--3Z6sE:active,
 .c-btn--alert-success--3Z6sE:hover,
 .c-btn--alert-success--3Z6sE:focus {
-  color: malachite;
+  color: var(--malachite);
 }
 /*
  * NOTIFICATIONS
@@ -8059,7 +10303,7 @@ iframe {
   right: 0;
   bottom: 3rem;
   left: 0;
-  color: #fff;
+  color: var(--white);
   opacity: 1;
   transition: transform 0.2s ease-out, opacity 0.2s ease-out;
   cursor: default;
@@ -8085,7 +10329,7 @@ iframe {
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 0.375rem 1.125rem 0 rgba(50,54,63,0.23);
-  background-color: emerald;
+  background-color: var(--emerald);
   padding: 0.813rem 1rem;
   pointer-events: auto;
 }
@@ -8119,12 +10363,12 @@ iframe {
   font-weight: bold;
 }
 .c-alert--error--oA-NC {
-  background-color: pomegranate;
+  background-color: var(--pomegranate);
 }
 .c-alert--success--1Cs5b {
-  background-color: emerald;
+  background-color: var(--emerald);
 }
 .c-alert--info--3mqAh {
-  background-color: slateGrey;
+  background-color: var(--slateGrey);
 }
 
