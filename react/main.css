@@ -86,18 +86,21 @@ body textarea {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -106,6 +109,7 @@ body textarea {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -730,11 +734,17 @@ body {
 .u-puertoRico {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
 .u-emerald {
   color: var(--emerald) !important;
 }
 .u-malachite {
   color: var(--malachite) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
 }
 .u-texasRose {
   color: var(--texasRose) !important;
@@ -1367,17 +1377,7 @@ body {
 }
 @media (max-width: 48rem) {
 }
-@media (min-width: 34rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (min-width: 34rem) {
-}
-@media (max-width: 33.938rem) {
+@media (max-width: 63.938rem) {
 }
 @media (max-width: 33.938rem) {
 }
@@ -1390,6 +1390,52 @@ body {
 @media (max-width: 33.938rem) {
 }
 @media (max-width: 33.938rem) {
+}
+@media (min-width: 34rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (min-width: 34rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (min-width: 34rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 33.938rem) {
+}
+@media (max-width: 63.938rem) {
+}
+@media (max-width: 63.938rem) {
+}
+@media (max-width: 63.938rem) {
+}
+@media (max-width: 63.938rem) {
 }
 @media (min-width: 34rem) {
 }
@@ -1459,18 +1505,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -1479,6 +1528,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -1690,11 +1740,17 @@ body {
 .u-puertoRico--3yVRx {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--3J3NP {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--19xci {
   color: var(--emerald) !important;
 }
 .u-malachite--2e2KR {
   color: var(--malachite) !important;
+}
+.u-brightSun--1XhLC {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--2hKUe {
   color: var(--texasRose) !important;
@@ -1975,18 +2031,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -1995,6 +2054,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -2090,18 +2150,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -2110,6 +2173,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -2315,11 +2379,17 @@ body {
 .u-puertoRico--24fLJ {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--3NIGL {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--35wUl {
   color: var(--emerald) !important;
 }
 .u-malachite--112H- {
   color: var(--malachite) !important;
+}
+.u-brightSun--qqKuG {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--16sF8 {
   color: var(--texasRose) !important;
@@ -2825,18 +2895,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -2845,6 +2918,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -3002,11 +3076,17 @@ body {
 .u-puertoRico--EZKgN {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--qgfKv {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--1HDfC {
   color: var(--emerald) !important;
 }
 .u-malachite--2-Zt- {
   color: var(--malachite) !important;
+}
+.u-brightSun--18Huf {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--1xbEQ {
   color: var(--texasRose) !important;
@@ -3600,18 +3680,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -3620,6 +3703,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -3740,18 +3824,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -3760,6 +3847,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -3937,11 +4025,17 @@ body {
 .u-puertoRico--VKO_a {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--OXhYT {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--SM4Aw {
   color: var(--emerald) !important;
 }
 .u-malachite--23EIO {
   color: var(--malachite) !important;
+}
+.u-brightSun--3CaoB {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--1kHWU {
   color: var(--texasRose) !important;
@@ -4248,18 +4342,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -4268,6 +4365,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -4384,18 +4482,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -4404,6 +4505,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -4600,18 +4702,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -4620,6 +4725,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -4777,11 +4883,17 @@ body {
 .u-puertoRico--2l4Gu {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--3ha25 {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--2WiOc {
   color: var(--emerald) !important;
 }
 .u-malachite--1BGfs {
   color: var(--malachite) !important;
+}
+.u-brightSun--TPpXt {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--1-ypX {
   color: var(--texasRose) !important;
@@ -4971,18 +5083,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -4991,6 +5106,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -5148,11 +5264,17 @@ body {
 .u-puertoRico--18goy {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--IFa6U {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--YN5zq {
   color: var(--emerald) !important;
 }
 .u-malachite--12cgS {
   color: var(--malachite) !important;
+}
+.u-brightSun--AcMpK {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--LoyHj {
   color: var(--texasRose) !important;
@@ -5286,18 +5408,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -5306,6 +5431,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -5463,11 +5589,17 @@ body {
 .u-puertoRico--1Hzle {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--2GbI3 {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--17xai {
   color: var(--emerald) !important;
 }
 .u-malachite--3nMRC {
   color: var(--malachite) !important;
+}
+.u-brightSun--3f-v1 {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--S9xiM {
   color: var(--texasRose) !important;
@@ -5608,18 +5740,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -5628,6 +5763,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -5785,11 +5921,17 @@ body {
 .u-puertoRico--2y-Uw {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--3VKxM {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--27IUv {
   color: var(--emerald) !important;
 }
 .u-malachite--1eCEO {
   color: var(--malachite) !important;
+}
+.u-brightSun--1C5Uy {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--DyPuh {
   color: var(--texasRose) !important;
@@ -5957,18 +6099,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -5977,6 +6122,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -6134,11 +6280,17 @@ body {
 .u-puertoRico--1b5by {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--1_LbW {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--1PAeH {
   color: var(--emerald) !important;
 }
 .u-malachite--2RFt2 {
   color: var(--malachite) !important;
+}
+.u-brightSun--118gq {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--ky8rc {
   color: var(--texasRose) !important;
@@ -6318,18 +6470,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -6338,6 +6493,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -6495,11 +6651,17 @@ body {
 .u-puertoRico--3I64r {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--3UNYK {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--2BMLz {
   color: var(--emerald) !important;
 }
 .u-malachite--1eNDE {
   color: var(--malachite) !important;
+}
+.u-brightSun--1U0PE {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--O75CY {
   color: var(--texasRose) !important;
@@ -6700,18 +6862,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -6720,6 +6885,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -6886,18 +7052,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -6906,6 +7075,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -7028,18 +7198,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -7048,6 +7221,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -7259,11 +7433,17 @@ body {
 .u-puertoRico--1kDy9 {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--2mWsc {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--2oFOR {
   color: var(--emerald) !important;
 }
 .u-malachite--1azlz {
   color: var(--malachite) !important;
+}
+.u-brightSun--3FgVO {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--1w_1c {
   color: var(--texasRose) !important;
@@ -7562,18 +7742,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -7582,6 +7765,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -7681,18 +7865,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -7701,6 +7888,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -7958,18 +8146,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -7978,6 +8169,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -8080,18 +8272,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -8100,6 +8295,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -8601,18 +8797,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -8621,6 +8820,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -8743,18 +8943,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -8763,6 +8966,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -8901,18 +9105,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -8921,6 +9128,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9009,6 +9217,18 @@ body {
   line-height: 1.2;
   color: var(--coolGrey);
 }
+.u-t-left--2SCP8 {
+  text-align: left;
+}
+.u-t-right--12sGF {
+  text-align: right;
+}
+.u-t-center--1egfN {
+  text-align: center;
+}
+.u-t-justify--1XRWo {
+  text-align: justify;
+}
 
 :root {
 /*
@@ -9055,18 +9275,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9075,6 +9298,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9209,18 +9433,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9229,6 +9456,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9324,18 +9552,21 @@ body {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9344,6 +9575,7 @@ body {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9498,18 +9730,21 @@ iframe {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9518,6 +9753,7 @@ iframe {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9611,18 +9847,21 @@ iframe {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9631,6 +9870,7 @@ iframe {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9771,18 +10011,21 @@ iframe {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9791,6 +10034,7 @@ iframe {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -9958,18 +10202,21 @@ iframe {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -9978,6 +10225,7 @@ iframe {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -10083,18 +10331,21 @@ iframe {
 /*
     Green
 
-    Stylus: emerald    - #35CE68, CSS: var(--emerald)
-    Stylus: malachite  - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald     - #35CE68, CSS: var(--emerald)
+    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: malachite   - #08b442, CSS: var(--malachite)
+    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
-  --weirdGreen: #40de8e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
     Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
     Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
@@ -10103,6 +10354,7 @@ iframe {
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
   --texasRose: #ffae5f;
   --mango: #ff962f;
   --pumpkinOrange: #ff7f1b;
@@ -10260,11 +10512,17 @@ iframe {
 .u-puertoRico--1GNOw {
   color: var(--puertoRico) !important;
 }
+.u-grannyApple--1Xo_G {
+  color: var(--grannyApple) !important;
+}
 .u-emerald--2QV18 {
   color: var(--emerald) !important;
 }
 .u-malachite--1a9vo {
   color: var(--malachite) !important;
+}
+.u-brightSun--3FxdL {
+  color: var(--brightSun) !important;
 }
 .u-texasRose--JA4R- {
   color: var(--texasRose) !important;
