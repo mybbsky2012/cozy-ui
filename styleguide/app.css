@@ -1419,15 +1419,12 @@ body {
   color: var(--scienceBlue);
 }
 .c-btn--subtle.c-btn--secondary {
-  color: var(--slateGrey);
+  color: var(--coolGrey);
 }
 .c-btn--subtle.c-btn--secondary:active,
 .c-btn--subtle.c-btn--secondary:focus,
 .c-btn--subtle.c-btn--secondary:hover {
   color: var(--slateGrey);
-}
-.c-btn--subtle.c-btn--secondary svg {
-  color: var(--coolGrey);
 }
 [data-input=radio],
 [data-input=checkbox] {
