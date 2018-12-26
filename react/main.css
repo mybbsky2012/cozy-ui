@@ -2799,15 +2799,12 @@ body {
   color: var(--scienceBlue);
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N {
-  color: var(--slateGrey);
+  color: var(--coolGrey);
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:active,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:focus,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:hover {
   color: var(--slateGrey);
-}
-.c-btn--subtle--OknKf.c-btn--secondary--3Br_N svg {
-  color: var(--coolGrey);
 }
 
 @-moz-keyframes spin--2Vvw3 {
