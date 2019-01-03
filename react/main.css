@@ -8507,35 +8507,22 @@ body {
   justify-content: center;
   border-radius: 50%;
   overflow: hidden;
-  width: 2.5rem;
-  height: 2.5rem;
   background-color: var(--paleGrey);
   color: var(--silver);
-  font-size: 1.125rem;
-}
-.c-avatar--PpDI- svg {
-  width: 50%;
-  height: 50%;
-}
-.c-avatar--xsmall--3H2Io {
-  width: 1rem;
-  height: 1rem;
-  font-size: 0.438rem;
 }
 .c-avatar--small--1Y_Pv {
   width: 2rem;
   height: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
-.c-avatar--large--1Z_HZ {
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.313rem;
-}
-.c-avatar--xlarge--3Qe0b {
+.c-avatar--medium--hjYh_ {
   width: 4rem;
   height: 4rem;
-  font-size: 1.688rem;
+  font-size: 2rem;
+}
+.c-avatar--medium--hjYh_ svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .c-avatar-initials--310qC {
   font-weight: bold;

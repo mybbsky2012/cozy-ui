@@ -2035,35 +2035,22 @@ body {
           justify-content: center;
   border-radius: 50%;
   overflow: hidden;
-  width: 2.5rem;
-  height: 2.5rem;
   background-color: var(--paleGrey);
   color: var(--silver);
-  font-size: 1.125rem;
-}
-.c-avatar svg {
-  width: 50%;
-  height: 50%;
-}
-.c-avatar--xsmall {
-  width: 1rem;
-  height: 1rem;
-  font-size: 0.438rem;
 }
 .c-avatar--small {
   width: 2rem;
   height: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
-.c-avatar--large {
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.313rem;
-}
-.c-avatar--xlarge {
+.c-avatar--medium {
   width: 4rem;
   height: 4rem;
-  font-size: 1.688rem;
+  font-size: 2rem;
+}
+.c-avatar--medium svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .c-avatar-initials {
   font-weight: bold;
@@ -4128,17 +4115,18 @@ NB: You'll have to deal the behaviour with javascript which is basically adding/
 Display an avatar of a user or contact with initials or an image
 
  Markup:
-<div class="c-avatar {{modifier_class}}">
+<div class="c-avatar c-avatar--small">
     <span class="c-avatar-initials">CD</span>
 </div>
-<div class="c-avatar {{modifier_class}}">
+<div class="c-avatar c-avatar--medium">
+    <span class="c-avatar-initials">CD</span>
+</div>
+<div class="c-avatar c-avatar--small">
     <img src="https://cozy.io/fr/images/cozy-logo_white.png" class="c-avatar-image" alt="">
 </div>
-
- .c-avatar--xsmall - Extra small size variant
- .c-avatar--small - Small size variant
- .c-avatar--large - Large size variant
- .c-avatar--xlarge - Extra large variant
+<div class="c-avatar c-avatar--medium">
+    <img src="https://cozy.io/fr/images/cozy-logo_white.png" class="c-avatar-image" alt="">
+</div>
 
  Styleguide Components.avatar
 */
