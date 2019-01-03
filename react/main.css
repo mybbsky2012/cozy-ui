@@ -68,28 +68,29 @@ body textarea {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -97,6 +98,7 @@ body textarea {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -134,6 +136,7 @@ body textarea {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -142,6 +145,7 @@ body textarea {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -743,6 +747,9 @@ body {
 .u-malachite {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun {
   color: var(--brightSun) !important;
 }
@@ -781,6 +788,9 @@ body {
 }
 .u-pumpkinOrange {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle {
   color: var(--darkPeriwinkle) !important;
@@ -1487,28 +1497,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -1516,6 +1527,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -1553,6 +1565,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -1561,6 +1574,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -1749,6 +1763,9 @@ body {
 .u-malachite--2e2KR {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--3Qxzl {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--1XhLC {
   color: var(--brightSun) !important;
 }
@@ -1787,6 +1804,9 @@ body {
 }
 .u-pumpkinOrange--3hTzs {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--1fkka {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--3gYdh {
   color: var(--darkPeriwinkle) !important;
@@ -2013,28 +2033,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -2042,6 +2063,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -2079,6 +2101,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -2087,6 +2110,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -2132,28 +2156,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -2161,6 +2186,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -2198,6 +2224,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -2206,6 +2233,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -2388,6 +2416,9 @@ body {
 .u-malachite--112H- {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--1TJTr {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--qqKuG {
   color: var(--brightSun) !important;
 }
@@ -2426,6 +2457,9 @@ body {
 }
 .u-pumpkinOrange--3ZVp- {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--2sGHy {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--1t4uH {
   color: var(--darkPeriwinkle) !important;
@@ -2880,28 +2914,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -2909,6 +2944,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -2946,6 +2982,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -2954,6 +2991,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -3088,6 +3126,9 @@ body {
 .u-malachite--2-Zt- {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--MGYZ7 {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--18Huf {
   color: var(--brightSun) !important;
 }
@@ -3126,6 +3167,9 @@ body {
 }
 .u-pumpkinOrange--V4M5G {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--IK4i3 {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--XoQof {
   color: var(--darkPeriwinkle) !important;
@@ -3665,28 +3709,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -3694,6 +3739,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -3731,6 +3777,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -3739,6 +3786,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -3809,28 +3857,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -3838,6 +3887,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -3875,6 +3925,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -3883,6 +3934,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -4037,6 +4089,9 @@ body {
 .u-malachite--23EIO {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--1IeFt {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--3CaoB {
   color: var(--brightSun) !important;
 }
@@ -4075,6 +4130,9 @@ body {
 }
 .u-pumpkinOrange--b-63s {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--25dSp {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--3jbYx {
   color: var(--darkPeriwinkle) !important;
@@ -4327,28 +4385,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -4356,6 +4415,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -4393,6 +4453,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -4401,6 +4462,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -4467,28 +4529,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -4496,6 +4559,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -4533,6 +4597,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -4541,6 +4606,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -4687,28 +4753,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -4716,6 +4783,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -4753,6 +4821,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -4761,6 +4830,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -4895,6 +4965,9 @@ body {
 .u-malachite--1BGfs {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--bHvpS {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--TPpXt {
   color: var(--brightSun) !important;
 }
@@ -4933,6 +5006,9 @@ body {
 }
 .u-pumpkinOrange--20a7a {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--3wIuO {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--23KND {
   color: var(--darkPeriwinkle) !important;
@@ -5068,28 +5144,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -5097,6 +5174,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -5134,6 +5212,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -5142,6 +5221,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -5276,6 +5356,9 @@ body {
 .u-malachite--12cgS {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--3eFcf {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--AcMpK {
   color: var(--brightSun) !important;
 }
@@ -5314,6 +5397,9 @@ body {
 }
 .u-pumpkinOrange--HaWyw {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--1jxSx {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--1BSW2 {
   color: var(--darkPeriwinkle) !important;
@@ -5393,28 +5479,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -5422,6 +5509,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -5459,6 +5547,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -5467,6 +5556,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -5601,6 +5691,9 @@ body {
 .u-malachite--3nMRC {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--1Esho {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--3f-v1 {
   color: var(--brightSun) !important;
 }
@@ -5639,6 +5732,9 @@ body {
 }
 .u-pumpkinOrange--3xxXU {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--zi7c- {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--1Bqls {
   color: var(--darkPeriwinkle) !important;
@@ -5725,28 +5821,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -5754,6 +5851,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -5791,6 +5889,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -5799,6 +5898,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -5933,6 +6033,9 @@ body {
 .u-malachite--1eCEO {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--73Byr {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--1C5Uy {
   color: var(--brightSun) !important;
 }
@@ -5971,6 +6074,9 @@ body {
 }
 .u-pumpkinOrange--1sk95 {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--2-LX2 {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--2wpkg {
   color: var(--darkPeriwinkle) !important;
@@ -6088,28 +6194,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -6117,6 +6224,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -6154,6 +6262,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -6162,6 +6271,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -6296,6 +6406,9 @@ body {
 .u-malachite--2RFt2 {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--3jDkd {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--118gq {
   color: var(--brightSun) !important;
 }
@@ -6334,6 +6447,9 @@ body {
 }
 .u-pumpkinOrange--1ho3A {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--LY0_7 {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--3jiXh {
   color: var(--darkPeriwinkle) !important;
@@ -6459,28 +6575,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -6488,6 +6605,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -6525,6 +6643,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -6533,6 +6652,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -6667,6 +6787,9 @@ body {
 .u-malachite--1eNDE {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--1HyTT {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--1U0PE {
   color: var(--brightSun) !important;
 }
@@ -6705,6 +6828,9 @@ body {
 }
 .u-pumpkinOrange--1DlGF {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--3P_Sy {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--33OVE {
   color: var(--darkPeriwinkle) !important;
@@ -6851,28 +6977,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -6880,6 +7007,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -6917,6 +7045,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -6925,6 +7054,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -7041,28 +7171,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -7070,6 +7201,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -7107,6 +7239,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -7115,6 +7248,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -7187,28 +7321,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -7216,6 +7351,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -7253,6 +7389,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -7261,6 +7398,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -7449,6 +7587,9 @@ body {
 .u-malachite--1azlz {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--1Fm80 {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--3FgVO {
   color: var(--brightSun) !important;
 }
@@ -7487,6 +7628,9 @@ body {
 }
 .u-pumpkinOrange--kA15Q {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--CnGuX {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--2yN6i {
   color: var(--darkPeriwinkle) !important;
@@ -7731,28 +7875,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -7760,6 +7905,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -7797,6 +7943,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -7805,6 +7952,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -7854,28 +8002,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -7883,6 +8032,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -7920,6 +8070,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -7928,6 +8079,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -8135,28 +8287,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -8164,6 +8317,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -8201,6 +8355,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -8209,6 +8364,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -8261,28 +8417,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -8290,6 +8447,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -8327,6 +8485,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -8335,6 +8494,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -8786,28 +8946,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -8815,6 +8976,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -8852,6 +9014,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -8860,6 +9023,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -8932,28 +9096,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -8961,6 +9126,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -8998,6 +9164,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9006,6 +9173,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9094,28 +9262,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9123,6 +9292,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9160,6 +9330,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9168,6 +9339,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9264,28 +9436,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9293,6 +9466,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9330,6 +9504,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9338,6 +9513,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9422,28 +9598,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9451,6 +9628,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9488,6 +9666,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9496,6 +9675,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9541,28 +9721,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9570,6 +9751,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9607,6 +9789,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9615,6 +9798,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9669,28 +9853,29 @@ body {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9698,6 +9883,7 @@ body {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9735,6 +9921,7 @@ body {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9743,6 +9930,7 @@ body {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9847,28 +10035,29 @@ iframe {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9876,6 +10065,7 @@ iframe {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -9913,6 +10103,7 @@ iframe {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -9921,6 +10112,7 @@ iframe {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -9964,28 +10156,29 @@ iframe {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -9993,6 +10186,7 @@ iframe {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -10030,6 +10224,7 @@ iframe {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -10038,6 +10233,7 @@ iframe {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -10128,28 +10324,29 @@ iframe {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -10157,6 +10354,7 @@ iframe {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -10194,6 +10392,7 @@ iframe {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -10202,6 +10401,7 @@ iframe {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -10319,28 +10519,29 @@ iframe {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -10348,6 +10549,7 @@ iframe {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -10385,6 +10587,7 @@ iframe {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -10393,6 +10596,7 @@ iframe {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -10448,28 +10652,29 @@ iframe {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -10477,6 +10682,7 @@ iframe {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -10514,6 +10720,7 @@ iframe {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -10522,6 +10729,7 @@ iframe {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -10656,6 +10864,9 @@ iframe {
 .u-malachite--1a9vo {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen--3d94K {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun--3FxdL {
   color: var(--brightSun) !important;
 }
@@ -10694,6 +10905,9 @@ iframe {
 }
 .u-pumpkinOrange--KdqeI {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender--2ubve {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle--2ez92 {
   color: var(--darkPeriwinkle) !important;

@@ -121,28 +121,29 @@ body textarea {
 /*
     Blue
 
-    Stylus: zircon       -  #F1F7FF, CSS: var(--zircon)
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #4DCEC5, CSS: var(--puertoRico)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
-  --zircon: #f1f7ff;
+  --zircon: #f5faff;
   --frenchPass: #c2dcff;
-  --dodgerBlue: #297ef2;
   --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
-  --puertoRico: #4dcec5;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
-    Stylus: emerald     - #35CE68, CSS: var(--emerald)
-    Stylus: grannyApple - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: malachite   - #08b442, CSS: var(--malachite)
-    Stylus: weirdGreen  - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
@@ -150,6 +151,7 @@ body textarea {
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
@@ -187,6 +189,7 @@ body textarea {
 /*
     Purple
 
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
     Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
     Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
     Stylus: portage        - #9169F2, CSS: var(--portage)
@@ -195,6 +198,7 @@ body textarea {
 
     Styleguide Settings.colors.purple
     */
+  --lavender: #c2adf4;
   --darkPeriwinkle: #6984ce;
   --purpley: #7f6bee;
   --portage: #9169f2;
@@ -803,6 +807,9 @@ body {
 .u-malachite {
   color: var(--malachite) !important;
 }
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
 .u-brightSun {
   color: var(--brightSun) !important;
 }
@@ -841,6 +848,9 @@ body {
 }
 .u-pumpkinOrange {
   color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
 }
 .u-darkPeriwinkle {
   color: var(--darkPeriwinkle) !important;
