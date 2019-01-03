@@ -1568,6 +1568,10 @@ body {
   border-radius: 0.125rem;
   padding: 0.5rem 1rem 0.625rem;
 }
+.c-input-text--large {
+  border-radius: 0.188rem;
+  padding: 0.813rem 1rem;
+}
 .c-input-text--fullwidth,
 .c-textarea--fullwidth,
 .c-select--fullwidth {
@@ -3864,6 +3868,7 @@ table.c-table td.c-table-ellipsis > div > div {
  .is-error - Error variant
  .c-input-text--tiny - Tiny size variant
  .c-input-text--medium - Medium size variant
+ .c-input-text--large - Large size variant (default)
  .c-input-text--fullwidth - Full width variant
 
  Weight: 2
