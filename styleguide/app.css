@@ -1434,11 +1434,6 @@ body {
 .c-btn--subtle.c-btn--secondary:active,
 .c-btn--subtle.c-btn--secondary:focus,
 .c-btn--subtle.c-btn--secondary:hover {
-  color: var(--charcoalGrey);
-}
-.c-btn--subtle.c-btn--secondary:active svg,
-.c-btn--subtle.c-btn--secondary:focus svg,
-.c-btn--subtle.c-btn--secondary:hover svg {
   color: var(--slateGrey);
 }
 .c-btn--subtle.c-btn--secondary svg {
