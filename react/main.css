@@ -9823,6 +9823,7 @@ body {
   height: 1rem;
   padding-top: 0.2rem;
   flex-shrink: 0;
+  fill: var(--slateGrey);
 }
 .infos--text--m9oNV {
   text-align: left;
