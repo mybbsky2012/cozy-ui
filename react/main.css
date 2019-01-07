@@ -2838,6 +2838,11 @@ body {
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:active,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:focus,
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N:hover {
+  color: var(--charcoalGrey);
+}
+.c-btn--subtle--OknKf.c-btn--secondary--3Br_N:active svg,
+.c-btn--subtle--OknKf.c-btn--secondary--3Br_N:focus svg,
+.c-btn--subtle--OknKf.c-btn--secondary--3Br_N:hover svg {
   color: var(--slateGrey);
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N svg {
@@ -9818,7 +9823,6 @@ body {
   height: 1rem;
   padding-top: 0.2rem;
   flex-shrink: 0;
-  fill: var(--slateGrey);
 }
 .infos--text--m9oNV {
   text-align: left;
