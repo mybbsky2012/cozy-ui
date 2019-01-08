@@ -5456,6 +5456,15 @@ body {
   flex-direction: column;
   margin: 0.5rem 0 1rem;
 }
+.o-field-input--vCqdV {
+  position: relative;
+}
+.o-field-input-action--2k7a8 {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  cursor: pointer;
+}
 
 :root {
 /*
