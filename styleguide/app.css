@@ -2951,6 +2951,12 @@ table.c-table td.c-table-ellipsis > div > div {
   height: 100%;
   max-width: 64.5rem;
 }
+@media (min-width: 34rem) {
+  .wizard-wrapper--bleed,
+  .wizard-wrapper--dual {
+    height: 100%;
+  }
+}
 .wizard-wrapper--dual {
   max-width: none;
 }
