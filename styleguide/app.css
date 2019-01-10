@@ -1613,14 +1613,12 @@ body {
   content: '';
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 0.188rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1rem;
   height: 1rem;
   border-radius: 0.125rem;
-  -webkit-transform: translateY(-53%);
-          transform: translateY(-53%);
 }
 .c-input-checkbox span::before,
 .c-input-radio span::before {
@@ -1666,8 +1664,8 @@ body {
 .c-input-checkbox input:checked + span::after,
 .c-input-radio input:checked + span::after {
   opacity: 1;
-  -webkit-transform: scale(1) translateY(-53%);
-          transform: scale(1) translateY(-53%);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 .c-input-checkbox input:not(:checked) + span::after,
 .c-input-radio input:not(:checked) + span::after {
