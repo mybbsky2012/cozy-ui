@@ -1570,6 +1570,36 @@ body {
 .wizard-select:invalid {
   border: 0.063rem solid var(--pomegranate);
 }
+.c-input-text[aria-disabled],
+.c-textarea[aria-disabled],
+.c-select[aria-disabled],
+.wizard-select[aria-disabled],
+.c-input-text[disabled],
+.c-textarea[disabled],
+.c-select[disabled],
+.wizard-select[disabled] {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.c-input-text[aria-disabled]:hover,
+.c-textarea[aria-disabled]:hover,
+.c-select[aria-disabled]:hover,
+.wizard-select[aria-disabled]:hover,
+.c-input-text[disabled]:hover,
+.c-textarea[disabled]:hover,
+.c-select[disabled]:hover,
+.wizard-select[disabled]:hover,
+.c-input-text[aria-disabled]:focus,
+.c-textarea[aria-disabled]:focus,
+.c-select[aria-disabled]:focus,
+.wizard-select[aria-disabled]:focus,
+.c-input-text[disabled]:focus,
+.c-textarea[disabled]:focus,
+.c-select[disabled]:focus,
+.wizard-select[disabled]:focus {
+  border: 0.063rem solid var(--silver);
+}
 .c-input-text--tiny,
 .c-textarea--tiny,
 .c-select--tiny {

@@ -6166,6 +6166,18 @@ body {
 .c-input-text--3TAv1:invalid {
   border: 0.063rem solid var(--pomegranate);
 }
+.c-input-text--3TAv1[aria-disabled],
+.c-input-text--3TAv1[disabled] {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.c-input-text--3TAv1[aria-disabled]:hover,
+.c-input-text--3TAv1[disabled]:hover,
+.c-input-text--3TAv1[aria-disabled]:focus,
+.c-input-text--3TAv1[disabled]:focus {
+  border: 0.063rem solid var(--silver);
+}
 .c-input-text--tiny--MzMoD {
   border-radius: 0.125rem;
   padding: 0.25rem 0.5rem 0.375rem;
@@ -6961,6 +6973,18 @@ body {
 .c-textarea--D7EEH.is-error--1kGLj,
 .c-textarea--D7EEH:invalid {
   border: 0.063rem solid var(--pomegranate);
+}
+.c-textarea--D7EEH[aria-disabled],
+.c-textarea--D7EEH[disabled] {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.c-textarea--D7EEH[aria-disabled]:hover,
+.c-textarea--D7EEH[disabled]:hover,
+.c-textarea--D7EEH[aria-disabled]:focus,
+.c-textarea--D7EEH[disabled]:focus {
+  border: 0.063rem solid var(--silver);
 }
 .c-textarea--tiny--3fmPW {
   border-radius: 0.125rem;
