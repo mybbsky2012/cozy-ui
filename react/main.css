@@ -6163,7 +6163,7 @@ body {
   outline: 0;
 }
 .c-input-text--3TAv1.is-error--3lsCJ,
-.c-input-text--3TAv1:invalid {
+.c-input-text--3TAv1:not(:focus):invalid {
   border: 0.063rem solid var(--pomegranate);
 }
 .c-input-text--3TAv1[aria-disabled],
@@ -6971,7 +6971,7 @@ body {
   outline: 0;
 }
 .c-textarea--D7EEH.is-error--1kGLj,
-.c-textarea--D7EEH:invalid {
+.c-textarea--D7EEH:not(:focus):invalid {
   border: 0.063rem solid var(--pomegranate);
 }
 .c-textarea--D7EEH[aria-disabled],

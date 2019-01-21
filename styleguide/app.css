@@ -1564,10 +1564,10 @@ body {
 .c-textarea.is-error,
 .c-select.is-error,
 .wizard-select.is-error,
-.c-input-text:invalid,
-.c-textarea:invalid,
-.c-select:invalid,
-.wizard-select:invalid {
+.c-input-text:not(:focus):invalid,
+.c-textarea:not(:focus):invalid,
+.c-select:not(:focus):invalid,
+.wizard-select:not(:focus):invalid {
   border: 0.063rem solid var(--pomegranate);
 }
 .c-input-text[aria-disabled],
