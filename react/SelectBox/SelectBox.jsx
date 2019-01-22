@@ -241,40 +241,37 @@ class SelectBox extends Component {
     } = this.props
     const showOverlay = this.state.isOpen && isMobile
     return (
-      <div
+      <ReactSelect
+        components={{ DropdownIndicator, Option, ...components }}
         ref={element => {
-          this.element = element
+          this.element = element.select.inputRef.getBoundingClientRect()
         }}
-      >
-        <ReactSelect
-          components={{ DropdownIndicator, Option, ...components }}
-          styles={{
-            ...customStyles(this.props),
-            ...reactSelectStyles,
-            ...computedMenuListHeightStyles(
-              // With React, the referenced element is in the current property.
-              // With Preact, the referenced element is the object
-              (container && container.current) || container,
-              this.element
-            )
-          }}
-          onMenuOpen={this.handleOpen}
-          onMenuClose={this.handleClose}
-          {...props}
-          className={classNames(
-            {
-              [styles['select__overlay']]: showOverlay,
-              [styles['select--autowidth']]: !fullwidth,
-              [styles['select--fullwidth']]: fullwidth
-            },
-            className
-          )}
-          // react-select temporarily adds className to its innerComponents
-          // but this behavior will soon be removed. For the moment, we
-          // cancel it by setting it to empty string
-          classNamePrefix={classNamePrefix || ''}
-        />
-      </div>
+        styles={{
+          ...customStyles(this.props),
+          ...reactSelectStyles,
+          ...computedMenuListHeightStyles(
+            // With React, the referenced element is in the current property.
+            // With Preact, the referenced element is the object
+            (container && container.current) || container,
+            this.element
+          )
+        }}
+        onMenuOpen={this.handleOpen}
+        onMenuClose={this.handleClose}
+        {...props}
+        className={classNames(
+          {
+            [styles['select__overlay']]: showOverlay,
+            [styles['select--autowidth']]: !fullwidth,
+            [styles['select--fullwidth']]: fullwidth
+          },
+          className
+        )}
+        // react-select temporarily adds className to its innerComponents
+        // but this behavior will soon be removed. For the moment, we
+        // cancel it by setting it to empty string
+        classNamePrefix={classNamePrefix || ''}
+      />
     )
   }
 }
