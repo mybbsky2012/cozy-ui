@@ -1248,6 +1248,7 @@ body {
 .c-btn-alert--error:hover,
 .c-btn-alert--error:focus {
   color: var(--monza);
+  background-color: var(--yourPink);
 }
 .c-btn-alert--info {
   background-color: var(--coolGrey);
@@ -1263,8 +1264,7 @@ body {
 .c-btn-alert--info:active,
 .c-btn-alert--info:hover,
 .c-btn-alert--info:focus {
-  color: var(--paleGrey);
-  background-color: var(--slateGrey);
+  background-color: var(--charcoalGrey);
 }
 .c-btn-alert--success {
   color: var(--emerald);
@@ -1276,6 +1276,7 @@ body {
 .c-btn-alert--success:hover,
 .c-btn-alert--success:focus {
   color: var(--malachite);
+  background-color: var(--grannyApple);
 }
 .c-btn-client,
 .c-btn-client-mobile {
