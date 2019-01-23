@@ -1421,57 +1421,57 @@ body {
 }
 @media (max-width: 63.938rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
 @media (min-width: 34rem) {
 }
-@media (min-width: 34rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (min-width: 34rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
-}
-@media (max-width: 33.938rem) {
+@media (min-width: 34rem) and (min-height: 23.5rem) {
 }
 @media (min-width: 34rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
 @media (min-width: 34rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
 @media (max-width: 63.938rem) {
 }
@@ -1480,6 +1480,10 @@ body {
 @media (max-width: 63.938rem) {
 }
 @media (max-width: 63.938rem) {
+}
+@media (max-width: 33.9375rem) {
+}
+@media (max-height: 23.4375rem) {
 }
 @media (min-width: 34rem) {
 }

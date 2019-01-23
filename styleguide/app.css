@@ -3018,29 +3018,27 @@ table.c-table td.c-table-ellipsis > div > div {
 }
 .wizard--scroll {
   position: absolute;
+  padding-top: 3.5rem;
 }
 @media (max-width: 63.938rem) {
   .wizard--scroll {
-    padding-top: 5rem;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard--scroll {
     padding-top: 0;
   }
 }
 .wizard-wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: 100%;
   max-width: 34rem;
   text-align: left;
-}
-@media (min-width: 34rem) {
-  .wizard-wrapper {
-    height: auto;
-  }
 }
 .wizard--welcome .wizard-wrapper {
   height: auto;
@@ -3050,17 +3048,7 @@ table.c-table td.c-table-ellipsis > div > div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-  max-width: 64.5rem;
-}
-@media (min-width: 34rem) {
-  .wizard-wrapper--bleed,
-  .wizard-wrapper--dual {
-    height: 100%;
-  }
+  max-width: 100%;
 }
 .wizard-wrapper--dual {
   max-width: none;
@@ -3103,7 +3091,7 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-errors p {
   margin: 0;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-errors {
     margin-top: 0.5rem;
   }
@@ -3122,18 +3110,17 @@ table.c-table td.c-table-ellipsis > div > div {
   margin: 1rem auto 0.5rem;
   padding: 0 1rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-header {
-    margin: 1rem 0 0;
+    margin: 1rem auto 0;
   }
 }
 .wizard-dual .wizard-header {
-  position: relative;
-  width: 100%;
+  margin-bottom: 2rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-dual .wizard-header {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 }
 .wizard-main {
@@ -3176,7 +3163,7 @@ table.c-table td.c-table-ellipsis > div > div {
   margin: 0 0 0.5rem;
   line-height: 1.5;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-footer {
     margin: 1.5rem 0 0.5rem;
   }
@@ -3195,11 +3182,11 @@ table.c-table td.c-table-ellipsis > div > div {
   }
 }
 .wizard-dual .wizard-footer {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-dual .wizard-footer {
-    margin-top: 1.75rem;
+    margin-top: 1.5rem;
     font-size: 0.875rem;
   }
 }
@@ -3240,7 +3227,7 @@ table.c-table td.c-table-ellipsis > div > div {
   line-height: 1.5;
   text-align: center;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-header-help {
     margin: 0.25rem 0 0;
     font-size: 1rem;
@@ -3277,7 +3264,7 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-disclaimer strong {
   color: var(--emerald);
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-disclaimer {
     display: none;
   }
@@ -3294,25 +3281,31 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-desc a:focus {
   color: var(--scienceBlue);
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-desc {
     margin: 1.5rem 0 0;
+  }
+}
+.wizard-desc--footer {
+  margin: 2rem 0;
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+  .wizard-desc--footer {
+    margin: 1rem 0;
   }
 }
 .wizard-header-fixed {
   position: fixed;
   top: 0.875rem;
   left: 0;
+  padding-left: 2rem;
 }
 .wizard-previous {
   margin: 0;
   padding: 0.625rem 1rem;
   color: var(--coolGrey);
 }
-.wizard-brand {
-  margin-left: 1rem;
-}
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-brand {
     display: none;
   }
@@ -3344,7 +3337,7 @@ table.c-table td.c-table-ellipsis > div > div {
   position: absolute;
   right: 1rem;
 }
-@media (min-width: 34rem) {
+@media (min-width: 34rem) and (min-height: 23.5rem) {
   .wizard-button {
     min-height: 3rem;
     min-width: 10rem;
@@ -3353,7 +3346,22 @@ table.c-table td.c-table-ellipsis > div > div {
     line-height: 1.5;
   }
 }
-@media (max-width: 33.938rem) {
+.wizard-buttonlink {
+  font-size: 0.813rem !important;
+  line-height: 1.4 !important;
+}
+@media (min-width: 34rem) {
+  .wizard-buttonlink {
+    min-height: 3rem;
+    min-width: 10rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 0.875rem !important;
+    line-height: 1.4 !important;
+  }
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-password {
     border-radius: 0.125rem;
     padding: 0.5rem 1rem 0.625rem;
@@ -3396,7 +3404,7 @@ table.c-table td.c-table-ellipsis > div > div {
   height: 100%;
   width: 100%;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-waiting-icon,
   .wizard-dual-icon {
     margin-bottom: 1rem;
@@ -3407,7 +3415,7 @@ table.c-table td.c-table-ellipsis > div > div {
   margin: 0 0 1rem;
   height: 7.688rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-dual-icon {
     height: 5.125rem;
   }
@@ -3419,7 +3427,7 @@ table.c-table td.c-table-ellipsis > div > div {
   font-size: 2rem;
   line-height: 1.25;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-title,
   .wizard-dual-title {
     font-size: 1.125rem;
@@ -3430,7 +3438,7 @@ table.c-table td.c-table-ellipsis > div > div {
   margin-bottom: 1rem;
   font-size: 2.5rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-dual-title {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
@@ -3441,11 +3449,11 @@ table.c-table td.c-table-ellipsis > div > div {
   display: block;
   margin-top: 0.5rem;
   opacity: 0.64;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
-  line-height: 1.33;
+  line-height: 1.5;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-title-sub {
     margin: 0;
     font-size: 1rem;
@@ -3460,7 +3468,7 @@ table.c-table td.c-table-ellipsis > div > div {
   font-weight: normal;
   line-height: 1.5;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-subtitle,
   .wizard-dual-subtitle {
     font-size: 0.875rem;
@@ -3468,18 +3476,16 @@ table.c-table td.c-table-ellipsis > div > div {
   }
 }
 .wizard-dual-subtitle {
-  margin-bottom: 3rem;
   font-size: 1.25rem;
   line-height: 1.4;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-dual-subtitle {
-    margin-bottom: 1.5rem;
     font-size: 1rem;
     line-height: 1.5;
   }
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard--welcome .wizard-title {
     font-size: 1.5rem;
     line-height: 1.17;
@@ -3586,7 +3592,7 @@ table.c-table td.c-table-ellipsis > div > div {
   border: 0;
   outline: 0;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-input {
     border-radius: 0.125rem;
     padding: 0.5rem 1rem 0.625rem;
@@ -3607,7 +3613,7 @@ table.c-table td.c-table-ellipsis > div > div {
   display: inline-block;
   text-indent: 0.5rem;
 }
-@media (max-width: 33.938rem) {
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-requirements {
     font-size: 0.875rem;
     margin-top: 0.5rem;
@@ -3621,9 +3627,10 @@ table.c-table td.c-table-ellipsis > div > div {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
+  max-width: 64.5rem;
 }
 @media (max-width: 63.938rem) {
   .wizard-agreements {
@@ -3723,12 +3730,52 @@ table.c-table td.c-table-ellipsis > div > div {
     padding: 0.5rem;
   }
 }
+.wizard-progress {
+  position: relative;
+  margin: 0.5rem auto 2rem;
+  max-width: 32rem;
+  height: 0.375rem;
+}
+.wizard-progress:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.24;
+  border-radius: 0.188rem;
+  background-color: var(--white);
+}
+@media (max-width: 33.9375rem) {
+  .wizard-progress {
+    margin: 0.5rem 1rem 1.5rem;
+  }
+}
+@media (max-height: 23.4375rem) {
+  .wizard-progress {
+    margin-bottom: 1.5rem;
+  }
+}
+.wizard-progress-bar {
+  position: relative;
+  z-index: 1;
+  width: 0;
+  height: 100%;
+  background-color: var(--white);
+  border-radius: 0.188rem;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
 .wizard-notice {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  margin: 1rem 0 0;
+  margin: 2rem 0 0;
   line-height: 1.5;
+}
+.wizard-notice + .wizard-notice {
+  margin-top: 1rem;
 }
 .wizard-notice p {
   margin: 0;
@@ -3736,6 +3783,7 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-notice a {
   color: var(--dodgerBlue);
   text-decoration: none;
+  font-weight: bold;
 }
 .wizard-notice a:hover,
 .wizard-notice a:focus {
