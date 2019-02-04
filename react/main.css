@@ -9932,7 +9932,7 @@ body {
   color: var(--slateGrey);
   cursor: pointer;
   outline: 0;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
 }
 .c-accordion-title--7jntH:hover,
 .c-accordion-title--7jntH:focus {

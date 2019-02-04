@@ -2061,7 +2061,7 @@ body {
   color: var(--slateGrey);
   cursor: pointer;
   outline: 0;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
 }
 .c-accordion-title:hover,
 .c-accordion-title:focus {
