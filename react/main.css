@@ -10121,7 +10121,8 @@ body {
 }
 @media (max-width: 48rem) {
   .u-title-h4--1lGMy {
-    color: var(--slateGrey);
+    font-weight: bold;
+    color: var(--charcoalGrey);
   }
 }
 .u-text--2UfQa {

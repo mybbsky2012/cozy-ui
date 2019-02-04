@@ -4596,7 +4596,8 @@ Display an chip that represents complex identity
 }
 @media (max-width: 48rem) {
   .u-title-h4 {
-    color: var(--slateGrey);
+    font-weight: bold;
+    color: var(--charcoalGrey);
   }
 }
 .u-text {
