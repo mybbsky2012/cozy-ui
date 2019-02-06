@@ -1419,9 +1419,15 @@ body {
 }
 @media (max-width: 48rem) {
 }
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
 @media (max-width: 63.938rem) {
 }
 @media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+}
+@media (max-height: 38rem) {
 }
 @media (max-width: 33.938rem), (max-height: 23.438rem) {
 }
@@ -5296,7 +5302,7 @@ body {
 .c-input-checkbox--2CzvY span {
   position: relative;
   display: inline-block;
-  padding-left: 1.4rem;
+  padding-left: 1.5rem;
   cursor: pointer;
 }
 .c-input-checkbox--2CzvY span::before,
@@ -7771,7 +7777,7 @@ body {
 .c-input-radio--XJQt1 span {
   position: relative;
   display: inline-block;
-  padding-left: 1.4rem;
+  padding-left: 1.5rem;
   cursor: pointer;
 }
 .c-input-radio--XJQt1 span::before,

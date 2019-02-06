@@ -1697,7 +1697,7 @@ body {
 .c-input-radio span {
   position: relative;
   display: inline-block;
-  padding-left: 1.4rem;
+  padding-left: 1.5rem;
   cursor: pointer;
 }
 .c-input-checkbox span::before,
@@ -2997,6 +2997,8 @@ table.c-table td.c-table-ellipsis > div > div {
   position: fixed;
   top: 0;
   left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3011,6 +3013,17 @@ table.c-table td.c-table-ellipsis > div > div {
   background-color: var(--white);
   color: var(--charcoalGrey);
   text-align: center;
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+  .wizard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 .wizard--waiting {
   background-color: var(--dodgerBlue);
@@ -3031,6 +3044,10 @@ table.c-table td.c-table-ellipsis > div > div {
     padding-top: 0;
   }
 }
+.wizard--dual {
+  position: static;
+  width: 100%;
+}
 .wizard-wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -3040,18 +3057,40 @@ table.c-table td.c-table-ellipsis > div > div {
   max-width: 34rem;
   text-align: left;
 }
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+  .wizard-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 .wizard--welcome .wizard-wrapper {
   height: auto;
 }
-.wizard-wrapper--bleed,
-.wizard-wrapper--dual {
+.wizard-wrapper--bleed {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   max-width: 100%;
 }
 .wizard-wrapper--dual {
-  max-width: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+@media (max-height: 38rem) {
+  .wizard-wrapper--dual {
+    min-height: 100vh;
+    height: auto;
+  }
 }
 .wizard-dual {
   -webkit-box-flex: 1;
@@ -3138,6 +3177,10 @@ table.c-table td.c-table-ellipsis > div > div {
           box-sizing: border-box;
   width: 100%;
   padding: 0 1rem;
+}
+.wizard-main > * {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .wizard-footer {
   display: -webkit-box;
@@ -3362,7 +3405,7 @@ table.c-table td.c-table-ellipsis > div > div {
   }
 }
 @media (max-width: 33.938rem), (max-height: 23.438rem) {
-  .wizard-password {
+  .wizard-input {
     border-radius: 0.125rem;
     padding: 0.5rem 1rem 0.625rem;
   }
@@ -3527,6 +3570,29 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-dualfield--error {
   border-color: var(--pomegranate);
 }
+.wizard-dualfield-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.wizard-dualfield-input {
+  border: 0;
+  padding-right: 0.5rem;
+}
+.wizard-dualfield-input:hover,
+.wizard-dualfield-input:focus {
+  position: relative;
+  z-index: 1;
+  border: 0;
+  outline: 0;
+}
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+  .wizard-dualfield-input {
+    border-radius: 0.125rem;
+    padding: 0.5rem 1rem 0.625rem;
+    padding-right: 0.25rem;
+  }
+}
 .wizard-protocol {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3554,9 +3620,10 @@ table.c-table td.c-table-ellipsis > div > div {
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   margin-right: 1rem;
+  max-width: 8.75rem;
 }
 .wizard-select {
   -webkit-box-flex: 0;
@@ -3578,26 +3645,6 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-select--medium {
   padding: 0.375rem 2.375rem 0.5rem 0.5rem;
 }
-.wizard-input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  border: 0;
-  padding-right: 0.5rem;
-}
-.wizard-input:hover,
-.wizard-input:focus {
-  position: relative;
-  z-index: 1;
-  border: 0;
-  outline: 0;
-}
-@media (max-width: 33.938rem), (max-height: 23.438rem) {
-  .wizard-input {
-    border-radius: 0.125rem;
-    padding: 0.5rem 1rem 0.625rem;
-  }
-}
 .wizard-requirements {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -3611,12 +3658,15 @@ table.c-table td.c-table-ellipsis > div > div {
 }
 .wizard-requirements span {
   display: inline-block;
-  text-indent: 0.5rem;
+  text-indent: 0.375rem;
 }
 @media (max-width: 33.938rem), (max-height: 23.438rem) {
   .wizard-requirements {
     font-size: 0.875rem;
     margin-top: 0.5rem;
+  }
+  .wizard-requirements span {
+    text-indent: 0.125rem;
   }
 }
 .wizard-agreements {
@@ -3657,6 +3707,7 @@ table.c-table td.c-table-ellipsis > div > div {
   border: 0.063rem solid var(--silver);
   border-radius: 0.5rem;
   padding: 1rem;
+  color: var(--slateGrey);
 }
 @media (max-width: 63.938rem) {
   .wizard-agreements-item {
