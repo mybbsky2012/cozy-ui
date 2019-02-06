@@ -10701,6 +10701,17 @@ body {
   flex-shrink: 0;
 }
 
+.c-filename-wrapper--3tVpA {
+  display: flex;
+}
+.c-filename-wrapper--3tVpA :last-child {
+  flex-shrink: 0;
+}
+.c-filename-name--1jDMz {
+  display: inline;
+  width: auto;
+}
+
 iframe {
   width: 100%;
   height: 100%;
