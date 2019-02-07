@@ -963,12 +963,6 @@ body {
 }
 @media (max-width: 63.938rem) {
 }
-/*
- * NOTIFICATIONS
- * =============
- *
- * This file contains all needs for alerts
- */
 @media all and (min-width: 40rem) {
 }
 @media all and (min-width: 40rem) {
@@ -11781,12 +11775,6 @@ iframe {
   color: var(--malachite);
   background-color: var(--grannyApple);
 }
-/*
- * NOTIFICATIONS
- * =============
- *
- * This file contains all needs for alerts
- */
 .c-alert--f9mWB {
   position: fixed;
   z-index: 10;
