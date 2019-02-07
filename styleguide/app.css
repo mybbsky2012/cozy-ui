@@ -2837,6 +2837,13 @@ table.c-table td.c-table-ellipsis > div > div {
             justify-content: flex-start;
   }
 }
+@media (max-width: 33.938rem), (max-height: 23.438rem) {
+  .wizard-wrapper--center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .wizard--welcome .wizard-wrapper {
   height: auto;
 }
