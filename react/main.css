@@ -152,13 +152,20 @@ body textarea {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -1632,13 +1639,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -2211,13 +2225,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -2346,13 +2367,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -3193,13 +3221,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -4031,13 +4066,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -4191,13 +4233,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -4773,13 +4822,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -4929,13 +4985,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -5165,13 +5228,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -5619,13 +5689,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -6014,13 +6091,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -6417,13 +6501,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -6855,13 +6946,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -7331,13 +7429,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -7777,13 +7882,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -8242,13 +8354,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -8404,13 +8523,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -9001,13 +9127,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -9140,13 +9273,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -9437,13 +9577,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -9579,13 +9726,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10133,13 +10287,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10295,13 +10456,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10473,13 +10641,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10648,13 +10823,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10822,13 +11004,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -10957,13 +11146,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11102,13 +11298,20 @@ body {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11307,13 +11510,20 @@ iframe {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11440,13 +11650,20 @@ iframe {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11620,13 +11837,20 @@ iframe {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11827,13 +12051,20 @@ iframe {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
@@ -11972,13 +12203,20 @@ iframe {
   --lightishPurple: #b449e7;
   --barney: #922bc2;
 /*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
     Primary
 
     Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
     Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
     Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
 
-    Styleguide Settings.colors.primary
+    Styleguide Settings.theme.primary
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
