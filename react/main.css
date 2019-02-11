@@ -5270,6 +5270,7 @@ body {
   display: inline-block;
   padding-left: 1.5rem;
   cursor: pointer;
+  line-height: 1.5;
 }
 .c-input-checkbox--2CzvY span::before,
 .c-input-checkbox--2CzvY span::after {
@@ -5299,6 +5300,16 @@ body {
 .c-input-checkbox--2CzvY[aria-checked='mixed'] span::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBkPSJNMy40OTcgMTBoMTMuMDA2IiBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIgLz48L3N2Zz4K");
   background-size: contain;
+}
+.c-input-checkbox--2CzvY[aria-disabled] span {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.c-input-checkbox--2CzvY[aria-disabled] :hover::before {
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+}
+.c-input-checkbox--2CzvY[aria-disabled] ::before {
+  background-color: var(--paleGrey);
 }
 .c-input-checkbox--2CzvY input {
   display: none !important;
@@ -7745,6 +7756,7 @@ body {
   display: inline-block;
   padding-left: 1.5rem;
   cursor: pointer;
+  line-height: 1.5;
 }
 .c-input-radio--XJQt1 span::before,
 .c-input-radio--XJQt1 span::after {
@@ -7774,6 +7786,16 @@ body {
 .c-input-radio--XJQt1[aria-checked='mixed'] span::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBkPSJNMy40OTcgMTBoMTMuMDA2IiBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIgLz48L3N2Zz4K");
   background-size: contain;
+}
+.c-input-radio--XJQt1[aria-disabled] span {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.c-input-radio--XJQt1[aria-disabled] :hover::before {
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
+}
+.c-input-radio--XJQt1[aria-disabled] ::before {
+  background-color: var(--paleGrey);
 }
 .c-input-radio--XJQt1 input {
   display: none !important;

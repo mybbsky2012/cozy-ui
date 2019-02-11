@@ -1478,6 +1478,7 @@ body {
   display: inline-block;
   padding-left: 1.5rem;
   cursor: pointer;
+  line-height: 1.5;
 }
 .c-input-checkbox span::before,
 .c-input-radio span::before,
@@ -1523,6 +1524,20 @@ body {
 .c-input-radio[aria-checked='mixed'] span::after {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBkPSJNMy40OTcgMTBoMTMuMDA2IiBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIgLz48L3N2Zz4K");
   background-size: contain;
+}
+.c-input-checkbox[aria-disabled] span,
+.c-input-radio[aria-disabled] span {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.c-input-checkbox[aria-disabled] :hover::before,
+.c-input-radio[aria-disabled] :hover::before {
+  -webkit-box-shadow: inset 0 0 0 0.125rem var(--silver);
+          box-shadow: inset 0 0 0 0.125rem var(--silver);
+}
+.c-input-checkbox[aria-disabled] ::before,
+.c-input-radio[aria-disabled] ::before {
+  background-color: var(--paleGrey);
 }
 .c-input-checkbox input,
 .c-input-radio input {
