@@ -207,25 +207,6 @@ body textarea {
   --portage: #9169f2;
   --lightishPurple: #b449e7;
   --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryContrastTextColor: var(--white);
 }
 /* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -667,15 +648,6 @@ body {
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
-}
-.u-primaryColor {
-  color: var(--primaryColor) !important;
-}
-.u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
-}
-.u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
 }
 .u-ellipsis {
   display: block;
