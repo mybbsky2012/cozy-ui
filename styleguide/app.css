@@ -1798,6 +1798,13 @@ body {
   .o-layout-2panes:after {
     content: '';
     display: block;
+  }
+  .o-layout:before,
+  .o-layout-2panes:before {
+    height: 3rem;
+  }
+  .o-layout:after,
+  .o-layout-2panes:after {
     height: 3rem;
   }
 }
