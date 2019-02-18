@@ -6381,9 +6381,15 @@ body {
 .o-field-input-action--2k7a8 {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
+  width: 100%;
+  max-width: 32rem;
+  text-align: right;
   cursor: pointer;
   text-transform: unset;
+}
+.o-side-fullwidth--7WcCI {
+  max-width: 100%;
 }
 .o-field-input-action--2k7a8 {
   top: -3rem;
