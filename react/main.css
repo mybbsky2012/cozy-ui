@@ -5576,25 +5576,14 @@ body {
   }
 }
 .c-modal-footer--2Z4Tc {
-  padding: 1rem 1.5rem 1.5rem;
+  padding: 1rem 1.25rem 1.25rem;
 }
-.c-modal-footer--button--1sIa4 {
-  text-align: right;
-}
-.c-modal-footer--button--1sIa4 button:last-child {
-  margin-right: 0;
+.c-modal-footer--button--1sIa4 button {
+  margin-bottom: 0.25rem;
 }
 @media (max-width: 48rem) {
-  .c-modal-footer--button--1sIa4 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
   .c-modal-footer--button--1sIa4 button {
-    width: 100%;
-    margin: 0;
-  }
-  .c-modal-footer--button--1sIa4 button:not(:first-child) {
-    margin-bottom: 0.25rem;
+    min-width: calc(50% - 0.5rem);
   }
 }
 .c-modal-section--2QNq3 {
