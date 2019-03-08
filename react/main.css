@@ -13887,11 +13887,16 @@ iframe {
 .c-menu__item--1sXjs {
   cursor: pointer;
   padding: 0.5rem;
+  line-height: 1.15;
 }
 .c-menu__item-icon--kzdkW {
+  margin-top: 0.125em;
   margin-right: 0.75rem;
   margin-left: 0.25rem;
-  font-size: 1.063rem;
+}
+.c-menu__item-icon--kzdkW svg {
+  width: 1em;
+  height: 1em;
 }
 .c-menu__item--1sXjs:hover,
 .c-menu__item--1sXjs:focus {
