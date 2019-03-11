@@ -8334,6 +8334,18 @@ body {
 .u-ta-justify {
   text-align: justify !important;
 }
+.c-input-text--3TAv1[aria-disabled],
+.c-input-text--3TAv1[disabled] {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.c-input-text--3TAv1[aria-disabled]:hover,
+.c-input-text--3TAv1[disabled]:hover,
+.c-input-text--3TAv1[aria-disabled]:focus,
+.c-input-text--3TAv1[disabled]:focus {
+  border: 0.063rem solid var(--silver);
+}
 .c-input-text--3TAv1 {
   display: inline-block;
   width: 100%;
@@ -8362,18 +8374,6 @@ body {
 .c-input-text--3TAv1.is-error--3lsCJ,
 .c-input-text--3TAv1:not(:focus):invalid {
   border: 0.063rem solid var(--pomegranate);
-}
-.c-input-text--3TAv1[aria-disabled],
-.c-input-text--3TAv1[disabled] {
-  cursor: not-allowed;
-  background-color: var(--paleGrey);
-  color: var(--charcoalGrey);
-}
-.c-input-text--3TAv1[aria-disabled]:hover,
-.c-input-text--3TAv1[disabled]:hover,
-.c-input-text--3TAv1[aria-disabled]:focus,
-.c-input-text--3TAv1[disabled]:focus {
-  border: 0.063rem solid var(--silver);
 }
 .c-input-text--tiny--MzMoD {
   border-radius: 0.125rem;
@@ -8779,11 +8779,24 @@ body {
 .u-ta-justify {
   text-align: justify !important;
 }
+.select--disabled--1W3en {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.select--disabled--1W3en:hover,
+.select--disabled--1W3en:focus {
+  border: 0.063rem solid var(--silver);
+}
 .select--fullwidth--2l_xM {
   max-width: 100%;
 }
 .select--fullwidth--2l_xM {
   padding-right: 2.375rem;
+}
+.select--disabled--1W3en:hover,
+.select--disabled--1W3en:focus {
+  border-width: 0;
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -9262,6 +9275,18 @@ body {
 .u-ta-justify {
   text-align: justify !important;
 }
+.c-textarea--D7EEH[aria-disabled],
+.c-textarea--D7EEH[disabled] {
+  cursor: not-allowed;
+  background-color: var(--paleGrey);
+  color: var(--charcoalGrey);
+}
+.c-textarea--D7EEH[aria-disabled]:hover,
+.c-textarea--D7EEH[disabled]:hover,
+.c-textarea--D7EEH[aria-disabled]:focus,
+.c-textarea--D7EEH[disabled]:focus {
+  border: 0.063rem solid var(--silver);
+}
 .c-textarea--D7EEH {
   display: inline-block;
   width: 100%;
@@ -9290,18 +9315,6 @@ body {
 .c-textarea--D7EEH.is-error--1kGLj,
 .c-textarea--D7EEH:not(:focus):invalid {
   border: 0.063rem solid var(--pomegranate);
-}
-.c-textarea--D7EEH[aria-disabled],
-.c-textarea--D7EEH[disabled] {
-  cursor: not-allowed;
-  background-color: var(--paleGrey);
-  color: var(--charcoalGrey);
-}
-.c-textarea--D7EEH[aria-disabled]:hover,
-.c-textarea--D7EEH[disabled]:hover,
-.c-textarea--D7EEH[aria-disabled]:focus,
-.c-textarea--D7EEH[disabled]:focus {
-  border: 0.063rem solid var(--silver);
 }
 .c-textarea--tiny--3fmPW {
   border-radius: 0.125rem;
