@@ -225,6 +225,7 @@ body textarea {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 /* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */

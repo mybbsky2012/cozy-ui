@@ -169,6 +169,7 @@ body textarea {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -3192,6 +3193,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-badge-root--3Xore {
@@ -3359,6 +3361,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 :root {
@@ -3949,6 +3952,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-overlay--31iWd {
@@ -4091,6 +4095,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--alZ_V {
@@ -4945,6 +4950,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--lXiub {
@@ -5800,6 +5806,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--1WjkR {
@@ -6389,6 +6396,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-chip--2aPqg {
@@ -6552,6 +6560,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--3Lqkt {
@@ -6795,6 +6804,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--3NpSD {
@@ -7256,6 +7266,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--1c3eg {
@@ -7658,6 +7669,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--2YilK {
@@ -8074,6 +8086,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--1UBe7 {
@@ -8519,6 +8532,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--1n8EJ {
@@ -9015,6 +9029,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--hGoYA {
@@ -9468,6 +9483,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--2iWsM {
@@ -9940,6 +9956,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .toggle--3zVsE {
@@ -10109,6 +10126,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 :root {
@@ -10721,6 +10739,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .o-sidebar--1295j {
@@ -10867,6 +10886,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-nav--33dZy {
@@ -11171,6 +11191,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-circle--1DuMR {
@@ -11320,6 +11341,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-avatar--PpDI- {
@@ -11881,6 +11903,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .Panel-group--1txSp {
@@ -12050,6 +12073,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-accordion--1VRom {
@@ -12235,6 +12259,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .u-title-h1--fimho,
@@ -12417,6 +12442,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 :root {
@@ -12990,6 +13016,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .well--3xv79 {
@@ -13132,6 +13159,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .infos--Xu7xe {
@@ -13284,6 +13312,7 @@ body {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .context-header--QuTup {
@@ -13496,6 +13525,7 @@ iframe {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-list-text--3kc3E {
@@ -13636,6 +13666,7 @@ iframe {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-actionmenu--22Fp1 {
@@ -13829,6 +13860,7 @@ iframe {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .c-menu__inner--2g_mC {
@@ -14048,6 +14080,7 @@ iframe {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 .coz-tabs--24QL5 .coz-tab-list--3qac8 {
@@ -14200,6 +14233,7 @@ iframe {
     */
   --primaryColor: var(--dodgerBlue);
   --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #accdfc;
   --primaryContrastTextColor: var(--white);
 }
 @-moz-keyframes spin--1LlbU {
