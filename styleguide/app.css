@@ -546,6 +546,369 @@ body {
     display: none !important;
   }
 }
+.u-dn {
+  display: none;
+}
+@media (max-width: 23.438rem) {
+  .u-dn-tt {
+    display: none;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dn-t {
+    display: none;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dn-s {
+    display: none;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dn-m {
+    display: none;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dn-l {
+    display: none;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dn-xl {
+    display: none;
+  }
+}
+.u-di {
+  display: inline;
+}
+@media (max-width: 23.438rem) {
+  .u-di-tt {
+    display: inline;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-di-t {
+    display: inline;
+  }
+}
+@media (max-width: 48rem) {
+  .u-di-s {
+    display: inline;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-di-m {
+    display: inline;
+  }
+}
+@media (max-width: 75rem) {
+  .u-di-l {
+    display: inline;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-di-xl {
+    display: inline;
+  }
+}
+.u-db {
+  display: block;
+}
+@media (max-width: 23.438rem) {
+  .u-db-tt {
+    display: block;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-db-t {
+    display: block;
+  }
+}
+@media (max-width: 48rem) {
+  .u-db-s {
+    display: block;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-db-m {
+    display: block;
+  }
+}
+@media (max-width: 75rem) {
+  .u-db-l {
+    display: block;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-db-xl {
+    display: block;
+  }
+}
+.u-dib {
+  display: inline-block;
+}
+@media (max-width: 23.438rem) {
+  .u-dib-tt {
+    display: inline-block;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dib-t {
+    display: inline-block;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dib-s {
+    display: inline-block;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dib-m {
+    display: inline-block;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dib-l {
+    display: inline-block;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dib-xl {
+    display: inline-block;
+  }
+}
+.u-dit {
+  display: inline-table;
+}
+@media (max-width: 23.438rem) {
+  .u-dit-tt {
+    display: inline-table;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dit-t {
+    display: inline-table;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dit-s {
+    display: inline-table;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dit-m {
+    display: inline-table;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dit-l {
+    display: inline-table;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dit-xl {
+    display: inline-table;
+  }
+}
+.u-dt {
+  display: table;
+}
+@media (max-width: 23.438rem) {
+  .u-dt-tt {
+    display: table;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dt-t {
+    display: table;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dt-s {
+    display: table;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dt-m {
+    display: table;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dt-l {
+    display: table;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dt-xl {
+    display: table;
+  }
+}
+.u-dtc {
+  display: table-cell;
+}
+@media (max-width: 23.438rem) {
+  .u-dtc-tt {
+    display: table-cell;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dtc-t {
+    display: table-cell;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dtc-s {
+    display: table-cell;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dtc-m {
+    display: table-cell;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dtc-l {
+    display: table-cell;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dtc-xl {
+    display: table-cell;
+  }
+}
+.u-dt-row {
+  display: table-row;
+}
+@media (max-width: 23.438rem) {
+  .u-dt-row-tt {
+    display: table-row;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dt-row-t {
+    display: table-row;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dt-row-s {
+    display: table-row;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dt-row-m {
+    display: table-row;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dt-row-l {
+    display: table-row;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dt-row-xl {
+    display: table-row;
+  }
+}
+.u-dt-row-group {
+  display: table-row-group;
+}
+@media (max-width: 23.438rem) {
+  .u-dt-row-group-tt {
+    display: table-row-group;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dt-row-group-t {
+    display: table-row-group;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dt-row-group-s {
+    display: table-row-group;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dt-row-group-m {
+    display: table-row-group;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dt-row-group-l {
+    display: table-row-group;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dt-row-group-xl {
+    display: table-row-group;
+  }
+}
+.u-dt-column {
+  display: table-column;
+}
+@media (max-width: 23.438rem) {
+  .u-dt-column-tt {
+    display: table-column;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dt-column-t {
+    display: table-column;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dt-column-s {
+    display: table-column;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dt-column-m {
+    display: table-column;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dt-column-l {
+    display: table-column;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dt-column-xl {
+    display: table-column;
+  }
+}
+.u-dt-column-group {
+  display: table-column-group;
+}
+@media (max-width: 23.438rem) {
+  .u-dt-column-group-tt {
+    display: table-column-group;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-dt-column-group-t {
+    display: table-column-group;
+  }
+}
+@media (max-width: 48rem) {
+  .u-dt-column-group-s {
+    display: table-column-group;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-dt-column-group-m {
+    display: table-column-group;
+  }
+}
+@media (max-width: 75rem) {
+  .u-dt-column-group-l {
+    display: table-column-group;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-dt-column-group-xl {
+    display: table-column-group;
+  }
+}
 .u-error {
   color: var(--pomegranate);
 }
@@ -6332,7 +6695,7 @@ Display an chip that represents complex identity
     Styleguide utilities.cursor
 */
 /*
-    Display
+    Hide
 
     Utilities that show or hide an element for a giving viewport size.
 
@@ -6345,7 +6708,7 @@ Display an chip that represents complex identity
     .u-hide--tablet - Element is hidden on tablet (>1024px)
     .u-hide--mob - Element is hidden on mobile (<1023px)
 
-    Styleguide utilities.display
+    Styleguide utilities.hide
 */
 /*
     Text
@@ -6734,6 +7097,36 @@ Display an chip that represents complex identity
     Styleguide utilities.paddings
 */
 /*
+    Display
+
+    Classes to change the box model of an element
+
+    NB: `flex` being much more complex, it has its own set of utility classes, see further.
+
+    .u-dn - Display none
+    .u-di - Display inline
+    .u-db - Display block
+    .u-dib - Display inline-block
+    .u-dit - Display inline-table
+    .u-dt - Display table
+    .u-dtc - Display table-cell
+    .u-dt-row - Display table-row
+    .u-dt-row-group - Display table-row-group
+    .u-dt-column - Display table-column
+    .u-dt-column-group - Display table-column-group
+
+    Markup:
+    <div class="{{modifier_class}}" style="margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+        <span>Suspendisse mauris</span>
+        <span>Nulla ex aptent</span>
+        <span>Nullam praesent</span>
+    </div>
+
+    Weight: 1
+
+    Styleguide utilities.display
+*/
+/*
     Flexbox display
 
     Classes to make Flexbox containers
@@ -6751,7 +7144,7 @@ Display an chip that represents complex identity
 
     Weight: 1
 
-    Styleguide utilities.flexbox-display
+    Styleguide utilities.flexbox
 */
 /*
     Flexbox direction
@@ -6772,7 +7165,7 @@ Display an chip that represents complex identity
 
     Weight: 2
 
-    Styleguide utilities.flexbox-direction
+    Styleguide utilities.flexbox.direction
 */
 /*
     Flexbox wrap
@@ -6792,7 +7185,7 @@ Display an chip that represents complex identity
 
     Weight: 3
 
-    Styleguide utilities.flexbox-wrap
+    Styleguide utilities.flexbox.wrap
 */
 /*
     Flexbox align items
@@ -6814,7 +7207,7 @@ Display an chip that represents complex identity
 
     Weight: 4
 
-    Styleguide utilities.flexbox-items
+    Styleguide utilities.flexbox.items
 */
 /*
     Flexbox justify cotnent
@@ -6837,7 +7230,7 @@ Display an chip that represents complex identity
 
     Weight: 5
 
-    Styleguide utilities.flexbox-justify
+    Styleguide utilities.flexbox.justify
 */
 /*
     Flexbox content alignment (lines)
@@ -6860,7 +7253,7 @@ Display an chip that represents complex identity
 
     Weight: 6
 
-    Styleguide utilities.flexbox-content
+    Styleguide utilities.flexbox.content
 */
 /*
     Flexbox align-self
@@ -6882,7 +7275,7 @@ Display an chip that represents complex identity
 
     Weight: 7
 
-    Styleguide utilities.flexbox-self
+    Styleguide utilities.flexbox.self
 */
 /*
     Flexbox order
@@ -6916,7 +7309,7 @@ Display an chip that represents complex identity
 
     Weight: 8
 
-    Styleguide utilities.flexbox-order
+    Styleguide utilities.flexbox.order
 */
 /*
     Flexbox items grow
@@ -6936,7 +7329,7 @@ Display an chip that represents complex identity
 
     Weight: 9
 
-    Styleguide utilities.flexbox-grow
+    Styleguide utilities.flexbox.grow
 */
 /*
     Flexbox items shrink
@@ -6955,5 +7348,5 @@ Display an chip that represents complex identity
 
     Weight: 10
 
-    Styleguide utilities.flexbox-shrink
+    Styleguide utilities.flexbox.shrink
 */
