@@ -9696,6 +9696,39 @@ table.c-table td.c-table-ellipsis > div > div {
         flex-shrink: 1;
   }
 }
+.u-nolist {
+  list-style-type: none;
+}
+@media (max-width: 23.438rem) {
+  .u-nolist-tt {
+    list-style-type: none;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-nolist-t {
+    list-style-type: none;
+  }
+}
+@media (max-width: 48rem) {
+  .u-nolist-s {
+    list-style-type: none;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-nolist-m {
+    list-style-type: none;
+  }
+}
+@media (max-width: 75rem) {
+  .u-nolist-l {
+    list-style-type: none;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-nolist-xl {
+    list-style-type: none;
+  }
+}
 /*------------------------------------*  Objects
 \*------------------------------------*/
 /*------------------------------------*  Components
@@ -10647,6 +10680,24 @@ Display an chip that represents complex identity
     <div style="background-color:gainsboro; display: inline-block;" class="{{modifier_class}}"><span style="background-color:bisque;">🎼 Gimme some padding 💃</span></div>
 
     Styleguide utilities.paddings
+*/
+/*
+    List
+
+    List options
+
+    .u-nolist - Remove the bullet point from a list
+
+    Markup:
+    <ul class="{{modifier_class}}">
+        <li>Suspendisse mauris</li>
+        <li>Nulla ex aptent</li>
+        <li>Nullam praesent</li>
+    </ul>
+
+    Weight: 1
+
+    Styleguide utilities.list
 */
 /*
     Display

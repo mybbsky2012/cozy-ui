@@ -6977,6 +6977,39 @@ body {
     flex-shrink: 1;
   }
 }
+.u-nolist {
+  list-style-type: none;
+}
+@media (max-width: 23.438rem) {
+  .u-nolist-tt {
+    list-style-type: none;
+  }
+}
+@media (max-width: 33.938rem) {
+  .u-nolist-t {
+    list-style-type: none;
+  }
+}
+@media (max-width: 48rem) {
+  .u-nolist-s {
+    list-style-type: none;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-nolist-m {
+    list-style-type: none;
+  }
+}
+@media (max-width: 75rem) {
+  .u-nolist-l {
+    list-style-type: none;
+  }
+}
+@media (max-width: 89.938rem) {
+  .u-nolist-xl {
+    list-style-type: none;
+  }
+}
 html,
 body {
   height: auto;
