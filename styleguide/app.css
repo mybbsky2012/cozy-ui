@@ -7596,6 +7596,123 @@ table.c-table td.c-table-ellipsis > div > div {
 .wizard-notice--lost {
   font-size: 1rem;
 }
+.u-bg-black {
+  background-color: var(--black) !important;
+}
+.u-bg-white {
+  background-color: var(--white) !important;
+}
+.u-bg-paleGrey {
+  background-color: var(--paleGrey) !important;
+}
+.u-bg-silver {
+  background-color: var(--silver) !important;
+}
+.u-bg-coolGrey {
+  background-color: var(--coolGrey) !important;
+}
+.u-bg-slateGrey {
+  background-color: var(--slateGrey) !important;
+}
+.u-bg-charcoalGrey {
+  background-color: var(--charcoalGrey) !important;
+}
+.u-bg-overlay {
+  background-color: var(--overlay) !important;
+}
+.u-bg-zircon {
+  background-color: var(--zircon) !important;
+}
+.u-bg-frenchPass {
+  background-color: var(--frenchPass) !important;
+}
+.u-bg-dodgerBlue {
+  background-color: var(--dodgerBlue) !important;
+}
+.u-bg-scienceBlue {
+  background-color: var(--scienceBlue) !important;
+}
+.u-bg-puertoRico {
+  background-color: var(--puertoRico) !important;
+}
+.u-bg-grannyApple {
+  background-color: var(--grannyApple) !important;
+}
+.u-bg-emerald {
+  background-color: var(--emerald) !important;
+}
+.u-bg-malachite {
+  background-color: var(--malachite) !important;
+}
+.u-bg-seafoamGreen {
+  background-color: var(--seafoamGreen) !important;
+}
+.u-bg-brightSun {
+  background-color: var(--brightSun) !important;
+}
+.u-bg-texasRose {
+  background-color: var(--texasRose) !important;
+}
+.u-bg-chablis {
+  background-color: var(--chablis) !important;
+}
+.u-bg-yourPink {
+  background-color: var(--yourPink) !important;
+}
+.u-bg-fuchsia {
+  background-color: var(--fuchsia) !important;
+}
+.u-bg-pomegranate {
+  background-color: var(--pomegranate) !important;
+}
+.u-bg-monza {
+  background-color: var(--monza) !important;
+}
+.u-bg-portage {
+  background-color: var(--portage) !important;
+}
+.u-bg-azure {
+  background-color: var(--azure) !important;
+}
+.u-bg-melon {
+  background-color: var(--melon) !important;
+}
+.u-bg-blazeOrange {
+  background-color: var(--blazeOrange) !important;
+}
+.u-bg-mango {
+  background-color: var(--mango) !important;
+}
+.u-bg-pumpkinOrange {
+  background-color: var(--pumpkinOrange) !important;
+}
+.u-bg-lavender {
+  background-color: var(--lavender) !important;
+}
+.u-bg-darkPeriwinkle {
+  background-color: var(--darkPeriwinkle) !important;
+}
+.u-bg-purpley {
+  background-color: var(--purpley) !important;
+}
+.u-bg-lightishPurple {
+  background-color: var(--lightishPurple) !important;
+}
+.u-bg-barney {
+  background-color: var(--barney) !important;
+}
+.u-bg-weirdGreen {
+  background-color: var(--weirdGreen) !important;
+}
+.u-bg-primaryColor {
+  background-color: var(--primaryColor) !important;
+}
+.u-bg-primaryColorLight {
+  background-color: var(--primaryColorLight) !important;
+}
+.u-bg-primaryContrastTextColor {
+  background-color: var(--primaryContrastTextColor) !important;
+}
 .u-c-default {
   cursor: default;
 }
@@ -10335,6 +10452,19 @@ Display an chip that represents complex identity
  .u-purpley - purpley color
  .u-lightishPurple - lightishPurple color
  .u-weirdGreen - weirdGreen color
+ .u-overlay - overlay color
+ .u-zircon - zircon color
+ .u-frenchPass - frenchPass color
+ .u-grannyApple - grannyApple color
+ .u-seafoamGreen - seafoamGreen color
+ .u-brightSun - brightSun color
+ .u-chablis - chablis color
+ .u-fuchsia - fuchsia color
+ .u-lavender - lavender color
+ .u-barney - barney color
+ .u-primaryColor - primaryColor color
+ .u-primaryColorLight - primaryColorLight color
+ .u-primaryContrastTextColor - primaryContrastTextColor color
 
  Weight: 1
 
@@ -10897,7 +11027,7 @@ Display an chip that represents complex identity
     .u-flex-order-last - Set flex item order to the last position (99999)
 
     Markup:
-    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;";>
+    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;">
         <div class="u-title-h1 {{modifier_class}}" style="padding:.5rem; background-color:red; flex: 0 0 5%">item</div>
         <div class="u-title-h1" style="order:1 ;padding:.5rem; background-color:gainsboro; flex: 0 0 5%">1</div>
         <div class="u-title-h1" style="order:2 ;padding:.5rem; background-color:gainsboro; flex: 0 0 5%">2</div>
@@ -10924,7 +11054,7 @@ Display an chip that represents complex identity
     .u-flex-grow-1 - Flex item grows
 
     Markup:
-    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;";>
+    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;">
         <div style="padding:.5rem; background-color:gainsboro;">Tincidunt at porttitor augue ac</div>
         <div class="{{modifier_class}}" style="padding:.5rem; background-color:bisque;">Nulla ex aptent eleifend tempus mauris habitant imperdiet porta, ac mattis lobortis felis per dictum.</div>
         <div style="padding:.5rem; background-color:darkkhaki;">Cubilia pharetra faucibus</div>
@@ -10943,7 +11073,7 @@ Display an chip that represents complex identity
     .u-flex-shrink-1 - Flex item shrinks
 
     Markup:
-    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;";>
+    <div class="u-flex u-flex-nowrap u-flex-items-start" style="background-color:dimgrey; border: 1px solid black;">
         <div style="padding:.5rem; background-color:gainsboro;">Tincidunt at porttitor augue ac</div>
         <div class="{{modifier_class}}" style="padding:.5rem; background-color:bisque;">Nulla ex aptent eleifend tempus mauris habitant imperdiet porta, ac mattis lobortis felis per dictum commodo parturient condimentum.</div>
         <div style="padding:.5rem; background-color:darkkhaki;">Cubilia pharetra faucibus commodo parturient condimentum inceptos montes nisl egestas facilisis.</div>
@@ -10952,4 +11082,56 @@ Display an chip that represents complex identity
     Weight: 10
 
     Styleguide utilities.flexbox.shrink
+*/
+/*
+    Background-color
+
+    Classes to set a background-color on elements
+
+    .u-bg-black - block color
+    .u-bg-white - white color
+    .u-bg-paleGrey - paleGrey color
+    .u-bg-silver - silver color
+    .u-bg-coolGrey - coolGrey color
+    .u-bg-slateGrey - slateGrey color
+    .u-bg-charcoalGrey - charcoalGrey color
+    .u-bg-dodgerBlue - dodgerBlue color
+    .u-bg-scienceBlue - scienceBlue color
+    .u-bg-puertoRico - puertoRico color
+    .u-bg-emerald - emerald color
+    .u-bg-malachite - malachite color
+    .u-bg-texasRose - texasRose color
+    .u-bg-yourPink - yourPink color
+    .u-bg-pomegranate - pomegranate color
+    .u-bg-monza - monza color
+    .u-bg-portage - portage color
+    .u-bg-azure - azure color
+    .u-bg-melon - melon color
+    .u-bg-blazeOrange - blazeOrange color
+    .u-bg-mango - mango color
+    .u-bg-pumpkinOrange - pumpkinOrange color
+    .u-bg-darkPeriwinkle - darkPeriwinkle color
+    .u-bg-purpley - purpley color
+    .u-bg-lightishPurple - lightishPurple color
+    .u-bg-weirdGreen - weirdGreen color
+    .u-bg-overlay - overlay color
+    .u-bg-zircon - zircon color
+    .u-bg-frenchPass - frenchPass color
+    .u-bg-grannyApple - grannyApple color
+    .u-bg-seafoamGreen - seafoamGreen color
+    .u-bg-brightSun - brightSun color
+    .u-bg-chablis - chablis color
+    .u-bg-fuchsia - fuchsia color
+    .u-bg-lavender - lavender color
+    .u-bg-barney - barney color
+    .u-bg-primaryColor - primaryColor color
+    .u-bg-primaryColorLight - primaryColorLight color
+    .u-bg-primaryContrastTextColor - primaryContrastTextColor color
+
+    Markup:
+    <div class="{{modifier_class}}" style="display: inline-block; width: 10rem; height: 2rem; border: 1px solid black;"></div>
+
+    Weight: 14
+
+    Styleguide utilities.bgcolor
 */
