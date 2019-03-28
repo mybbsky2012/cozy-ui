@@ -35,6 +35,42 @@ body textarea {
             transform: rotate(359deg);
   }
 }
+@-webkit-keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
 .c-btn[aria-busy=true] > span::after,
 .c-btn--regular[aria-busy=true] > span::after,
 .c-btn--secondary[aria-busy=true] > span::after,
@@ -10201,6 +10237,16 @@ table.c-table td.c-table-ellipsis > div > div {
     height: auto !important;
   }
 }
+.u-shake {
+  -webkit-animation-name: shake;
+          animation-name: shake;
+  -webkit-animation-duration: 820ms;
+          animation-duration: 820ms;
+  -webkit-animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
+          animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
 .u-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13788,4 +13834,21 @@ Display an chip that represents complex identity
     Weight: 14
 
     Styleguide utilities.opacity
+*/
+/*
+    Effects and animations
+
+    Classes to trigger CSS effects and animations.
+
+
+    .u-shake - Item will be shaked
+
+    Markup:
+    <div class="{{modifier_class}}">
+        Will be shaked
+    </div>
+
+    Styleguide utilities.effects
+
+    Weight: 15
 */
