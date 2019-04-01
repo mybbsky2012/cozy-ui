@@ -15161,7 +15161,7 @@ body {
   background-color: var(--paleGrey);
 }
 .c-actionbtn--error--2pt97 {
-  background-color: chablis;
+  background-color: var(--chablis);
   color: var(--pomegranate);
   border-color: var(--yourPink);
 }
@@ -15175,7 +15175,7 @@ body {
 }
 .c-actionbtn--error--2pt97[disabled]:hover,
 .c-actionbtn--error--2pt97[aria-disabled=true]:hover {
-  background-color: chablis;
+  background-color: var(--chablis);
 }
 .c-actionbtn--new--1_BNn {
   background-color: var(--zircon);
