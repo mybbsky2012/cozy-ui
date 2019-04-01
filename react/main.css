@@ -1684,8 +1684,8 @@ body {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem var(--silver);
   background-color: var(--white);
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
 }
 [data-input=checkbox] label::before:hover {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -9725,140 +9725,6 @@ body {
   overflow: auto;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-badge-root--3Xore {
   position: relative;
   display: inline-flex;
@@ -9870,8 +9736,8 @@ body {
   width: 0.875rem;
   height: 0.875rem;
   border-radius: 50%;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #000;
+  color: #fff;
   z-index: 1;
   display: flex;
   flex-direction: row;
@@ -9880,7 +9746,7 @@ body {
   align-content: center;
   align-items: center;
   font-size: 0.625rem;
-  border: 0.063rem solid var(--white);
+  border: 0.063rem solid #fff;
   cursor: inherit;
 }
 .c-badge--new--21-Dw {
@@ -9896,140 +9762,6 @@ body {
   background-color: var(--pomegranate);
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 :root {
   --primaryFont: Lato, sans-serif;
 }
@@ -10081,8 +9813,8 @@ body {
 }
 html,
 body {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: #fff;
+  color: #000;
 }
 @-moz-keyframes spin--29uW_ {
   from {
@@ -10584,121 +10316,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -11116,8 +10848,8 @@ body {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
+  background-color: #fff;
   box-shadow: inset 0 0 0 0.125rem var(--silver);
-  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -11159,7 +10891,7 @@ body {
   border-radius: 0.5rem;
   max-height: 100%;
   max-width: 100%;
-  background-color: var(--white);
+  background-color: #fff;
   color: var(--charcoalGrey);
 }
 @media (max-width: 35rem) {
@@ -12430,8 +12162,8 @@ body {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
-  box-shadow: inset 0 0 0 0.125rem var(--silver);
   background-color: var(--white);
+  box-shadow: inset 0 0 0 0.125rem var(--silver);
 }
 [data-input=checkbox] label::before:hover {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -12789,140 +12521,6 @@ body {
   margin-top: 3rem;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--alZ_V {
   from {
     transform: rotate(0deg);
@@ -13474,121 +13072,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -14423,140 +14021,6 @@ body {
   fill: inherit;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-overlay--31iWd {
   z-index: 50;
   position: fixed;
@@ -14569,140 +14033,6 @@ body {
   transition: opacity 0.3s, visibility 0s ease-out;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--1WjkR {
   from {
     transform: rotate(0deg);
@@ -15223,121 +14553,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -15814,7 +15144,7 @@ body {
   border: 0;
 }
 .c-actionbtn--normal--1HGLQ {
-  background-color: var(--paleGrey);
+  background-color: paleGrey;
   color: var(--charcoalGrey);
   border-color: var(--silver);
 }
@@ -15828,10 +15158,10 @@ body {
 }
 .c-actionbtn--normal--1HGLQ[disabled]:hover,
 .c-actionbtn--normal--1HGLQ[aria-disabled=true]:hover {
-  background-color: var(--paleGrey);
+  background-color: paleGrey;
 }
 .c-actionbtn--error--2pt97 {
-  background-color: var(--chablis);
+  background-color: chablis;
   color: var(--pomegranate);
   border-color: var(--yourPink);
 }
@@ -15845,10 +15175,10 @@ body {
 }
 .c-actionbtn--error--2pt97[disabled]:hover,
 .c-actionbtn--error--2pt97[aria-disabled=true]:hover {
-  background-color: var(--chablis);
+  background-color: chablis;
 }
 .c-actionbtn--new--1_BNn {
-  background-color: var(--zircon);
+  background-color: zircon;
   color: var(--dodgerBlue);
   border-color: var(--frenchPass);
   border-width: 0.063rem;
@@ -15864,7 +15194,7 @@ body {
 }
 .c-actionbtn--new--1_BNn[disabled]:hover,
 .c-actionbtn--new--1_BNn[aria-disabled=true]:hover {
-  background-color: var(--zircon);
+  background-color: zircon;
 }
 .c-actionbtn--new--1_BNn:hover:not([disabled]),
 .c-actionbtn--new--1_BNn:focus:not([disabled]) {
@@ -16352,140 +15682,6 @@ body {
   margin: 0;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--3NpSD {
   from {
     transform: rotate(0deg);
@@ -16986,121 +16182,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -17488,8 +16684,8 @@ body {
 }
 .c-input-checkbox--2CzvY span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
+  background-color: #fff;
   box-shadow: inset 0 0 0 0.125rem var(--silver);
-  background-color: var(--white);
 }
 .c-input-checkbox--2CzvY span:hover::before {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -17537,140 +16733,6 @@ body {
   background-color: var(--yourPink);
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--2YilK {
   from {
     transform: rotate(0deg);
@@ -18171,121 +17233,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -18677,140 +17739,6 @@ body {
   text-transform: uppercase;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--1c3eg {
   from {
     transform: rotate(0deg);
@@ -19311,121 +18239,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -19803,140 +18731,6 @@ body {
   color: var(--pomegranate);
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--1UBe7 {
   from {
     transform: rotate(0deg);
@@ -20437,121 +19231,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -20934,8 +19728,8 @@ body {
   padding: 0.813rem 1rem;
   box-sizing: border-box;
   border-radius: 0.188rem;
+  background: #fff;
   border: 0.063rem solid var(--silver);
-  background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
   color: var(--charcoalGrey);
@@ -20972,140 +19766,6 @@ body {
   max-width: 100%;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--1n8EJ {
   from {
     transform: rotate(0deg);
@@ -21606,121 +20266,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -22103,95 +20763,6 @@ body {
 .select--disabled--1W3en:focus {
   border-width: 0;
 }
-.select-control__input--1xDlj {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
-.select--autowidth--16AEp {
-  max-width: 30rem;
-}
-.select--fullwidth--2l_xM {
-  padding-right: 0;
-}
-.select-option--ov_IT {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0.5rem;
-  border-left: 0.25rem solid transparent;
-  color: var(--charcoalGrey);
-  transition: all 0.2s ease-out;
-  white-space: normal /* otherwise the tick can be wrongly placed in Firefox */;
-}
-.select-option--ov_IT:hover:not(.select-option--disabled--1du57) {
-  background-color: var(--paleGrey);
-  cursor: pointer;
-}
-.select-option--ov_IT:hover:not(.select-option--disabled--1du57) .select-option__actions--2WOjb {
-  opacity: 1;
-}
-.select-option--focused--1Vpjv:not(.select-option--disabled--1du57) {
-  background-color: var(--paleGrey);
-}
-.select-option--selected--R3_ES {
-  background-color: var(--paleGrey);
-  border-left-color: var(--dodgerBlue);
-}
-.select-option--disabled--1du57 {
-  color: var(--silver);
-  cursor: not-allowed;
-}
-.select-option__checkbox--15WVE {
-  margin-right: 0.5rem;
-  vertical-align: top;
-}
-.select-option__label--1Xi5R {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  overflow: hidden;
-}
-.select-option__checkmark--ChXXs {
-  width: 2rem;
-}
-.select-option__actions--2WOjb {
-  opacity: 0;
-  white-space: nowrap;
-  transition: opacity 0.2s ease-out;
-}
-@media (max-width: 63.938rem) {
-  .select-option__actions--2WOjb {
-    opacity: 1;
-  }
-}
-.select__overlay--3H8Jy::before {
-  content: '\A0';
-  width: 200vw;
-  height: 200vh;
-  top: -50vh;
-  left: -50vh;
-  display: block;
-  position: fixed;
-}
-.MenuList--1H_pH {
-  display: flex;
-  flex-direction: column;
-}
-.Group--J6s7k,
-.FixedGroup--2izTc {
-  overflow-y: auto;
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
-}
-.FixedGroup--2izTc {
-  flex-shrink: 0;
-  border-top: var(--silver) 1px solid;
-}
-
 :root {
 /*
     Grey
@@ -22326,6 +20897,95 @@ body {
   --primaryColorLightest: #9fc4fb;
   --primaryContrastTextColor: var(--white);
 }
+.select-control__input--1xDlj {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.select--autowidth--16AEp {
+  max-width: 30rem;
+}
+.select--fullwidth--2l_xM {
+  padding-right: 0;
+}
+.select-option--ov_IT {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+  border-left: 0.25rem solid transparent;
+  color: var(--charcoalGrey);
+  transition: all 0.2s ease-out;
+  white-space: normal /* otherwise the tick can be wrongly placed in Firefox */;
+}
+.select-option--ov_IT:hover:not(.select-option--disabled--1du57) {
+  background-color: var(--paleGrey);
+  cursor: pointer;
+}
+.select-option--ov_IT:hover:not(.select-option--disabled--1du57) .select-option__actions--2WOjb {
+  opacity: 1;
+}
+.select-option--focused--1Vpjv:not(.select-option--disabled--1du57) {
+  background-color: var(--paleGrey);
+}
+.select-option--selected--R3_ES {
+  background-color: var(--paleGrey);
+  border-left-color: var(--dodgerBlue);
+}
+.select-option--disabled--1du57 {
+  color: var(--silver);
+  cursor: not-allowed;
+}
+.select-option__checkbox--15WVE {
+  margin-right: 0.5rem;
+  vertical-align: top;
+}
+.select-option__label--1Xi5R {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.select-option__checkmark--ChXXs {
+  width: 2rem;
+}
+.select-option__actions--2WOjb {
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.2s ease-out;
+}
+@media (max-width: 63.938rem) {
+  .select-option__actions--2WOjb {
+    opacity: 1;
+  }
+}
+.select__overlay--3H8Jy::before {
+  content: '\A0';
+  width: 200vw;
+  height: 200vh;
+  top: -50vh;
+  left: -50vh;
+  display: block;
+  position: fixed;
+}
+.MenuList--1H_pH {
+  display: flex;
+  flex-direction: column;
+}
+.Group--J6s7k,
+.FixedGroup--2izTc {
+  overflow-y: auto;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+.FixedGroup--2izTc {
+  flex-shrink: 0;
+  border-top: var(--silver) 1px solid;
+}
+
 @-moz-keyframes spin--hGoYA {
   from {
     transform: rotate(0deg);
@@ -22826,121 +21486,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -23323,8 +21983,8 @@ body {
   padding: 0.813rem 1rem;
   box-sizing: border-box;
   border-radius: 0.188rem;
+  background: #fff;
   border: 0.063rem solid var(--silver);
-  background: var(--white);
   font-size: 1rem;
   line-height: 1.25;
   color: var(--charcoalGrey);
@@ -23369,140 +22029,6 @@ body {
   min-height: 5rem;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 @-moz-keyframes spin--2iWsM {
   from {
     transform: rotate(0deg);
@@ -24003,121 +22529,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -24505,8 +23031,8 @@ body {
 }
 .c-input-radio--XJQt1 span::before {
   transition: box-shadow 350ms cubic-bezier(0, 0.89, 0.44, 1);
+  background-color: #fff;
   box-shadow: inset 0 0 0 0.125rem var(--silver);
-  background-color: var(--white);
 }
 .c-input-radio--XJQt1 span:hover::before {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -24559,7 +23085,7 @@ body {
 .c-input-radio--XJQt1 span::after {
   background: none;
   content: '\2022';
-  color: var(--white);
+  color: #fff;
   text-align: center;
   font-size: 1rem;
   line-height: 0.813rem;
@@ -24739,140 +23265,6 @@ body {
 }
 
 :root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
-:root {
   --primaryFont: Lato, sans-serif;
 }
 body,
@@ -24923,8 +23315,8 @@ body {
 }
 html,
 body {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: #fff;
+  color: #000;
 }
 @-moz-keyframes spin--2qpxt {
   from {
@@ -25426,121 +23818,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -25958,8 +24350,8 @@ body {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
+  background-color: #fff;
   box-shadow: inset 0 0 0 0.125rem var(--silver);
-  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -26074,140 +24466,6 @@ body {
   }
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .o-sidebar--1295j {
   width: 13.75rem;
   border-right: 0.063rem solid var(--silver);
@@ -26532,148 +24790,14 @@ body {
   text-align: center;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-circle--1DuMR {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   overflow: hidden;
+  color: #fff;
   background-color: var(--dodgerBlue);
-  color: var(--white);
 }
 .c-circle--medium--2hfCF {
   width: 2.5rem;
@@ -26685,140 +24809,6 @@ body {
   line-height: 1;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-avatar--PpDI- {
   display: inline-flex;
   align-items: center;
@@ -30802,140 +28792,6 @@ body {
     margin-right: 2.5rem !important;
   }
 }
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .Panel-group--1txSp {
   display: flex;
   flex-direction: row;
@@ -31164,140 +29020,6 @@ body {
   transition: max-height 300ms ease-in;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .u-title-h1--fimho,
 .u-title-h2--2cES6,
 .u-title-h3--1ZGqN,
@@ -31361,140 +29083,6 @@ body {
 }
 
 :root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
-:root {
   --primaryFont: Lato, sans-serif;
 }
 body,
@@ -31545,8 +29133,8 @@ body {
 }
 html,
 body {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: #fff;
+  color: #000;
 }
 @-moz-keyframes spin--2gA95 {
   from {
@@ -32048,121 +29636,121 @@ body {
   color: var(--texasRose);
 }
 .u-black {
-  color: var(--black) !important;
+  color: #000 !important;
 }
 .u-white {
-  color: var(--white) !important;
+  color: #fff !important;
 }
 .u-paleGrey {
-  color: var(--paleGrey) !important;
+  color: !important;
 }
 .u-silver {
-  color: var(--silver) !important;
+  color: #c0c0c0 !important;
 }
 .u-coolGrey {
-  color: var(--coolGrey) !important;
+  color: !important;
 }
 .u-slateGrey {
-  color: var(--slateGrey) !important;
+  color: !important;
 }
 .u-charcoalGrey {
-  color: var(--charcoalGrey) !important;
+  color: !important;
 }
 .u-overlay {
-  color: var(--overlay) !important;
+  color: !important;
 }
 .u-zircon {
-  color: var(--zircon) !important;
+  color: !important;
 }
 .u-frenchPass {
-  color: var(--frenchPass) !important;
+  color: !important;
 }
 .u-dodgerBlue {
-  color: var(--dodgerBlue) !important;
+  color: !important;
 }
 .u-scienceBlue {
-  color: var(--scienceBlue) !important;
+  color: !important;
 }
 .u-puertoRico {
-  color: var(--puertoRico) !important;
+  color: !important;
 }
 .u-grannyApple {
-  color: var(--grannyApple) !important;
+  color: !important;
 }
 .u-emerald {
-  color: var(--emerald) !important;
+  color: !important;
 }
 .u-malachite {
-  color: var(--malachite) !important;
+  color: !important;
 }
 .u-seafoamGreen {
-  color: var(--seafoamGreen) !important;
+  color: !important;
 }
 .u-brightSun {
-  color: var(--brightSun) !important;
+  color: !important;
 }
 .u-texasRose {
-  color: var(--texasRose) !important;
+  color: !important;
 }
 .u-chablis {
-  color: var(--chablis) !important;
+  color: !important;
 }
 .u-yourPink {
-  color: var(--yourPink) !important;
+  color: !important;
 }
 .u-fuchsia {
-  color: var(--fuchsia) !important;
+  color: #f0f !important;
 }
 .u-pomegranate {
-  color: var(--pomegranate) !important;
+  color: !important;
 }
 .u-monza {
-  color: var(--monza) !important;
+  color: !important;
 }
 .u-portage {
-  color: var(--portage) !important;
+  color: !important;
 }
 .u-azure {
-  color: var(--azure) !important;
+  color: #f0ffff !important;
 }
 .u-melon {
-  color: var(--melon) !important;
+  color: !important;
 }
 .u-blazeOrange {
-  color: var(--blazeOrange) !important;
+  color: !important;
 }
 .u-mango {
-  color: var(--mango) !important;
+  color: !important;
 }
 .u-pumpkinOrange {
-  color: var(--pumpkinOrange) !important;
+  color: !important;
 }
 .u-lavender {
-  color: var(--lavender) !important;
+  color: #e6e6fa !important;
 }
 .u-darkPeriwinkle {
-  color: var(--darkPeriwinkle) !important;
+  color: !important;
 }
 .u-purpley {
-  color: var(--purpley) !important;
+  color: !important;
 }
 .u-lightishPurple {
-  color: var(--lightishPurple) !important;
+  color: !important;
 }
 .u-barney {
-  color: var(--barney) !important;
+  color: !important;
 }
 .u-weirdGreen {
-  color: var(--weirdGreen) !important;
+  color: !important;
 }
 .u-primaryColor {
-  color: var(--primaryColor) !important;
+  color: !important;
 }
 .u-primaryColorLight {
-  color: var(--primaryColorLight) !important;
+  color: !important;
 }
 .u-primaryContrastTextColor {
-  color: var(--primaryContrastTextColor) !important;
+  color: !important;
 }
 .u-breakword {
   word-break: break-word;
@@ -32580,8 +30168,8 @@ body {
   border-radius: 0.125rem;
 }
 [data-input=checkbox] label::before {
+  background-color: #fff;
   box-shadow: inset 0 0 0 0.125rem var(--silver);
-  background-color: var(--white);
 }
 [data-input=checkbox] label::before:hover {
   box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
@@ -32657,144 +30245,10 @@ body {
   }
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .well--3xv79 {
   margin: 1rem 2rem;
   background: var(--paleGrey);
-  border: 0.063rem solid var(--silver);
+  border: 0.063rem solid #c0c0c0;
   border-radius: 0.313rem;
 }
 @media (max-width: 48rem) {
@@ -32803,140 +30257,6 @@ body {
   }
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .infos--Xu7xe {
   max-width: 32.75rem;
   min-height: 3.5rem;
@@ -32959,140 +30279,6 @@ body {
   display: flex;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .context-header--QuTup {
   margin: 1rem 2rem;
   background: var(--paleGrey);
@@ -33175,140 +30361,6 @@ iframe {
   right: 0.5rem;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-list-text--3kc3E {
   display: flex;
   flex-direction: column;
@@ -33319,140 +30371,6 @@ iframe {
   margin-top: 0.188rem;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-actionmenu--22Fp1 {
   z-index: 40;
   border: 0.063rem solid var(--silver);
@@ -33516,140 +30434,6 @@ iframe {
   background-color: var(--paleGrey);
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .c-menu__inner--2g_mC {
   z-index: 40;
   border: 0.063rem solid var(--silver);
@@ -33739,140 +30523,6 @@ iframe {
   opacity: 0.5;
 }
 
-:root {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-    Weight: -1
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
-    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --frenchPass: #c2dcff;
-  --azure: #1fa8f1;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-  --puertoRico: #0dcbcf;
-/*
-    Green
-
-    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
-
-    Styleguide Settings.colors.green
-    */
-  --grannyApple: #def7e7;
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-  --seafoamGreen: #3da67e;
-/*
-    Orange
-
-    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
-    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
-    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
-    Stylus: melon         - #FD7461, CSS: var(--melon)
-
-    Styleguide Settings.colors.orange
-    */
-  --brightSun: #ffc644;
-  --texasRose: #ffae5f;
-  --mango: #ff962f;
-  --pumpkinOrange: #ff7f1b;
-  --blazeOrange: #fc6d00;
-  --melon: #fd7461;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fushsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-/*
-    Purple
-
-    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
-    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
-    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
-    Stylus: portage        - #9169F2, CSS: var(--portage)
-    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
-    Stylus: barney         - #922BC2, CSS: var(--barney)
-
-    Styleguide Settings.colors.purple
-    */
-  --lavender: #c2adf4;
-  --darkPeriwinkle: #6984ce;
-  --purpley: #7f6bee;
-  --portage: #9169f2;
-  --lightishPurple: #b449e7;
-  --barney: #922bc2;
-/*
-        Theme
-
-        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
-
-        Styleguide Settings.theme
-    */
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-  --primaryContrastTextColor: var(--white);
-}
 .coz-tabs--24QL5 .coz-tab-list--3qac8 {
   border-bottom: 0.063rem solid var(--silver);
 }
@@ -35031,8 +31681,8 @@ iframe {
   background-color: var(--yourPink);
 }
 .c-btn--alert-info--1BO12 {
-  background-color: var(--coolGrey);
   color: var(--white);
+  background-color: var(--coolGrey);
 }
 .c-btn--alert-info--1BO12[disabled]:hover,
 .c-btn--alert-info--1BO12[aria-disabled=true]:hover {
