@@ -15144,7 +15144,7 @@ body {
   border: 0;
 }
 .c-actionbtn--normal--1HGLQ {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
   color: var(--charcoalGrey);
   border-color: var(--silver);
 }
@@ -15158,7 +15158,7 @@ body {
 }
 .c-actionbtn--normal--1HGLQ[disabled]:hover,
 .c-actionbtn--normal--1HGLQ[aria-disabled=true]:hover {
-  background-color: paleGrey;
+  background-color: var(--paleGrey);
 }
 .c-actionbtn--error--2pt97 {
   background-color: chablis;
@@ -15178,7 +15178,7 @@ body {
   background-color: chablis;
 }
 .c-actionbtn--new--1_BNn {
-  background-color: zircon;
+  background-color: var(--zircon);
   color: var(--dodgerBlue);
   border-color: var(--frenchPass);
   border-width: 0.063rem;
@@ -15194,7 +15194,7 @@ body {
 }
 .c-actionbtn--new--1_BNn[disabled]:hover,
 .c-actionbtn--new--1_BNn[aria-disabled=true]:hover {
-  background-color: zircon;
+  background-color: var(--zircon);
 }
 .c-actionbtn--new--1_BNn:hover:not([disabled]),
 .c-actionbtn--new--1_BNn:focus:not([disabled]) {
