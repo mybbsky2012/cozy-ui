@@ -12557,6 +12557,22 @@ table.c-table td.c-table-ellipsis > div > div {
 .u-o-0 {
   opacity: 0;
 }
+.u-pos-absolute {
+  position: absolute;
+}
+.u-pos-relative {
+  position: relative;
+}
+.u-pos-fixed {
+  position: fixed;
+}
+.u-pos-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.u-pos-static {
+  position: static;
+}
 /*------------------------------------*  Objects
 \*------------------------------------*/
 /*------------------------------------*  Components
@@ -13597,6 +13613,26 @@ Display an chip that represents complex identity
     Weight: 1
 
     Styleguide utilities.display
+*/
+/*
+    Position
+
+    Classes to change the position of an element
+
+    .u-pos-absolute - Absolute position
+    .u-pos-relative - Relative position
+    .u-pos-fixed - Fixed position (relative to the viewport)
+    .u-pos-sticky - Sticky position
+    .u-pos-static - Static position
+
+    Markup:
+    <div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+        <div class="{{modifier_class}}" style="background-color:green;">Nulla ex aptent</div>
+    </div>
+
+    Weight: 1
+
+    Styleguide utilities.position
 */
 /*
     Flexbox display

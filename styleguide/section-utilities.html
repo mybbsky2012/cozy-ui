@@ -237,38 +237,44 @@
                       </a>
                     </li>
                     <li class="kss-nav__item ">
-                      <a href="section-utilities.html#kssref-utilities-dimensions">
+                      <a href="section-utilities.html#kssref-utilities-position">
                         <span class="kss-nav__ref">4.11</span>
+                        <span class="kss-nav__name">Position</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item ">
+                      <a href="section-utilities.html#kssref-utilities-dimensions">
+                        <span class="kss-nav__ref">4.12</span>
                         <span class="kss-nav__name">width/height</span>
                       </a>
                     </li>
                     <li class="kss-nav__item kss-nav__item--grandchild">
                       <a href="section-utilities.html#kssref-utilities-dimensions-min">
-                        <span class="kss-nav__ref">4.11.1</span>
+                        <span class="kss-nav__ref">4.12.1</span>
                         <span class="kss-nav__name">Min-width/height</span>
                       </a>
                     </li>
                     <li class="kss-nav__item kss-nav__item--grandchild">
                       <a href="section-utilities.html#kssref-utilities-dimensions-max">
-                        <span class="kss-nav__ref">4.11.2</span>
+                        <span class="kss-nav__ref">4.12.2</span>
                         <span class="kss-nav__name">Max-width/height</span>
                       </a>
                     </li>
                     <li class="kss-nav__item ">
                       <a href="section-utilities.html#kssref-utilities-bgcolor">
-                        <span class="kss-nav__ref">4.12</span>
+                        <span class="kss-nav__ref">4.13</span>
                         <span class="kss-nav__name">Background-color</span>
                       </a>
                     </li>
                     <li class="kss-nav__item ">
                       <a href="section-utilities.html#kssref-utilities-opacity">
-                        <span class="kss-nav__ref">4.13</span>
+                        <span class="kss-nav__ref">4.14</span>
                         <span class="kss-nav__name">Opacity</span>
                       </a>
                     </li>
                     <li class="kss-nav__item ">
                       <a href="section-utilities.html#kssref-utilities-effects">
-                        <span class="kss-nav__ref">4.14</span>
+                        <span class="kss-nav__ref">4.15</span>
                         <span class="kss-nav__name">Effects and animations</span>
                       </a>
                     </li>
@@ -2783,13 +2789,82 @@ default font-size (16px)</p>
                 </article>
 
             </section>
+            <section class="kss-section kss-section--depth-2" id="kssref-utilities-position">
+
+            <article class="kss-section__content">
+
+              <a class="kss-section__permalink" href="#kssref-utilities-position">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">4.11</span>
+                  <span class="kss-section__name">Position</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>Classes to change the position of an element</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Examples</h1>
+
+                  <h2 class="kss-modifiers__name">Default styling</h2>
+
+                <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="[modifier class]" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+
+                  <h2 class="kss-modifiers__name">.u-pos-absolute</h2>
+
+                  <p class="kss-modifiers__description">Absolute position</p>
+
+                  <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="u-pos-absolute" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+                  <h2 class="kss-modifiers__name">.u-pos-relative</h2>
+
+                  <p class="kss-modifiers__description">Relative position</p>
+
+                  <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="u-pos-relative" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+                  <h2 class="kss-modifiers__name">.u-pos-fixed</h2>
+
+                  <p class="kss-modifiers__description">Fixed position (relative to the viewport)</p>
+
+                  <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="u-pos-fixed" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+                  <h2 class="kss-modifiers__name">.u-pos-sticky</h2>
+
+                  <p class="kss-modifiers__description">Sticky position</p>
+
+                  <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="u-pos-sticky" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+                  <h2 class="kss-modifiers__name">.u-pos-static</h2>
+
+                  <p class="kss-modifiers__description">Static position</p>
+
+                  <div class="kss-modifiers__example"><div style="position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;">
+    <div class="u-pos-static" style="background-color:green;">Nulla ex aptent</div>
+</div></div>
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;div style&#x3D;&quot;position: relative; margin: 1rem; padding: .125rem .25rem; background-color:gainsboro; border: 1px solid black;&quot;&gt;
+    &lt;div class&#x3D;&quot;[modifier class]&quot; style&#x3D;&quot;background-color:green;&quot;&gt;Nulla ex aptent&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </article>
+
+            </section>
             <section class="kss-section kss-section--depth-2" id="kssref-utilities-dimensions">
 
             <article class="kss-section__content">
 
               <a class="kss-section__permalink" href="#kssref-utilities-dimensions">
                 <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">4.11</span>
+                  <span class="kss-section__ref">4.12</span>
                   <span class="kss-section__name">width/height</span>
                 </h2>
               </a>
@@ -2929,7 +3004,7 @@ default font-size (16px)</p>
 
               <a class="kss-section__permalink" href="#kssref-utilities-dimensions-min">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">4.11.1</span>
+                  <span class="kss-section__ref">4.12.1</span>
                   <span class="kss-section__name">Min-width/height</span>
                 </h3>
               </a>
@@ -3069,7 +3144,7 @@ default font-size (16px)</p>
 
               <a class="kss-section__permalink" href="#kssref-utilities-dimensions-max">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">4.11.2</span>
+                  <span class="kss-section__ref">4.12.2</span>
                   <span class="kss-section__name">Max-width/height</span>
                 </h3>
               </a>
@@ -3209,7 +3284,7 @@ default font-size (16px)</p>
 
               <a class="kss-section__permalink" href="#kssref-utilities-bgcolor">
                 <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">4.12</span>
+                  <span class="kss-section__ref">4.13</span>
                   <span class="kss-section__name">Background-color</span>
                 </h2>
               </a>
@@ -3434,7 +3509,7 @@ default font-size (16px)</p>
 
               <a class="kss-section__permalink" href="#kssref-utilities-opacity">
                 <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">4.13</span>
+                  <span class="kss-section__ref">4.14</span>
                   <span class="kss-section__name">Opacity</span>
                 </h2>
               </a>
@@ -3529,7 +3604,7 @@ default font-size (16px)</p>
 
               <a class="kss-section__permalink" href="#kssref-utilities-effects">
                 <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">4.14</span>
+                  <span class="kss-section__ref">4.15</span>
                   <span class="kss-section__name">Effects and animations</span>
                 </h2>
               </a>

@@ -9872,6 +9872,21 @@ body {
 .u-o-0--tK0IU {
   opacity: 0;
 }
+.u-pos-absolute {
+  position: absolute;
+}
+.u-pos-relative {
+  position: relative;
+}
+.u-pos-fixed {
+  position: fixed;
+}
+.u-pos-sticky {
+  position: sticky;
+}
+.u-pos-static {
+  position: static;
+}
 html,
 body {
   height: auto;
