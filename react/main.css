@@ -1733,6 +1733,8 @@ body {
 }
 @media (max-width: 33.938rem) {
 }
+@media (max-width: 25rem) {
+}
 @media (max-width: 35rem) {
 }
 @media (max-width: 39rem) {
@@ -11045,6 +11047,8 @@ body {
   background-color: #fff;
   color: var(--charcoalGrey);
 }
+@media (max-width: 25rem) {
+}
 @media (max-width: 35rem) {
 }
 @media (max-width: 39rem) {
@@ -12396,6 +12400,14 @@ body {
   max-width: 100%;
   background-color: var(--white);
   color: var(--charcoalGrey);
+}
+.c-modal--xsmall--1lu1t {
+  width: 24rem;
+}
+@media (max-width: 25rem) {
+  .c-modal--xsmall--1lu1t {
+    width: 100%;
+  }
 }
 .c-modal--small--XUfOM {
   width: 34rem;
