@@ -6147,6 +6147,9 @@ body {
     border-radius: 100%;
   }
 }
+.u-bxz {
+  box-sizing: border-box;
+}
 .u-c-default {
   cursor: default;
 }

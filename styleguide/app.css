@@ -8277,6 +8277,10 @@ table.c-table td.c-table-ellipsis > div > div {
     border-radius: 100%;
   }
 }
+.u-bxz {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .u-c-default {
   cursor: default;
 }
@@ -13664,6 +13668,18 @@ Display an chip that represents complex identity
     Weight: 1
 
     Styleguide utilities.border
+*/
+/*
+    Box-sizing
+
+    .u-bxz - Sets the box-sizing of an element to `border-box`
+
+    Markup:
+    <div class="{{modifier_class}} u-w-4 u-p-1 u-bg-silver"></div>
+
+    Weight: 1
+
+    Styleguide utilities.boxsizing
 */
 /*
     Display
