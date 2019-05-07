@@ -6,8 +6,7 @@ $kss-nav-item-link-active: $cowabunga;
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
-  flex-direction: column;
+  display: block;
   box-shadow: -10px 0 10px 10px rgba($black, 0.5);
   box-sizing: border-box;
   width: 85%;
@@ -38,7 +37,6 @@ $kss-nav-item-link-active: $cowabunga;
   box-sizing: border-box;
   padding: 20px 10px;
   text-align: center;
-  flex: 0 0 auto;
 
   @include mq(min, 1024px) { display: block; }
 }
@@ -51,6 +49,7 @@ $kss-nav-item-link-active: $cowabunga;
   height: 100%;
   margin: 0;
   padding-top: 10px;
+  padding-bottom: 100px;
   padding-left: 0;
   list-style-type: none;
 
