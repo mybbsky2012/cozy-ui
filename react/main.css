@@ -21656,7 +21656,7 @@ body {
   }
 }
 .select__overlay--3H8Jy::before {
-  content: '\A0';
+  content: '\00a0';
   width: 200vw;
   height: 200vh;
   top: -50vh;
@@ -23899,7 +23899,7 @@ body {
 }
 .c-input-radio--XJQt1 span::after {
   background: none;
-  content: '\2022';
+  content: '•';
   color: #fff;
   text-align: center;
   font-size: 1rem;
