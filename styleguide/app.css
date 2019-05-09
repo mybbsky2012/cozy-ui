@@ -2140,6 +2140,13 @@ body {
   color: var(--coolGrey);
   font-size: 1rem;
 }
+.c-input-text::-moz-placeholder,
+.c-textarea::-moz-placeholder,
+.c-select::-moz-placeholder,
+.wizard-select::-moz-placeholder {
+  color: var(--coolGrey);
+  font-size: 1rem;
+}
 .c-input-text:-ms-input-placeholder,
 .c-textarea:-ms-input-placeholder,
 .c-select:-ms-input-placeholder,
