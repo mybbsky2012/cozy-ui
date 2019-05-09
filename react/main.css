@@ -1687,6 +1687,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 [data-input=radio],
 [data-input=checkbox] {
   display: flex;
@@ -1727,6 +1729,10 @@ body {
 [data-input=checkbox] label::after {
   transition-duration: 0.2s;
   transition-property: opacity, transform;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
@@ -11079,6 +11085,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 [data-input=radio],
 [data-input=checkbox] {
   display: flex;
@@ -11119,6 +11127,10 @@ body {
 [data-input=checkbox] label::after {
   transition-duration: 0.2s;
   transition-property: opacity, transform;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
@@ -12398,6 +12410,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 :root {
   --primaryFont: Lato, sans-serif;
 }
@@ -12492,6 +12506,10 @@ body {
 [data-input=checkbox] label::after {
   transition-duration: 0.2s;
   transition-property: opacity, transform;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
@@ -14173,6 +14191,16 @@ body {
   width: 0.625rem;
   height: 0.625rem;
 }
+@media (pointer: coarse) {
+  .c-btn---2Vnj.c-btn--round--1Lkyl:after {
+    content: '';
+    position: absolute;
+    top: -0.875rem;
+    right: -0.875rem;
+    bottom: -0.875rem;
+    left: -0.875rem;
+  }
+}
 .c-btn--subtle--OknKf {
   color: var(--dodgerBlue);
   min-height: auto;
@@ -15498,6 +15526,8 @@ body {
 }
 .c-actionbtn--162t6.c-actionbtn--compact--37yb2 {
   min-width: auto;
+}
+@media (pointer: coarse) {
 }
 .c-actionbtn--162t6 {
   border-color: var(--silver);
@@ -17063,6 +17093,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .c-input-checkbox--2CzvY {
   display: flex;
   margin-bottom: 0.5rem;
@@ -17134,6 +17166,10 @@ body {
 .c-input-checkbox--2CzvY.is-error--3UPnf span::before {
   box-shadow: inset 0 0 0 0.125rem var(--pomegranate);
   background-color: var(--yourPink);
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 
 @-moz-keyframes spin--2YilK {
@@ -18171,11 +18207,17 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .o-field--3n5HM {
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0 1rem;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 .o-field-input--vCqdV {
   position: relative;
@@ -19234,18 +19276,26 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .c-label--o4ozG {
-  display: block;
   text-transform: uppercase;
   color: var(--coolGrey);
   font-size: 0.813rem;
   font-weight: bold;
   line-height: 1rem;
-  padding: 0.5rem 0;
-  margin-top: 1rem;
 }
 .c-label--o4ozG.is-error--2Dwem {
   color: var(--pomegranate);
+}
+.c-label--block--2ZV_7 {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 
 @-moz-keyframes spin--1UBe7 {
@@ -20283,6 +20333,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .c-input-text--3TAv1[aria-disabled=true],
 .c-input-text--3TAv1[disabled] {
   cursor: not-allowed;
@@ -20338,6 +20390,10 @@ body {
 }
 .c-input-text--fullwidth--33o_f {
   max-width: 100%;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 
 @-moz-keyframes spin--1n8EJ {
@@ -21375,6 +21431,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .select--disabled--1W3en {
   cursor: not-allowed;
   background-color: var(--paleGrey);
@@ -21393,6 +21451,10 @@ body {
 .select--disabled--1W3en:hover,
 .select--disabled--1W3en:focus {
   border-width: 0;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 :root {
 /*
@@ -22652,6 +22714,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .c-textarea--D7EEH[aria-disabled=true],
 .c-textarea--D7EEH[disabled] {
   cursor: not-allowed;
@@ -22715,6 +22779,10 @@ body {
 }
 .c-textarea--medium--T8f3b {
   min-height: 5rem;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 
 @-moz-keyframes spin--2iWsM {
@@ -23752,6 +23820,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 .c-input-radio--XJQt1 {
   display: flex;
   margin-bottom: 0.5rem;
@@ -23834,6 +23904,10 @@ body {
   text-align: center;
   font-size: 1rem;
   line-height: 0.813rem;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 
 :root {
@@ -25098,6 +25172,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 [data-input=radio],
 [data-input=checkbox] {
   display: flex;
@@ -25138,6 +25214,10 @@ body {
 [data-input=checkbox] label::after {
   transition-duration: 0.2s;
   transition-property: opacity, transform;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
@@ -30973,6 +31053,8 @@ body {
     font-style: italic !important;
   }
 }
+@media (pointer: coarse) {
+}
 [data-input=radio],
 [data-input=checkbox] {
   display: flex;
@@ -31013,6 +31095,10 @@ body {
 [data-input=checkbox] label::after {
   transition-duration: 0.2s;
   transition-property: opacity, transform;
+}
+@media (max-width: 48rem) {
+}
+@media (max-width: 48rem) {
 }
 [data-input=radio] label::before {
   border-radius: 50%;
@@ -32607,6 +32693,8 @@ iframe {
   color: var(--malachite);
   background-color: var(--grannyApple);
 }
+@media (pointer: coarse) {
+}
 .c-alert--f9mWB {
   position: fixed;
   z-index: 10;
@@ -33825,6 +33913,8 @@ iframe {
   flex: 0 0 2rem;
   margin: 0 0.75rem 0 0;
 }
+@media (pointer: coarse) {
+}
 
 @-moz-keyframes spin--3MAYZ {
   from {
@@ -35039,6 +35129,8 @@ iframe {
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4 figure svg,
 .c-banner-client--38nZA .c-banner-text--2kNbn figure svg {
   display: block;
+}
+@media (pointer: coarse) {
 }
 .c-banner-client--38nZA {
   position: relative;

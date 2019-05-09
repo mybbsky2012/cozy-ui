@@ -1893,6 +1893,16 @@ body {
   width: 0.625rem;
   height: 0.625rem;
 }
+@media (pointer: coarse) {
+  .c-btn.c-btn--round:after {
+    content: '';
+    position: absolute;
+    top: -0.875rem;
+    right: -0.875rem;
+    bottom: -0.875rem;
+    left: -0.875rem;
+  }
+}
 .c-btn--subtle {
   color: var(--dodgerBlue);
   min-height: auto;
@@ -2061,17 +2071,19 @@ body {
   transition-property: opacity, transform, -webkit-transform;
 }
 .c-label {
-  display: block;
   text-transform: uppercase;
   color: var(--coolGrey);
   font-size: 0.813rem;
   font-weight: bold;
   line-height: 1rem;
-  padding: 0.5rem 0;
-  margin-top: 1rem;
 }
 .c-label.is-error {
   color: var(--pomegranate);
+}
+.c-label--block {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
 }
 .c-input-text[aria-disabled=true],
 .c-input-text[disabled],
@@ -2346,6 +2358,72 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0.5rem 0 1rem;
+}
+.o-field-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0.5rem 0 0.5rem 1.5rem;
+}
+@media (max-width: 48rem) {
+  .o-field-inline {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+}
+.c-double-field {
+  width: 100%;
+}
+.c-double-field--with-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  padding-right: 2.5rem;
+}
+.c-double-field-label {
+  min-height: 2.5rem;
+}
+.c-double-field-button {
+  position: absolute;
+  right: 0;
+  top: 0.625rem;
+}
+.c-double-field-wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 48rem) {
+  .c-double-field-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.c-double-field-input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 70%;
+          flex: 1 1 70%;
+}
+.c-double-field-input + .c-double-field-input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 [data-input=radio] label::before {
   border-radius: 50%;
