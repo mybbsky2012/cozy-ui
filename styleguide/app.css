@@ -2402,7 +2402,7 @@ body {
 }
 .c-double-field-button {
   position: absolute;
-  right: 0;
+  right: -2.5rem;
   top: 0.625rem;
 }
 .c-double-field-wrapper {
