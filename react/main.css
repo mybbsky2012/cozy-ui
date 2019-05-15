@@ -9963,8 +9963,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: rem(48);
-  height: rem(48);
+  width: 3rem;
+  height: 3rem;
 }
 
 @-moz-keyframes spin--2Vvw3 {
