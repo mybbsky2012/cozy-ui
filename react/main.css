@@ -18233,7 +18233,7 @@ body {
 .o-side--tXbXL,
 .o-field-input-action--2k7a8 {
   position: absolute;
-  top: 0;
+  top: 1.5rem;
   left: 0;
   width: 100%;
   max-width: 32rem;
@@ -18245,7 +18245,7 @@ body {
   max-width: 100%;
 }
 .o-field-input-action--2k7a8 {
-  top: -3rem;
+  top: -1.5rem;
   text-transform: uppercase;
 }
 
