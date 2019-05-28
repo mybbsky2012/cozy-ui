@@ -2421,10 +2421,6 @@ body {
   width: 100%;
 }
 .c-chip {
-  border-radius: 1.25rem;
-  height: 2.5rem;
-  background: var(--paleGrey);
-  padding: 0.75rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   line-height: 1;
@@ -2436,6 +2432,7 @@ body {
           align-items: center;
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
+  border: 0;
 }
 .c-chip--round {
   width: 2.5rem;
@@ -2443,6 +2440,39 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.c-chip--smallSize {
+  height: 2rem;
+  padding: 0.5625rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+.c-chip--normalSize {
+  height: 2.5rem;
+  padding: 0.75rem;
+  border-radius: 1.25rem;
+}
+.c-chip--outlinedVariant {
+  border: 1px solid;
+  background-color: transparent !important;
+}
+.c-chip--dashedVariant {
+  border: 1px dashed;
+}
+.c-chip--normalTheme {
+  background-color: var(--paleGrey);
+  color: inherit;
+}
+.c-chip--primaryTheme {
+  background-color: var(--zircon);
+  color: var(--dodgerBlue);
+}
+.c-chip--errorTheme {
+  background-color: var(--chablis);
+  color: var(--pomegranate);
+}
+.c-chip--clickable {
+  cursor: pointer;
 }
 .c-chip-separator {
   width: 0.063rem;
@@ -9158,6 +9188,10 @@ Display an chip that represents complex identity
 
  Styleguide Components.chip
 */
+.c-chip--outlinedVariant.c-chip--normalTheme {
+  border-color: var(--silver);
+  color: var(--charcoalGrey);
+}
 /*------------------------------------*  Utilities
 \*------------------------------------*/
 /*

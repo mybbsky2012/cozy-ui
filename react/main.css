@@ -10589,21 +10589,51 @@ body {
   --primaryContrastTextColor: var(--white);
 }
 .c-chip--2aPqg {
-  border-radius: 1.25rem;
-  height: 2.5rem;
-  background: var(--paleGrey);
-  padding: 0.75rem;
   box-sizing: border-box;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
+  border: 0;
 }
 .c-chip--round--JCd2e {
   width: 2.5rem;
   text-align: center;
   justify-content: center;
+}
+.c-chip--smallSize--3i9gj {
+  height: 2rem;
+  padding: 0.5625rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+.c-chip--normalSize--3U8N4 {
+  height: 2.5rem;
+  padding: 0.75rem;
+  border-radius: 1.25rem;
+}
+.c-chip--outlinedVariant--BP7oS {
+  border: 1px solid;
+  background-color: transparent !important;
+}
+.c-chip--dashedVariant--2LWN4 {
+  border: 1px dashed;
+}
+.c-chip--normalTheme--kVm5M {
+  background-color: var(--paleGrey);
+  color: inherit;
+}
+.c-chip--primaryTheme--1ZNhX {
+  background-color: var(--zircon);
+  color: var(--dodgerBlue);
+}
+.c-chip--errorTheme--2hVXe {
+  background-color: var(--chablis);
+  color: var(--pomegranate);
+}
+.c-chip--clickable--20ff- {
+  cursor: pointer;
 }
 .c-chip-separator--i_2Yq {
   width: 0.063rem;
@@ -10619,6 +10649,10 @@ body {
 }
 .c-chip-button--disabled--168tG {
   color: var(--coolGrey);
+}
+.c-chip--outlinedVariant--BP7oS.c-chip--normalTheme--kVm5M {
+  border-color: var(--silver);
+  color: var(--charcoalGrey);
 }
 
 :root {
