@@ -2471,6 +2471,13 @@ body {
   background-color: var(--chablis);
   color: var(--pomegranate);
 }
+.c-chip--outlinedNormalTheme {
+  border-color: var(--silver);
+  color: var(--charcoalGrey);
+}
+.c-chip--outlinedErrorTheme {
+  border-color: var(--yourPink);
+}
 .c-chip--clickable {
   cursor: pointer;
 }
@@ -9188,10 +9195,6 @@ Display an chip that represents complex identity
 
  Styleguide Components.chip
 */
-.c-chip--outlinedVariant.c-chip--normalTheme {
-  border-color: var(--silver);
-  color: var(--charcoalGrey);
-}
 /*------------------------------------*  Utilities
 \*------------------------------------*/
 /*
