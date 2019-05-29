@@ -24912,6 +24912,7 @@ iframe {
   width: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  object-fit: contain;
 }
 .c-app-icon-default--3CEmt {
   color: #c0c0c0;
