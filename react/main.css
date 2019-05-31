@@ -16689,6 +16689,10 @@ body {
   left: 1.125rem;
 }
 
+.c-file-input--YNZSh {
+  cursor: pointer;
+}
+
 :root {
   --primaryFont: Lato, sans-serif;
 }
@@ -21386,12 +21390,6 @@ body {
 .c-filename-name--1jDMz {
   display: inline;
   width: auto;
-}
-
-.c-apptitle--eqV9l {
-  display: inline-flex;
-  align-items: center;
-  margin: 0;
 }
 
 iframe {
