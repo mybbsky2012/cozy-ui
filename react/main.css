@@ -21388,6 +21388,12 @@ body {
   width: auto;
 }
 
+.c-apptitle--eqV9l {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+
 iframe {
   width: 100%;
   height: 100%;
