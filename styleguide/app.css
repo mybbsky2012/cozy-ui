@@ -5785,6 +5785,8 @@ table.c-table td.c-table-ellipsis > div > div {
   }
 }
 .wizard-agreements-item {
+  position: relative;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5872,6 +5874,22 @@ table.c-table td.c-table-ellipsis > div > div {
     border-radius: 50%;
     padding: 0.5rem;
   }
+}
+.wizard-updated {
+  position: absolute;
+  right: -1.687rem;
+  top: 1.188rem;
+  width: 6.25rem;
+  background-color: var(--primaryColor);
+  text-transform: uppercase;
+  color: var(--primaryContrastTextColor);
+  -webkit-transform: rotate(-315deg);
+          transform: rotate(-315deg);
+  padding: 0.313rem;
+  font-size: 0.625rem;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
 }
 .wizard-progress {
   position: relative;
