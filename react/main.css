@@ -10593,6 +10593,14 @@ body {
   border-radius: 0.5rem;
   padding: 1rem;
 }
+.c-card--inset--2pofc {
+  margin: 1rem 2rem;
+}
+@media (max-width: 48rem) {
+  .c-card--inset--2pofc {
+    margin: 0.5rem;
+  }
+}
 
 .u-title-h1--fimho,
 .u-title-h2--2cES6,
@@ -21476,18 +21484,6 @@ body {
   }
 }
 
-.well--3xv79 {
-  margin: 1rem 2rem;
-  background: var(--paleGrey);
-  border: 0.063rem solid #c0c0c0;
-  border-radius: 0.313rem;
-}
-@media (max-width: 48rem) {
-  .well--3xv79 {
-    margin: 0.5rem;
-  }
-}
-
 .infos--icon--2XWQm {
   padding-top: 0.2rem;
   fill: var(--slateGrey);
@@ -21589,9 +21585,6 @@ iframe {
 }
 .c-list-text--3kc3E .u-caption--2WxM5 {
   margin-top: 0.188rem;
-}
-.c-list-text--3kc3E + .c-list-text--3kc3E {
-  margin-left: 2rem;
 }
 
 .c-actionmenu--22Fp1 {
