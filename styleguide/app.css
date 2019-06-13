@@ -8950,7 +8950,7 @@ table.c-table td.c-table-ellipsis > div > div {
 .c-input-checkbox-icon {
   position: absolute;
   left: 0;
-  top: 0.188rem;
+  top: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1rem;
@@ -8965,13 +8965,13 @@ table.c-table td.c-table-ellipsis > div > div {
 }
 .c-input-checkbox input:not(:checked) + span .c-input-checkbox-icon {
   opacity: 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  -webkit-transform: scale(0) translateY(-50%);
+          transform: scale(0) translateY(-50%);
 }
 .c-input-checkbox input:checked + span .c-input-checkbox-icon {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1) translateY(-50%);
+          transform: scale(1) translateY(-50%);
 }
 /*
  Input Radio

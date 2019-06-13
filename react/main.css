@@ -12040,7 +12040,7 @@ body {
 .c-input-checkbox-icon--7A-8k {
   position: absolute;
   left: 0;
-  top: 0.188rem;
+  top: 50%;
   box-sizing: border-box;
   width: 1rem;
   height: 1rem;
@@ -12050,11 +12050,11 @@ body {
 }
 .c-input-checkbox--2CzvY input:not(:checked) + span .c-input-checkbox-icon--7A-8k {
   opacity: 0;
-  transform: scale(0);
+  transform: scale(0) translateY(-50%);
 }
 .c-input-checkbox--2CzvY input:checked + span .c-input-checkbox-icon--7A-8k {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) translateY(-50%);
 }
 
 @-moz-keyframes spin--2YilK {
