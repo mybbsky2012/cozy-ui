@@ -12040,7 +12040,7 @@ body {
 .c-input-checkbox-icon--7A-8k {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 0.188rem;
   box-sizing: border-box;
   width: 1rem;
   height: 1rem;
@@ -12050,11 +12050,11 @@ body {
 }
 .c-input-checkbox--2CzvY input:not(:checked) + span .c-input-checkbox-icon--7A-8k {
   opacity: 0;
-  transform: scale(0) translateY(-50%);
+  transform: scale(0);
 }
 .c-input-checkbox--2CzvY input:checked + span .c-input-checkbox-icon--7A-8k {
   opacity: 1;
-  transform: scale(1) translateY(-50%);
+  transform: scale(1);
 }
 
 @-moz-keyframes spin--2YilK {
@@ -21585,6 +21585,9 @@ iframe {
 }
 .c-list-text--3kc3E .u-caption--2WxM5 {
   margin-top: 0.188rem;
+}
+.c-list-text--3kc3E + .c-list-text--3kc3E {
+  margin-left: 2rem;
 }
 
 .c-actionmenu--22Fp1 {
