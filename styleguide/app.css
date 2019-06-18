@@ -99,6 +99,7 @@ body textarea {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
     Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
     Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
@@ -108,6 +109,7 @@ body textarea {
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
   --frenchPass: #c2dcff;
   --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
@@ -1216,6 +1218,30 @@ body {
 .c-btn-client-mobile[aria-disabled=true]:hover {
   background-color: var(--dodgerBlue);
 }
+.c-btn--ghost {
+  background-color: var(--hawkesBlue);
+  color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  border-style: dashed;
+}
+.c-btn--ghost:visited {
+  color: var(--primaryColor);
+}
+.c-btn--ghost:active,
+.c-btn--ghost:hover,
+.c-btn--ghost:focus {
+  border-color: var(--hawkesBlue);
+  background-color: var(--hawkesBlue);
+}
+.c-btn--ghost[disabled]:hover,
+.c-btn--ghost[aria-disabled=true]:hover {
+  background-color: var(--hawkesBlue);
+}
+.c-btn--ghost:active,
+.c-btn--ghost:hover,
+.c-btn--ghost:focus {
+  border-color: var(--primaryColor);
+}
 .c-btn--highlight {
   background-color: var(--emerald);
   color: var(--white);
@@ -1509,6 +1535,21 @@ body {
 }
 .c-btn-client-mobile figure svg {
   display: block;
+}
+.c-btn--left > span {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.c-btn--center > span {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.c-btn--right > span {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 .c-btn.c-btn--tiny {
   min-height: 1.5rem;
