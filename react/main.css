@@ -9767,6 +9767,12 @@ body {
   text-align: center;
   justify-content: center;
 }
+.c-chip--tinySize--3XeOG {
+  height: 1.5rem;
+  padding: 0 0.375rem;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+}
 .c-chip--smallSize--3i9gj {
   height: 2rem;
   padding: 0 0.5625rem;
@@ -9790,9 +9796,9 @@ body {
   color: inherit;
 }
 .c-chip--primaryTheme--1ZNhX {
-  border-color: var(--frenchPass);
-  background-color: var(--zircon);
-  color: var(--dodgerBlue);
+  border-color: var(--dodgerBlue);
+  background-color: var(--dodgerBlue);
+  color: var(--white);
 }
 .c-chip--errorTheme--2hVXe {
   border-color: var(--yourPink);

@@ -2485,6 +2485,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.c-chip--tinySize {
+  height: 1.5rem;
+  padding: 0 0.375rem;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+}
 .c-chip--smallSize {
   height: 2rem;
   padding: 0 0.5625rem;
@@ -2508,9 +2514,9 @@ body {
   color: inherit;
 }
 .c-chip--primaryTheme {
-  border-color: var(--frenchPass);
-  background-color: var(--zircon);
-  color: var(--dodgerBlue);
+  border-color: var(--dodgerBlue);
+  background-color: var(--dodgerBlue);
+  color: var(--white);
 }
 .c-chip--errorTheme {
   border-color: var(--yourPink);
