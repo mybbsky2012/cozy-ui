@@ -2485,6 +2485,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.c-chip--tinySize {
+  height: 1.5rem;
+  padding: 0 0.375rem;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+}
 .c-chip--smallSize {
   height: 2rem;
   padding: 0 0.5625rem;
@@ -2527,6 +2533,10 @@ body {
 .c-chip--hoverablePrimaryTheme:hover,
 .c-chip--hoverablePrimaryTheme:focus {
   background-color: var(--frenchPass);
+}
+.c-chip--normalPrimaryTheme {
+  background-color: var(--dodgerBlue);
+  color: var(--white);
 }
 .c-chip--hoverableErrorTheme:hover,
 .c-chip--hoverableErrorTheme:focus {
