@@ -10860,6 +10860,8 @@ body {
   border: 0.063rem solid var(--silver);
   border-radius: 0.5rem;
   padding: 1rem;
+  text-decoration: none;
+  display: block;
 }
 .c-card--inset--2pofc {
   margin: 1rem 2rem;
