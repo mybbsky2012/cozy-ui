@@ -21655,6 +21655,7 @@ body {
   align-self: center;
   padding: 1rem 0;
   text-align: center;
+  max-width: 100%;
 }
 @media (max-width: 63.938rem) {
   .c-empty--3w5oV {
