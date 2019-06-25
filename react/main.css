@@ -10923,6 +10923,9 @@ body {
   line-height: 1.2;
   color: var(--coolGrey);
 }
+.u-uppercase--aobU- {
+  text-transform: uppercase;
+}
 .u-link:link {
   color: var(--dodgerBlue);
   text-decoration: none;
