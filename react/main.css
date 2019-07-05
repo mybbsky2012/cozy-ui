@@ -11422,6 +11422,11 @@ body {
   margin: 0;
 }
 
+.PercentageLine--3koWP {
+  transition: transform 0.3s ease;
+  transform-origin: 0 0;
+}
+
 @-moz-keyframes spin--3NpSD {
   from {
     transform: rotate(0deg);
