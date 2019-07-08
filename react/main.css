@@ -13113,7 +13113,7 @@ body {
 .o-side--tXbXL,
 .o-field-input-action--2k7a8 {
   position: absolute;
-  top: 0.5rem;
+  top: 1.5rem;
   left: 0;
   width: 100%;
   max-width: 32rem;
@@ -13851,6 +13851,7 @@ body {
 }
 .c-label--block--2ZV_7 {
   display: block;
+  margin-top: 1rem;
   padding: 0.5rem 0;
 }
 @media (max-width: 48rem) {
