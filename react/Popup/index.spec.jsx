@@ -11,7 +11,7 @@ jest.mock('cozy-device-helper', () => ({
 }))
 
 const props = {
-  url: 'http://example.org',
+  initialUrl: 'http://example.org',
   title: 'Test title',
   width: '500',
   height: '200'
@@ -45,7 +45,7 @@ describe('Popup', () => {
     popupMock.closed = false
     props.onClose = jest.fn()
     props.onMessage = jest.fn()
-    props.onUrlChange = jest.fn()
+    props.onMobileUrlChange = jest.fn()
   })
 
   afterEach(() => {
@@ -56,7 +56,7 @@ describe('Popup', () => {
   it('should open new window', () => {
     shallow(<Popup {...props} />)
     expect(global.open).toHaveBeenCalledWith(
-      props.url,
+      props.initialUrl,
       props.title,
       expect.anything()
     )
@@ -119,13 +119,13 @@ describe('Popup', () => {
   })
 
   describe('handleLoadStart', () => {
-    it('should call onUrlChange', () => {
+    it('should call onMobileUrlChange', () => {
       const wrapper = shallow(<Popup {...props} />)
       const url = 'https://cozy.io'
       const urlEvent = { url }
       wrapper.instance().handleLoadStart(urlEvent)
-      expect(props.onUrlChange).toHaveBeenCalledWith(expect.any(URL))
-      expect(props.onUrlChange).toHaveBeenCalledWith(new URL(url))
+      expect(props.onMobileUrlChange).toHaveBeenCalledWith(expect.any(URL))
+      expect(props.onMobileUrlChange).toHaveBeenCalledWith(new URL(url))
     })
   })
 })

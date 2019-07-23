@@ -6,8 +6,6 @@ import { isMobileApp } from 'cozy-device-helper'
 /**
  * Customized function to get dimensions and position for a centered
  * popup window
- * @param  {string} url
- * @param  {string} title
  * @param  {string|number} w
  * @param  {string|number} h
  * @return {{w, h, top, left}}       Popup window
@@ -47,6 +45,13 @@ export function popupCenter(w, h) {
 export class Popup extends PureComponent {
   constructor(props, context) {
     super(props, context)
+
+    // url is not expected to change
+    const { initialUrl } = props
+    this.state = {
+      url: initialUrl
+    }
+
     this.handleClose = this.handleClose.bind(this)
     this.handleMessage = this.handleMessage.bind(this)
     this.handleLoadStart = this.handleLoadStart.bind(this)
@@ -100,7 +105,8 @@ export class Popup extends PureComponent {
   }
 
   showPopup() {
-    const { height, width, title, url } = this.props
+    const { height, width, title } = this.props
+    const { url } = this.state
     const { w, h, top, left } = popupCenter(width, height)
     /**
      * ATM we also use window.open on Native App in order to open
@@ -154,8 +160,8 @@ export class Popup extends PureComponent {
 
   handleLoadStart(event) {
     const { url } = event
-    const { onUrlChange } = this.props
-    if (typeof onUrlChange === 'function') onUrlChange(new URL(url))
+    const { onMobileUrlChange } = this.props
+    if (typeof onMobileUrlChange === 'function') onMobileUrlChange(new URL(url))
   }
 
   render() {
@@ -168,7 +174,7 @@ Popup.propTypes = {
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   title: PropTypes.string,
-  url: PropTypes.string.isRequired,
+  initialUrl: PropTypes.string.isRequired,
   // Callbacks
   /**
    * Close handler. Called after popup closing.
@@ -183,7 +189,7 @@ Popup.propTypes = {
    * Handler used on mobile device to detect url changes
    * @param {URL} url URL object.
    */
-  onUrlChange: PropTypes.func
+  onMobileUrlChange: PropTypes.func
 }
 
 Popup.defaultProps = {
