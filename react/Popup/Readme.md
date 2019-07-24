@@ -10,7 +10,7 @@ A simple Popup which provides handlers for a few events.
   <p>Popup is {state.showPopup ? "open" : "closed"}</p>
   { state.showPopup &&
     <Popup
-      url="http://example.org"
+      initialUrl="http://example.org"
       tile="Example Popup"
       width="800"
       height="500"

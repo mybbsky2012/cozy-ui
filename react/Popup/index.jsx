@@ -46,12 +46,6 @@ export class Popup extends PureComponent {
   constructor(props, context) {
     super(props, context)
 
-    // url is not expected to change
-    const { initialUrl } = props
-    this.state = {
-      url: initialUrl
-    }
-
     this.handleClose = this.handleClose.bind(this)
     this.handleMessage = this.handleMessage.bind(this)
     this.handleLoadStart = this.handleLoadStart.bind(this)
@@ -65,48 +59,43 @@ export class Popup extends PureComponent {
     this.killPopup()
   }
 
-  addListeners(popup) {
+  addListeners() {
     // Listen here for message FROM popup
     window.addEventListener('message', this.handleMessage)
 
-    // rest of instructions only on mobile app
-    if (!isMobileApp()) return
-    popup.addEventListener('loadstart', this.handleLoadStart)
-    popup.addEventListener('exit', this.handleClose)
+    if (isMobileApp()) {
+      this.popup.addEventListener('loadstart', this.handleLoadStart)
+      this.popup.addEventListener('exit', this.handleClose)
+    }
   }
 
   removeListeners() {
-    const { popup } = this.state
     window.removeEventListener('message', this.handleMessage)
 
     // rest of instructions only if popup is still opened
-    if (popup.closed) return
+    if (this.popup.closed) return
 
-    // rest of instructions only on mobile app
-    if (!isMobileApp()) return
-    popup.removeEventListener('loadstart', this.handleLoadStart)
-    popup.removeEventListener('exit', this.handleClose)
+    if (isMobileApp()) {
+      this.popup.removeEventListener('loadstart', this.handleLoadStart)
+      this.popup.removeEventListener('exit', this.handleClose)
+    }
   }
 
   handleMessage(messageEvent) {
-    const { popup } = this.state
     const { onMessage } = this.props
-    const isFromPopup = popup === messageEvent.source
+    const isFromPopup = this.popup === messageEvent.source
     if (isFromPopup && typeof onMessage === 'function') onMessage(messageEvent)
   }
 
   handleClose() {
-    const { popup } = this.state
-
     this.killPopup()
 
     const { onClose } = this.props
-    if (typeof onClose === 'function') onClose(popup)
+    if (typeof onClose === 'function') onClose(this.popup)
   }
 
   showPopup() {
-    const { height, width, title } = this.props
-    const { url } = this.state
+    const { initialUrl, height, width, title } = this.props
     const { w, h, top, left } = popupCenter(width, height)
     /**
      * ATM we also use window.open on Native App in order to open
@@ -114,30 +103,28 @@ export class Popup extends PureComponent {
      * block us. We need to use a SafariViewController or Chrome Custom Tab.
      * So
      */
-    const popup = window.open(
-      url,
+    this.popup = window.open(
+      initialUrl,
       title,
       `scrollbars=yes, width=${w}, height=${h}, top=${top}, left=${left}`
     )
     // Puts focus on the newWindow
-    if (popup.focus) {
-      popup.focus()
+    if (this.popup.focus) {
+      this.popup.focus()
     }
 
-    this.addListeners(popup)
-    this.startMonitoringClosing(popup)
-    this.setState({ popup })
+    this.addListeners()
+    this.startMonitoringClosing()
   }
 
   killPopup() {
-    const { popup } = this.state
     this.removeListeners()
     this.stopMonitoringClosing()
-    if (!popup.closed) popup.close()
+    if (!this.popup.closed) this.popup.close()
   }
 
-  monitorClosing(popup) {
-    if (popup.closed) {
+  monitorClosing() {
+    if (this.popup.closed) {
       this.stopMonitoringClosing()
       return this.handleClose()
     }
@@ -147,11 +134,8 @@ export class Popup extends PureComponent {
    * Check if window is closing every 500ms
    * @param  {Window} window
    */
-  startMonitoringClosing(popup) {
-    this.checkClosedInterval = setInterval(
-      () => this.monitorClosing(popup),
-      500
-    )
+  startMonitoringClosing() {
+    this.checkClosedInterval = setInterval(() => this.monitorClosing(), 500)
   }
 
   stopMonitoringClosing() {
