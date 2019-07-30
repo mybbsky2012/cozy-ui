@@ -11155,6 +11155,27 @@ body {
   height: 5px;
 }
 
+.Stack--2Wsor > * + * {
+  margin-top: 0.5rem;
+}
+.Stack--dense--1QH80 > * + * {
+  margin-top: 0.25rem;
+}
+.Stack--sparse--2mGbX > * + * {
+  margin-top: 0.75rem;
+}
+@media (max-width: 48rem) {
+  .Stack--2Wsor > * + * {
+    margin-top: 0.25rem;
+  }
+  .Stack--dense--1QH80 > * + * {
+    margin-top: 0.15rem;
+  }
+  .Stack--sparse--2mGbX > * + * {
+    margin-top: 0.5rem;
+  }
+}
+
 @-moz-keyframes spin--3NpSD {
   from {
     transform: rotate(0deg);
