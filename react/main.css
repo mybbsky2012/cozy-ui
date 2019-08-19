@@ -11949,8 +11949,19 @@ body {
   background-color: var(--paleGrey);
 }
 .c-input-checkbox--2CzvY input {
-  display: none !important;
-  visibility: hidden !important;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.c-input-checkbox--2CzvY input:focus + span::before {
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 .c-input-checkbox--2CzvY input:checked + span::before {
   box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
@@ -17749,8 +17760,19 @@ body {
   background-color: var(--paleGrey);
 }
 .c-input-radio--XJQt1 input {
-  display: none !important;
-  visibility: hidden !important;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.c-input-radio--XJQt1 input:focus + span::before {
+  box-shadow: inset 0 0 0 0.125rem var(--dodgerBlue);
 }
 .c-input-radio--XJQt1 input:checked + span::before {
   box-shadow: inset 0 0 0 1rem var(--dodgerBlue);
