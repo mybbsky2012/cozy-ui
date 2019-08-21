@@ -12876,15 +12876,13 @@ body {
 }
 .o-field-input--vCqdV {
   position: relative;
+  max-width: 32rem;
 }
 .o-side--tXbXL,
 .o-field-input-action--2k7a8 {
   position: absolute;
   top: 0.5rem;
-  left: 0;
-  width: 100%;
-  max-width: 32rem;
-  text-align: right;
+  right: 0;
   cursor: pointer;
   text-transform: unset;
 }
