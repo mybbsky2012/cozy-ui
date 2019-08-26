@@ -18012,7 +18012,7 @@ body {
   transition: all 0.2s ease-out;
 }
 .checkbox--3ko96:checked + .label--3jY1f {
-  background: emerald;
+  background: var(--emerald);
 }
 .checkbox--3ko96:checked + .label--3jY1f:before {
   left: 1.125rem;
