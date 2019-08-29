@@ -11263,24 +11263,30 @@ body {
   height: 5px;
 }
 
+.Stack--s--22WMg > * + * {
+  margin-top: 0.25rem;
+}
 .Stack--2Wsor > * + * {
   margin-top: 0.5rem;
 }
-.Stack--dense--1QH80 > * + * {
-  margin-top: 0.25rem;
+.Stack--l--3oxCJ > * + * {
+  margin-top: 1rem;
 }
-.Stack--sparse--2mGbX > * + * {
-  margin-top: 0.75rem;
+.Stack--xl--3qy-m > * + * {
+  margin-top: 2rem;
 }
 @media (max-width: 48rem) {
-  .Stack--2Wsor > * + * {
-    margin-top: 0.25rem;
-  }
-  .Stack--dense--1QH80 > * + * {
+  .Stack--s--22WMg > * + * {
     margin-top: 0.15rem;
   }
-  .Stack--sparse--2mGbX > * + * {
-    margin-top: 0.5rem;
+  .Stack--m--1tSpV > * + * {
+    margin-top: 0.25rem;
+  }
+  .Stack--l--3oxCJ > * + * {
+    margin-top: 0.75rem;
+  }
+  .Stack--xl--3qy-m > * + * {
+    margin-top: 1.5rem;
   }
 }
 
