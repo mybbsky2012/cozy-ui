@@ -21634,6 +21634,17 @@ body {
   line-height: 1;
 }
 
+.PageFooter--2IFCx {
+  flex-grow: 0;
+}
+.PageContent--DbPFL {
+  flex-grow: 1;
+}
+.PageLayout--1ptQY {
+  display: flex;
+  flex-direction: column;
+}
+
 .c-avatar--PpDI- {
   background-color: var(--paleGrey);
   color: var(--silver);
