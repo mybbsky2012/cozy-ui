@@ -24963,6 +24963,11 @@ body {
 .Infos--2ZZVs {
   border-radius: 4px;
   max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 2rem;
+  flex-shrink: 0;
 }
 .Infos__icon--1IdYS {
   padding-top: 0.2rem;
