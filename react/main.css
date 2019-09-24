@@ -21445,6 +21445,11 @@ body {
 :hover > .c-nav-icon--hrJUe {
   color: var(--charcoalGrey);
 }
+@media (max-width: 48rem) {
+  .c-nav-icon--hrJUe svg {
+    display: inline;
+  }
+}
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
     display: block;
