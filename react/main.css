@@ -21448,11 +21448,10 @@ body {
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
     display: block;
-    font-size: 1.5rem;
     margin-right: 0;
   }
   .c-nav-icon--hrJUe svg {
-    margin: 0 auto;
+    margin: 0 auto 3px;
     width: 1.5rem;
     height: 1.5rem;
   }
@@ -21500,7 +21499,7 @@ body {
     text-align: center;
     color: var(--slateGrey);
     font-size: 0.625rem;
-    line-height: 1;
+    line-height: 0.75rem;
     background-position: center top;
     background-size: 1.5rem;
   }
