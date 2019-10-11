@@ -66,6 +66,12 @@ $nav-item-icon
         display block
         margin-right 0
 
+        // No special style on hover for mobiles. !important is needed
+        // since the media query is outputted before the normal class,
+        // thus losing priority
+        :hover > &
+            color var(--coolGrey)
+
         svg
             margin 0 auto 3px
             width rem(24)
@@ -118,10 +124,15 @@ $nav-link
 
         &.active // deprecated
         &.is-active
-        &:hover
             box-shadow   none
             font-weight  normal
             color        var(--charcoalGrey)
+
+        // No special style on hover for mobiles. !important is needed
+        // since the media query is outputted before the normal class,
+        // thus losing priority
+        &:hover
+            color  var(--slateGrey) !important
 
     // Prevent double tap on tablets
     @media not all and (pointer: fine)
