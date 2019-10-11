@@ -25616,6 +25616,7 @@ iframe {
 .coz-tabs--24QL5 .coz-tab-list--3qac8 {
   border-bottom: 0.063rem solid var(--silver);
   background: var(--tabsBackgroundColor);
+  overflow-x: scroll;
 }
 .coz-tabs--24QL5 .coz-tab-list--inverted--3VjXc {
   --tabsActiveTextColor: var(--primaryContrastTextColor);
