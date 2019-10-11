@@ -25615,13 +25615,6 @@ iframe {
 
 .coz-tabs--24QL5 .coz-tab-list--3qac8 {
   border-bottom: 0.063rem solid var(--silver);
-  background: var(--tabsBackgroundColor);
-}
-.coz-tabs--24QL5 .coz-tab-list--inverted--3VjXc {
-  --tabsActiveTextColor: var(--primaryContrastTextColor);
-  --tabsInactiveTextColor: var(--primaryContrastTextColor);
-  --tabsIndicatorColor: var(--primaryContrastTextColor);
-  --tabsBackgroundColor: var(--primaryColor);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
   display: inline-block;
@@ -25629,31 +25622,17 @@ iframe {
   text-transform: uppercase;
   font-size: 0.813rem;
   cursor: pointer;
-  color: var(--tabsInactiveTextColor);
-  font-weight: bold;
-  opacity: 0.64;
+  color: var(--coolGrey);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye:hover {
   text-decoration: none;
 }
-@media (max-width: 48rem) {
-  .coz-tabs--24QL5 .coz-tab--2mOye {
-    padding: 1.125rem 1.563rem;
-  }
-}
 .coz-tabs--24QL5 .coz-tab--active--1wmwM {
-  border-bottom: 0.125rem solid var(--tabsIndicatorColor);
-  color: var(--tabsActiveTextColor);
-  opacity: 1;
+  border-bottom: 0.125rem solid var(--dodgerBlue);
+  color: var(--dodgerBlue);
 }
 .coz-tabs--24QL5 .coz-tab-panel--35538 {
   padding-top: 1.25rem;
-}
-body {
-  --tabsIndicatorColor: var(--primaryColor);
-  --tabsActiveTextColor: var(--primaryColor);
-  --tabsInactiveTextColor: var(--coolGrey);
-  --tabsBackground: transparent;
 }
 
 :root {
