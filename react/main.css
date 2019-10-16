@@ -13799,17 +13799,6 @@ body {
   margin-top: 3rem;
 }
 
-.IconStack-wrapper--10dhG {
-  position: relative;
-  display: inline-block;
-}
-.IconStack-foregroundIcon--ZvY-t {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 @-moz-keyframes spin--3NpSD {
   from {
     transform: rotate(0deg);
@@ -29277,5 +29266,14 @@ body {
   .SmallAppItem--1Ple5 {
     flex-basis: calc(100% - 0.75rem);
   }
+}
+
+.gridItem-container--387sO {
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
