@@ -10517,28 +10517,23 @@ body {
   background-color: var(--dodgerBlue);
 }
 .c-btn--ghost--1HC3L {
-  background-color: var(--hawkesBlue);
-  color: var(--primaryColor);
-  border-color: var(--primaryColor);
+  background-color: var(--zircon);
+  color: var(--dodgerBlue);
+  border-color: var(--frenchPass);
   border-style: dashed;
 }
 .c-btn--ghost--1HC3L:visited {
-  color: var(--primaryColor);
+  color: var(--dodgerBlue);
 }
 .c-btn--ghost--1HC3L:active,
 .c-btn--ghost--1HC3L:hover,
 .c-btn--ghost--1HC3L:focus {
-  border-color: var(--hawkesBlue);
-  background-color: var(--hawkesBlue);
+  border-color: var(--frenchPass);
+  background-color: var(--frenchPass);
 }
 .c-btn--ghost--1HC3L[disabled]:hover,
 .c-btn--ghost--1HC3L[aria-disabled=true]:hover {
-  background-color: var(--hawkesBlue);
-}
-.c-btn--ghost--1HC3L:active,
-.c-btn--ghost--1HC3L:hover,
-.c-btn--ghost--1HC3L:focus {
-  border-color: var(--primaryColor);
+  background-color: var(--zircon);
 }
 .c-btn--highlight--2jRfu {
   background-color: var(--emerald);
