@@ -11774,6 +11774,10 @@ body {
   transform-origin: 0 0;
 }
 
+.CustomizedPercentageLine--2pq9J {
+  background-color: var(--coolGrey);
+}
+
 .u-p-0 {
   padding: 0 !important;
 }
