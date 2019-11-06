@@ -11782,8 +11782,8 @@ body {
   height: 1.5rem;
   border-radius: 4px;
 }
-.PercentageBar__line--1DAnN {
-  height: 100% !important;
+.PercentageBar--12TWu .PercentageBar__line--1DAnN {
+  height: 100%;
   border-radius: 4px;
 }
 
