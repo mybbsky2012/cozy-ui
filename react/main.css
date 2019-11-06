@@ -11783,7 +11783,7 @@ body {
   border-radius: 4px;
 }
 .PercentageBar__line--1DAnN {
-  height: 100%;
+  height: 100% !important;
   border-radius: 4px;
 }
 
