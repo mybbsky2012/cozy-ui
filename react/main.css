@@ -22063,6 +22063,10 @@ body {
   flex-direction: column;
 }
 
+.NarrowContent--Zq8oI {
+  max-width: 32rem;
+}
+
 .c-overlay--31iWd {
   z-index: 50;
   position: fixed;
