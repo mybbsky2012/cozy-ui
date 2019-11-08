@@ -29365,3 +29365,10 @@ body {
   box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.06);
 }
 
+.iconGrid--7nBAB {
+  display: grid;
+  grid-template-columns: repeat(2, 16px);
+  grid-template-rows: repeat(2, 16px);
+  grid-gap: rem(1);
+}
+
