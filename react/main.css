@@ -25694,7 +25694,7 @@ iframe {
   --tabsBackgroundColor: var(--primaryColor);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
-  flex: 0 0;
+  flex: 0 0 auto;
   padding: 0.625rem 1rem;
   text-transform: uppercase;
   font-size: 0.75rem;
