@@ -20820,7 +20820,10 @@ body {
   border-width: 0;
   margin: 0;
   color: var(--coolGrey);
-  background: none !important;
+  background: none;
+}
+.DateMonthPicker__YearButton--3zNDK:hover {
+  background: none;
 }
 .DateMonthPicker__Year--387bP {
   display: inline-flex;
