@@ -20809,64 +20809,43 @@ body {
 }
 
 .DateMonthPicker__YearControls--1DGlB {
-  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
-}
-.DateMonthPicker__YearButton--3zNDK:hover,
-.DateMonthPicker__MonthButton--3I_Mm:hover,
-.DateMonthPicker__MonthButton--3I_Mm.DateMonthPicker__MonthButton--selected--40hCm {
-  background: var(--paleGrey);
-  color: var(--charcoalGrey);
-}
-.DateMonthPicker__YearButton--3zNDK:active,
-.DateMonthPicker__YearButton--3zNDK:hover:active,
-.DateMonthPicker__MonthButton--3I_Mm:active,
-.DateMonthPicker__MonthButton--3I_Mm:hover:active {
-  background-color: var(--silver);
-  color: var(--charcoalGrey);
-  font-weight: bold;
-}
-.DateMonthPicker__YearButton--3zNDK,
-.DateMonthPicker__MonthButton--3I_Mm {
-  background: none;
-  min-height: 3rem;
-  min-width: 3rem;
-  display: inline-block;
-  border-width: 0;
-  color: var(--coolGrey);
-  cursor: pointer;
-}
-.DateMonthPicker__YearControls--1DGlB {
   justify-content: center;
   display: flex;
   align-items: center;
-  border-radius: 8px;
-  border: 1px solid var(--silver);
-  overflow: hidden;
-}
-.DateMonthPicker__YearControls--1DGlB {
-  margin-bottom: 1rem;
-  font-weight: bold;
 }
 .DateMonthPicker__YearButton--3zNDK {
   flex-grow: 0;
-  cursor: pointer;
+  min-width: 3rem;
+  min-height: 3rem;
+  text-align: center;
+  border-width: 0;
+  margin: 0;
+  color: var(--coolGrey);
+  background: none;
+}
+.DateMonthPicker__YearButton--3zNDK:hover {
+  background: none;
 }
 .DateMonthPicker__Year--387bP {
-  flex-grow: 1;
   display: inline-flex;
-  justify-content: center;
 }
 .DateMonthPicker__MonthGrid--TCFg4 {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(3, 1fr);
   overflow: hidden;
-  grid-gap: 1rem;
 }
 .DateMonthPicker__MonthButton--3I_Mm {
-  border-radius: 3rem;
+  min-height: 3rem;
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  font-weight: normal;
+  text-transform: none;
 }
-.DateMonthPicker__MonthButton--3I_Mm.DateMonthPicker__MonthButton--selected--40hCm {
+.ValueSelected--3768k {
+  color: var(--primaryColor);
   font-weight: bold;
 }
 
@@ -29437,23 +29416,6 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.modal-header--3WSyw {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0;
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 0.5px solid rgba(0,0,0,0.3);
-}
-.modal-footer--1p4l0 {
-  padding: 0.5rem;
-  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
-  box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.06);
 }
 
 .iconGrid--7nBAB {
