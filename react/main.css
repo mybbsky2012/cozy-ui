@@ -20836,6 +20836,10 @@ body {
   color: var(--coolGrey);
   cursor: pointer;
 }
+.DateMonthPicker__YearButton--3zNDK:focus,
+.DateMonthPicker__MonthButton--3I_Mm:focus {
+  outline: 0;
+}
 .DateMonthPicker__YearControls--1DGlB {
   justify-content: center;
   display: flex;
