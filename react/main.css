@@ -30439,6 +30439,21 @@ body {
   grid-gap: 1px;
 }
 
+.CollectionField__addBtn--Z0FO- {
+  margin-left: 0;
+  margin-right: 0;
+}
+.CollectionField__addBtnIcon--1hA5b {
+  margin-right: 0.5rem;
+}
+.CollectionField__row--Z7bbf {
+  display: flex;
+  align-items: center;
+}
+.CollectionField__row--Z7bbf > * + * {
+  margin-left: 1rem;
+}
+
 .u-p-0 {
   padding: 0 !important;
 }
