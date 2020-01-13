@@ -26650,11 +26650,11 @@ body {
 .Infos--2ZZVs {
   position: relative;
   border-radius: 8px;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 @media (max-width: 48rem) {
   .Infos--2ZZVs {
-    padding: 1rem;
+    padding: 0.75rem 1rem;
   }
 }
 .Infos--2ZZVs.Infos--primary--3i4ll {
@@ -26827,17 +26827,23 @@ body {
 }
 .InfosCarrousel-navigation--3s_hu {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 0.625rem;
+  right: 0.5rem;
   display: flex;
   align-items: center;
+}
+@media (max-width: 48rem) {
+  .InfosCarrousel-navigation--3s_hu {
+    bottom: 0.25rem;
+    right: 0;
+  }
 }
 .InfosCarrousel-arrow--1kpYd {
   background: none;
   border: 0;
-  min-width: 32px;
-  padding: 8px 16px;
 }
+.InfosCarrousel-arrow--1kpYd min-width spacing_values.xl--1Dm-u,
+.InfosCarrousel-arrow--1kpYd padding spacing_values.m--3nbnb,
 .InfosCarrousel-arrow--1kpYd:disabled {
   opacity: 0.24;
 }
