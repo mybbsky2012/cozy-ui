@@ -25410,6 +25410,21 @@ body {
   }
 }
 
+.with-transition--1dzf9 {
+  transition: transform 0.1s ease-out;
+}
+.BottomDrawer-content--2xiuD {
+  z-index: $file-action-menu;
+  position: fixed;
+  bottom: 0.563rem;
+  bottom: env(safe-area-inset-bottom);
+  left: 0;
+  width: calc(100% - 1rem);
+  margin: 0 1rem;
+  padding-bottom: 0.313rem;
+  box-sizing: border-box;
+}
+
 :root {
 /*
     Grey
@@ -27169,22 +27184,18 @@ iframe {
 .c-actionmenu--22Fp1 [role=button]:hover {
   text-decoration: none;
 }
-.c-actionmenu--22Fp1 {
-  z-index: 60;
-  position: fixed;
-  bottom: 0.563rem;
-  bottom: env(safe-area-inset-bottom);
-  left: 0;
-  width: calc(100% - 1rem);
-  margin: 0 0.5rem;
-  padding-bottom: 0.313rem;
-  box-sizing: border-box;
-}
-.c-actionmenu--22Fp1.with-transition--1xeFH {
-  transition: transform 0.1s ease-out;
+.c-actionmenu-container--JhthU {
+  position: relative;
 }
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
+}
+.c-actionmenu--inline--1SXZa {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  min-width: 13.75rem;
 }
 .c-actionmenu-header--2rcGc {
   box-sizing: border-box;
