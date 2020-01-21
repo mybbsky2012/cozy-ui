@@ -5,6 +5,7 @@ import Icon from '../Icon'
 import Text, { SubTitle } from '../Text'
 import Stack from '../Stack'
 import palette from '../palette'
+import ThemeProvider from '../ThemeProvider'
 import createDepreciationLogger from '../helpers/createDepreciationLogger'
 
 import styles from './styles.styl'
@@ -22,7 +23,21 @@ export const Infos = ({
         <div className={styles['Infos-description']}>
           <Stack spacing="xs">{description}</Stack>
         </div>
-        {action && <div>{action}</div>}
+        {action && (
+          <div>
+            <ThemeProvider
+              theme={{
+                button: {
+                  fontSize: {
+                    default: 'var(--button-fontSize-tiny)'
+                  }
+                }
+              }}
+            >
+              {action}
+            </ThemeProvider>
+          </div>
+        )}
       </Stack>
       {dismissAction && (
         <button className={styles['Info-close']} onClick={dismissAction}>
