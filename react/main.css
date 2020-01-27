@@ -25442,12 +25442,12 @@ body {
   transition: transform 0.1s ease-out;
 }
 .BottomDrawer-content--2xiuD {
-  z-index: $file-action-menu;
+  z-index: 60;
   position: fixed;
   bottom: 0.563rem;
   bottom: env(safe-area-inset-bottom);
   left: 0;
-  width: calc(100% - 1rem);
+  width: calc(100% - 2rem);
   margin: 0 1rem;
   padding-bottom: 0.313rem;
   box-sizing: border-box;
@@ -27200,16 +27200,10 @@ iframe {
 .c-actionmenu--22Fp1 [role=button]:hover {
   text-decoration: none;
 }
-.c-actionmenu-container--JhthU {
-  position: relative;
-}
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
 }
 .c-actionmenu--inline--1SXZa {
-  position: absolute;
-  bottom: auto;
-  left: auto;
   width: auto;
   min-width: 13.75rem;
 }
