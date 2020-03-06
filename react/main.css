@@ -8845,6 +8845,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  align-items: center;
   background-color: var(--dodgerBlue);
   color: var(--white);
   border-color: var(--dodgerBlue);
@@ -9638,6 +9639,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  align-items: center;
   background-color: var(--dodgerBlue);
   color: var(--white);
   border-color: var(--dodgerBlue);
@@ -26802,6 +26804,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  align-items: center;
   background-color: var(--dodgerBlue);
   color: var(--white);
   border-color: var(--dodgerBlue);
@@ -27524,6 +27527,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  align-items: center;
   background-color: var(--dodgerBlue);
   color: var(--white);
   border-color: var(--dodgerBlue);
