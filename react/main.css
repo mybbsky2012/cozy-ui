@@ -6005,6 +6005,14 @@ body {
   height: 3rem;
 }
 
+.icon--spin--ybfC1 {
+  animation: spin--2Vvw3 1s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .icon--spin--ybfC1 {
+    animation: none;
+  }
+}
 @-moz-keyframes spin--2Vvw3 {
   from {
     transform: rotate(0deg);
@@ -6092,9 +6100,6 @@ body {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
-}
-.icon--spin--ybfC1 {
-  animation: spin--2Vvw3 1s linear infinite;
 }
 .icon--23x3R {
   fill: currentColor;
@@ -23496,6 +23501,99 @@ body {
 
 .with-transition--1dzf9 {
   transition: transform 0.1s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .with-transition--1dzf9 {
+    transition: none;
+  }
+}
+@-moz-keyframes spin--2ZexM {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin--2ZexM {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin--2ZexM {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin--2ZexM {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes shake--Et6Pt {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@-webkit-keyframes shake--Et6Pt {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@-o-keyframes shake--Et6Pt {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes shake--Et6Pt {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 .BottomDrawer-content--2xiuD {
   z-index: 60;
