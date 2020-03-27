@@ -31518,10 +31518,7 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
     content: '';
     background: var(--white);
   }
-  .upload-queue--popover--2z1a4 .upload-queue--visible--DjVRs {
-    max-height: 30%;
-  }
-  .upload-queue--popover--2z1a4 .upload-queue--visible--DjVRs {
+  .upload-queue--popover--2z1a4.upload-queue--visible--DjVRs {
     max-height: 30%;
   }
   .upload-queue--popover--2z1a4 .upload-queue-content--3MPHo {
