@@ -31373,6 +31373,20 @@ body {
   max-width: 90%;
   width: 30rem;
 }
+.upload-queue__threshold-bar--tTYal {
+  min-width: 10rem;
+  margin-right: 1rem;
+}
+.upload-queue__progress-caption--1-vXY {
+  line-height: 0.75rem;
+  height: 1rem;
+}
+.upload-queue__upload-progress--1q-uS {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 0.125rem;
+}
 .upload-queue--popover--2z1a4 {
   position: fixed;
   bottom: 0.5rem;
