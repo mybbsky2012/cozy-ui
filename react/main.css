@@ -8202,6 +8202,14 @@ body {
   margin-top: 3rem;
 }
 
+.BarTitle--I5r2e {
+  margin: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
 .c-badge-root--3Xore {
   position: relative;
   display: inline-flex;
