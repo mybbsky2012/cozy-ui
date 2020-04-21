@@ -21401,6 +21401,8 @@ body {
 .Hero-section--1BcNz {
   max-width: 18.75rem;
   text-align: center;
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 @media (max-width: 48rem) {
   .Hero-section--1BcNz {
@@ -21408,8 +21410,20 @@ body {
     margin-bottom: 2rem;
   }
 }
+.Hero-section--1BcNz + .Hero-section--1BcNz {
+  margin-left: 2rem;
+}
+@media (max-width: 48rem) {
+  .Hero-section--1BcNz + .Hero-section--1BcNz {
+    margin-left: 0;
+  }
+}
 .Hero-cta--2KhwU {
   text-align: center;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
 }
 
 .PageFooter--2IFCx {
