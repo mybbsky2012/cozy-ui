@@ -25598,6 +25598,47 @@ body {
   --tabsBackground: transparent;
 }
 
+.Breadcrumb--lSOZg {
+  display: flex;
+  align-items: center;
+}
+.Breadcrumb__previousButton--Jcvx7 {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.Breadcrumb--default--2qQEQ .Breadcrumb__previousButton--Jcvx7 {
+  color: var(--charcoalGrey);
+}
+.Breadcrumb--primary--1Xsf4 .Breadcrumb__previousButton--Jcvx7 {
+  color: var(--primaryContrastTextColor);
+}
+.Breadcrumb__items--2ozfJ {
+  flex-grow: 1;
+}
+.Breadcrumb--default--2qQEQ .Breadcrumb__items--2ozfJ {
+  color: var(--charcoalGrey);
+}
+.Breadcrumb--primary--1Xsf4 .Breadcrumb__items--2ozfJ {
+  color: var(--primaryContrastTextColor);
+}
+.Breadcrumb__previousItems--IzmVu {
+  display: flex;
+}
+.BreadcrumbItem--3D49M {
+  font-size: 0.875rem;
+  line-height: 1;
+}
+.BreadcrumbItem--current--3PTwt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.67;
+}
+.BreadcrumbSeparator--I81AU {
+  display: inline-block;
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
 :root {
 /*
     Grey
