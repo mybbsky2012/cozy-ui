@@ -31594,6 +31594,8 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
 .upload-queue-item--j7jPs .item-status--3FNcY {
   flex: 0 0 15%;
   text-align: right;
+  white-space: nowrap;
+  padding-left: 1rem;
 }
 .upload-queue-item--j7jPs .item-pending--2v5gP {
   text-transform: uppercase;
