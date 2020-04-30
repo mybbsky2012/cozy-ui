@@ -21297,7 +21297,7 @@ body {
   color: var(--dodgerBlue);
 }
 :hover > .c-nav-icon--hrJUe {
-  color: var(--charcoalGrey);
+  color: var(--slateGrey);
 }
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
@@ -21373,6 +21373,8 @@ body {
 }
 .c-nav-item-secondary--k14rf {
   height: auto;
+}
+.c-nav-item-secondary--k14rf + .c-nav-item-secondary--k14rf {
   margin-top: 0.125rem;
 }
 @media (max-width: 63.938rem) {
@@ -21402,9 +21404,12 @@ body {
   border-radius: 4px 0 0 4px;
   box-shadow: none;
   font-size: 0.875rem;
-  color: var(--charcoalGrey);
+  color: var(--slateGrey);
   text-decoration: none;
   height: auto;
+}
+.c-nav-item-secondary--k14rf .c-nav-link--3mK6W:hover {
+  color: var(--charcoalGrey);
 }
 .c-nav-item-secondary--k14rf .c-nav-link--3mK6W.is-active--2D0jN {
   color: #fff;
