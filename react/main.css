@@ -25474,6 +25474,9 @@ iframe {
 .c-actionmenu--22Fp1 [role=button]:hover {
   text-decoration: none;
 }
+.c-actionmenu--22Fp1 {
+  color: var(--charcoalGrey);
+}
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
 }
