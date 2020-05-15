@@ -23971,10 +23971,9 @@ body {
   bottom: 0.563rem;
   bottom: env(safe-area-inset-bottom);
   left: 0;
-  width: calc(100% - 2rem);
-  margin: 0 1rem;
-  padding-bottom: 0.313rem;
-  box-sizing: border-box;
+  right: 0;
+  width: 100%;
+  margin: 0;
 }
 
 :root {
@@ -25903,6 +25902,14 @@ iframe {
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
 }
+@media (max-width: 48rem) {
+  .c-actionmenu--22Fp1 {
+    border: 0;
+    border-radius: 1rem 1rem 0 0;
+    padding-top: 0.5rem;
+    overflow: hidden;
+  }
+}
 .c-actionmenu--inline--1SXZa {
   width: 16rem;
 }
@@ -25911,6 +25918,7 @@ iframe {
   border-bottom: 0.063rem solid var(--silver);
   padding: 1rem;
   min-height: 4rem;
+  margin-top: -0.5rem;
 }
 .c-actionmenu-item--gODqd {
   padding: 0.75rem 0;
