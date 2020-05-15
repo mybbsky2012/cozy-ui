@@ -26049,17 +26049,25 @@ iframe {
   color: var(--tabsInactiveTextColor);
   font-weight: bold;
   opacity: 0.64;
+  border-bottom: 0.125rem solid transparent;
 }
 .coz-tabs--24QL5 .coz-tab--2mOye:hover {
   text-decoration: none;
 }
 @media (max-width: 48rem) {
   .coz-tabs--24QL5 .coz-tab--2mOye {
-    padding: 1.063rem 1.5rem;
+    flex: 1 0 0;
+    height: 3rem;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
   }
 }
 .coz-tabs--24QL5 .coz-tab--active--1wmwM {
-  border-bottom: 0.125rem solid var(--tabsIndicatorColor);
+  border-bottom-color: var(--tabsIndicatorColor);
   color: var(--tabsActiveTextColor);
   opacity: 1;
 }
