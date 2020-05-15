@@ -26049,19 +26049,29 @@ iframe {
   color: var(--tabsInactiveTextColor);
   font-weight: bold;
   opacity: 0.64;
+  border-bottom: 0.125rem solid transparent;
 }
-border-bottom $borderBottomWidth solid transparent,
-:hover {
+.coz-tabs--24QL5 .coz-tab--2mOye:hover {
   text-decoration: none;
 }
 @media (max-width: 48rem) {
+  .coz-tabs--24QL5 .coz-tab--2mOye {
+    flex: 1 0 0;
+    height: 3rem;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
 }
-.coz-tab--active--1wmwM {
+.coz-tabs--24QL5 .coz-tab--active--1wmwM {
   border-bottom-color: var(--tabsIndicatorColor);
   color: var(--tabsActiveTextColor);
   opacity: 1;
 }
-.coz-tab-panel--35538 {
+.coz-tabs--24QL5 .coz-tab-panel--35538 {
   padding-top: 1.25rem;
 }
 body {
