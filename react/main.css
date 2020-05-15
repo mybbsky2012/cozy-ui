@@ -6112,7 +6112,7 @@ body {
   }
 }
 .icon--23x3R {
-  fill: currentColor;
+  fill: var(--iconColor);
   transform: translateZ(0);
 }
 .icon--preserveColor--3gBz6 {
@@ -7106,6 +7106,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -10261,6 +10263,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .c-chip--2aPqg {
   box-sizing: border-box;
@@ -10522,6 +10526,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .c-card--YgP7B {
   border: 0.063rem solid var(--silver);
@@ -10757,6 +10763,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .c-inline-card--1sri1 {
   display: inline-block;
@@ -10991,6 +10999,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -14189,6 +14199,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .c-input-checkbox--svg--3YMZN span::after {
   display: none;
@@ -16971,6 +16983,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -20207,6 +20221,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -21384,6 +21400,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -24109,6 +24127,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .c-accordion--1VRom {
   padding: 0;
@@ -25132,6 +25152,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .Infos--2ZZVs {
   position: relative;
@@ -25315,6 +25337,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 .InfosCarrousel--3rCyB {
   position: relative;
@@ -25631,6 +25655,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 
 :root {
@@ -25871,7 +25897,8 @@ iframe {
   text-decoration: none;
 }
 .c-actionmenu--22Fp1 {
-  color: var(--charcoalGrey);
+  color: var(--primaryTextColor);
+  --iconColor: var(--actionMenuIconColor);
 }
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
@@ -26226,6 +26253,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -28682,6 +28711,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -31794,6 +31825,8 @@ body {
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --iconColor: currentColor;
+  --actionMenuIconColor: var(--slateGrey);
 }
 :root {
   --zIndex-below: -1;
