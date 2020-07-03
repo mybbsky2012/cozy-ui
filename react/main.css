@@ -7111,6 +7111,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -8906,7 +8908,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -8915,7 +8917,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -9701,7 +9703,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -9710,7 +9712,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -10271,6 +10273,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .c-chip--2aPqg {
   box-sizing: border-box;
@@ -10520,6 +10524,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .c-card--YgP7B {
   border: 0.063rem solid var(--silver);
@@ -10864,6 +10870,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .c-inline-card--1sri1 {
   display: inline-block;
@@ -11044,6 +11052,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -14219,6 +14229,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .c-input-checkbox--svg--3YMZN span::after {
   display: none;
@@ -17100,6 +17112,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -20363,6 +20377,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -21486,6 +21502,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 :root {
   --zIndex-below: -1;
@@ -21853,6 +21871,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .c-accordion--1VRom {
   padding: 0;
@@ -23132,6 +23152,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 
 .c-filename-wrapper--3tVpA {
@@ -23300,6 +23322,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .Infos--2ZZVs {
   position: relative;
@@ -23488,6 +23512,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 .InfosCarrousel--3rCyB {
   position: relative;
@@ -26313,6 +26339,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 :root {
   --zIndex-below: -1;
@@ -27971,7 +27999,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -27980,7 +28008,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -28798,7 +28826,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -28807,7 +28835,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -29060,6 +29088,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 :root {
   --zIndex-below: -1;
@@ -31891,6 +31921,8 @@ body {
   --errorColor: var(--pomegranate);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
 }
 :root {
   --zIndex-below: -1;
