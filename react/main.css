@@ -27179,11 +27179,6 @@ body {
   }
 }
 
-.Sections--2QzV_ {
-  margin: 2rem 0.5rem 0 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .Sections__subtitle--1rLpT {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -27195,12 +27190,6 @@ body {
 }
 .Sections__section--2onYy {
   margin-bottom: 4rem;
-}
-@media (max-width: 48rem) {
-  .Sections--2QzV_ {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 }
 
 .Dropdown__icon--19QZN {
