@@ -7098,6 +7098,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10260,6 +10264,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10511,6 +10519,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10857,6 +10869,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -11039,6 +11055,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -14216,6 +14236,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -17099,6 +17123,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -20364,6 +20392,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -21489,6 +21521,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -21858,6 +21894,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -22964,20 +23004,24 @@ body {
   }
 }
 
+:root {
+  --invertedBackgroundColor: var(--primaryColor);
+  --invertedContrastTextColor: var(--primaryContrastTextColor);
+}
 .CozyTheme--inverted--1ygHa {
-  background: var(--primaryColor);
-  --primaryTextColor: var(--primaryContrastTextColor);
-  --secondaryTextColor: var(--primaryContrastTextColor);
-  --barIconColor: var(--primaryContrastTextColor);
+  background: var(--invertedBackgroundColor);
+  --primaryTextColor: var(--invertedContrastTextColor);
+  --secondaryTextColor: var(--invertedContrastTextColor);
+  --barIconColor: var(--invertedContrastTextColor);
   --barIconColorDisabled: rgba(255,255,255,0.88);
-  --regularButtonPrimaryColor: var(--primaryContrastTextColor);
-  --regularButtonSecondaryColor: var(--primaryContrastTextColor);
+  --regularButtonPrimaryColor: var(--invertedContrastTextColor);
+  --regularButtonSecondaryColor: var(--invertedContrastTextColor);
   --regularButtonActiveColor: rgba(255,255,255,0.88);
-  --regularButtonConstrastColor: var(--primaryColor);
-  --secondaryButtonPrimaryColor: var(--primaryColor);
-  --secondaryButtonSecondaryColor: var(--white);
+  --regularButtonConstrastColor: var(--invertedBackgroundColor);
+  --secondaryButtonPrimaryColor: var(--invertedBackgroundColor);
+  --secondaryButtonSecondaryColor: var(--invertedContrastTextColor);
   --secondaryButtonActiveColor: rgba(255,255,255,0.24);
-  --secondaryButtonContrastColor: var(--white);
+  --secondaryButtonContrastColor: var(--invertedContrastTextColor);
 }
 
 /*------------------------------------*  Palette
@@ -23139,6 +23183,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -23309,6 +23357,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -23499,6 +23551,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -26137,10 +26193,10 @@ iframe {
   display: flex;
 }
 .coz-tabs--24QL5 .coz-tab-list--inverted--3VjXc {
-  --tabsActiveTextColor: var(--primaryContrastTextColor);
-  --tabsInactiveTextColor: var(--primaryContrastTextColor);
-  --tabsIndicatorColor: var(--primaryContrastTextColor);
-  --tabsBackgroundColor: var(--primaryColor);
+  --tabsActiveTextColor: var(--invertedTabsActiveTextColor);
+  --tabsInactiveTextColor: var(--invertedTabsInactiveTextColor);
+  --tabsIndicatorColor: var(--invertedTabsIndicatorColor);
+  --tabsBackgroundColor: var(--invertedTabsBackgroundColor);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
   flex: 0 0 auto;
@@ -26326,6 +26382,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -29064,6 +29124,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -31897,6 +31961,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
