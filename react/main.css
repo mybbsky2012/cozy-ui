@@ -22948,16 +22948,16 @@ body {
   color: var(--secondaryTextColor);
 }
 .Figure-content--positive--1qyd8 {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .Figure-content--positive--1qyd8 .Figure-currency--195-B {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .Figure-content--negative--3ACbA {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .Figure-content--negative--3ACbA .Figure-currency--195-B {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .Figure-content--warning--1Pn6n {
   color: var(--warnColor);
