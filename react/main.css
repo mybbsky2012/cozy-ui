@@ -890,6 +890,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -6578,6 +6604,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -7510,6 +7562,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -8688,6 +8766,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -9481,6 +9585,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -10587,6 +10717,8 @@ body {
   overflow: hidden;
   width: 2.5rem;
   height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
   background-color: var(--dodgerBlue);
   color: var(--white);
   font-size: 1.125rem;
@@ -10594,21 +10726,29 @@ body {
 .c-avatar--xsmall--3H2Io {
   width: 1rem;
   height: 1rem;
+  min-width: 1rem;
+  min-height: 1rem;
   font-size: 0.438rem;
 }
 .c-avatar--small--1Y_Pv {
   width: 2rem;
   height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
   font-size: 0.875rem;
 }
 .c-avatar--large--1Z_HZ {
   width: 3rem;
   height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
   font-size: 1.313rem;
 }
 .c-avatar--xlarge--3Qe0b {
   width: 4rem;
   height: 4rem;
+  min-width: 4rem;
+  min-height: 4rem;
   font-size: 1.688rem;
 }
 .c-avatar-initials--310qC {
@@ -10655,6 +10795,8 @@ body {
   overflow: hidden;
   width: 2.5rem;
   height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
   background-color: var(--dodgerBlue);
   color: var(--white);
   font-size: 1.125rem;
@@ -10662,21 +10804,29 @@ body {
 .c-circle--xsmall--aEyBX {
   width: 1rem;
   height: 1rem;
+  min-width: 1rem;
+  min-height: 1rem;
   font-size: 0.438rem;
 }
 .c-circle--small--3uPhB {
   width: 2rem;
   height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
   font-size: 0.875rem;
 }
 .c-circle--large--3jQ-U {
   width: 3rem;
   height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
   font-size: 1.313rem;
 }
 .c-circle--xlarge--11jP5 {
   width: 4rem;
   height: 4rem;
+  min-width: 4rem;
+  min-height: 4rem;
   font-size: 1.688rem;
 }
 .c-circle-text--1jFgD {
@@ -13798,6 +13948,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -14781,6 +14957,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -15450,6 +15652,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -16080,6 +16308,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -16753,6 +17007,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -17643,6 +17923,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -18323,6 +18629,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -19195,6 +19527,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -19901,6 +20259,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -20990,6 +21374,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -22621,6 +23031,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
@@ -26855,6 +27291,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -27868,6 +28330,32 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
 .u-midellipsis {
   display: flex;
   flex-wrap: nowrap;
@@ -28695,6 +29183,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.u-spacellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}
+@media (max-width: 30rem) {
+  .u-spacellipsis-t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 48rem) {
+  .u-spacellipsis-s {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
+}
+@media (max-width: 63.938rem) {
+  .u-spacellipsis-m {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+  }
 }
 .u-midellipsis {
   display: flex;
