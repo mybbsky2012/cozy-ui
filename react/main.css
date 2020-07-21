@@ -22119,7 +22119,7 @@ body {
   }
 }
 @media not all and (pointer: fine) {
-  .c-nav-link--3mK6W:hover {
+  .c-nav-link--3mK6W:hover:not(.is-active--2D0jN) {
     color: var(--navTextColor);
   }
 }
