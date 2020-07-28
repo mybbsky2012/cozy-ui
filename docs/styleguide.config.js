@@ -186,7 +186,11 @@ module.exports = {
     }
   },
   styleguideComponents: {
-    SectionsRenderer: path.join(__dirname, 'components/SectionsRenderer.jsx')
+    SectionsRenderer: path.join(__dirname, 'components/SectionsRenderer.jsx'),
+    TableOfContentsRenderer: path.join(
+      __dirname,
+      'components/TableOfContentsRenderer.jsx'
+    )
   },
   theme: {
     fontFamily: {
@@ -206,6 +210,7 @@ module.exports = {
   styleguideDir: path.resolve(__dirname, '../build/react'),
   require: [
     path.join(__dirname, './style.styl'),
+    path.join(__dirname, './themes/red.styl'),
     path.join(__dirname, './styleguide.setup')
   ],
   exampleMode: 'collapse',

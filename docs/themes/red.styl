@@ -1,0 +1,39 @@
+$secondaryColor = #2e404f
+$secondaryColorLight = #586E7F
+$secondaryColorDark = #1F2830
+$secondaryContrastColor = white
+
+$red = #c62222
+
+:global
+    .Theme--red
+        --primaryColor $red
+        --primaryColorLight lighten($red, 10)
+        --primaryColorDark darken($red, 10)
+
+        --secondaryColor $secondaryColor
+        --secondaryContrastColor white
+
+        --invertedTabsActiveTextColor $secondaryContrastColor
+        --invertedTabsInactiveTextColor $secondaryContrastColor
+        --invertedTabsIndicatorColor $secondaryContrastColor
+        --invertedTabsBackgroundColor $secondaryColor
+
+        --invertedBackgroundColor $secondaryColor
+        --invertedContrastColor $secondaryConstrastTextColor
+        --statusBarPrimaryColor $secondaryColorDark
+        --warnColor: #e6a529
+        --errorColor: $red
+        --validColor: #3C9F2A
+
+        // We need to repeat variables that depend on primaryColor otherwise
+        // those colors are not taken into account. It should work and I haven't
+        // find out exactly why.
+        --regularButtonPrimaryColor: var(--primaryColor)
+        --regularButtonSecondaryColor: var(--primaryColor)
+        --regularButtonActiveColor: var(--primaryColorDark)
+        --regularButtonConstrastColor: var(--primaryContrastTextColor)
+
+        --buttonTextTransform none
+        --buttonBorderRadius rem(8)
+        --navTextActiveColor $red

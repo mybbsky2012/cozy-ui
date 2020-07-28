@@ -153,42 +153,44 @@
 
     Styleguide Settings.theme.primary
     */
-:root, .CozyTheme--normal
-    --primaryColor var(--dodgerBlue)
-    --primaryColorDark var(--scienceBlue)
-    --primaryColorLight #5C9DF5 // lighten(dodgerBlue, 24)
-    --primaryColorLighter #4B93F7
-    --primaryColorLightest #9FC4FB
-    --primaryTextColor var(--charcoalGrey)
-    --secondaryTextColor var(--coolGrey)
-    --primaryContrastTextColor var(--white)
+:global
+    /** The normal theme is global as it can be overriden */
+    :root, .CozyTheme--normal
+        --primaryColor var(--dodgerBlue)
+        --primaryColorDark var(--scienceBlue)
+        --primaryColorLight #5C9DF5 // lighten(dodgerBlue, 24)
+        --primaryColorLighter #4B93F7
+        --primaryColorLightest #9FC4FB
+        --primaryTextColor var(--charcoalGrey)
+        --secondaryTextColor var(--coolGrey)
+        --primaryContrastTextColor var(--white)
 
-    --invertedTabsActiveTextColor var(--primaryContrastTextColor)
-    --invertedTabsInactiveTextColor var(--primaryContrastTextColor)
-    --invertedTabsIndicatorColor var(--primaryContrastTextColor)
-    --invertedTabsBackgroundColor var(--primaryColor)
+        --invertedTabsActiveTextColor var(--primaryContrastTextColor)
+        --invertedTabsInactiveTextColor var(--primaryContrastTextColor)
+        --invertedTabsIndicatorColor var(--primaryContrastTextColor)
+        --invertedTabsBackgroundColor var(--primaryColor)
 
-    --regularButtonPrimaryColor: var(--primaryColor)
-    --regularButtonSecondaryColor: var(--primaryColor)
-    --regularButtonActiveColor: var(--primaryColorDark)
-    --regularButtonConstrastColor: var(--primaryContrastTextColor)
+        --regularButtonPrimaryColor: var(--primaryColor)
+        --regularButtonSecondaryColor: var(--primaryColor)
+        --regularButtonActiveColor: var(--primaryColorDark)
+        --regularButtonConstrastColor: var(--primaryContrastTextColor)
 
-    --secondaryButtonPrimaryColor: var(--white)
-    --secondaryButtonSecondaryColor: var(--silver)
-    --secondaryButtonActiveColor: var(--silver)
-    --secondaryButtonContrastColor: var(--black)
+        --secondaryButtonPrimaryColor: var(--white)
+        --secondaryButtonSecondaryColor: var(--silver)
+        --secondaryButtonActiveColor: var(--silver)
+        --secondaryButtonContrastColor: var(--black)
 
-    --iconColor: currentColor
-    --actionMenuIconColor: var(--slateGrey)
+        --iconColor: currentColor
+        --actionMenuIconColor: var(--slateGrey)
 
-    --errorColor: var(--pomegranate)
-    --validColor: var(--emerald)
-    --warnColor: var(--texasRose)
+        --errorColor: var(--pomegranate)
+        --validColor: var(--emerald)
+        --warnColor: var(--texasRose)
 
-    --buttonTextTransform uppercase
-    --buttonBorderRadius rem(2)
+        --buttonTextTransform uppercase
+        --buttonBorderRadius rem(2)
 
-    --navTextColor var(--slateGrey)
-    --navTextActiveColor var(--slateGrey)
-    --navTextHoverColor var(--charcoalGrey)
-// @stylint on
+        --navTextColor var(--slateGrey)
+        --navTextActiveColor var(--slateGrey)
+        --navTextHoverColor var(--charcoalGrey)
+    // @stylint on
