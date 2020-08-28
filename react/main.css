@@ -6047,6 +6047,9 @@ body {
 .u-uppercase {
   text-transform: uppercase;
 }
+.u-lowercase {
+  text-transform: lowercase;
+}
 html,
 body {
   height: auto;
